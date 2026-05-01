@@ -74,7 +74,7 @@ In this repository, I write comments using N4-level Japanese.
 
 ### 📫 連絡先 - Contact
 - Email: nikhiltomarsan2712@gmail.com
-- LinkedIn: [https://www.linkedin.com/in/nikhil-tomar-b93a86406/]
+- LinkedIn: [https://www.linkedin.com/in/tomarnikhil/]
 
 一緒に頑張りましょう！よろしくお願いします。  
 Let's do our best together! Nice to meet you.
