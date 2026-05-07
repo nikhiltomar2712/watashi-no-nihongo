@@ -202,3 +202,103 @@
 | 198 | どの | どの | dono | Which | どの本ですか |
 | 199 | どちら | どちら | dochira | Which one, Where | どちらがいいですか |
 | 200 | どう | どう | dou | How | 日本語はどうですか |
+| 201 | 家族 | かぞく | kazoku | Family | 家族は4人です |
+| 202 | 父 | ちち | chichi | My father | 父は会社員です |
+| 203 | 母 | はは | haha | My mother | 母は料理が上手です |
+| 204 | 兄 | あに | ani | My older brother | 兄は大学生です |
+| 205 | 姉 | あね | ane | My older sister | 姉は東京にいます |
+| 206 | 弟 | おとうと | otouto | My younger brother | 弟は中学生です |
+| 207 | 妹 | いもうと | imouto | My younger sister | 妹は猫が好きです |
+| 208 | 子供 | こども | kodomo | Child | 子供が公園で遊びます |
+| 209 | 大人 | おとな | otona | Adult | 大人はお酒を飲みます |
+| 210 | 友達 | ともだち | tomodachi | Friend | 友達と映画を見ます |
+| 211 | 医者 | いしゃ | isha | Doctor | 医者になりたいです |
+| 212 | 学生 | がくせい | gakusei | Student | 私はAmityの学生です |
+| 213 | 先生 | せんせい | sensei | Teacher | 先生に質問します |
+| 214 | 会社員 | かいしゃいん | kaishain | Office worker | 兄は会社員です |
+| 215 | 店員 | てんいん | ten'in | Shop clerk | 店員を呼びます |
+| 216 | 国 | くに | kuni | Country | 日本はきれいな国です |
+| 217 | 外国 | がいこく | gaikoku | Foreign country | 外国へ旅行します |
+| 218 | 外国人 | がいこくじん | gaikokujin | Foreigner | 彼は外国人です |
+| 219 | 町 | まち | machi | Town, City | 静かな町です |
+| 220 | 村 | むら | mura | Village | 村に住んでいます |
+| 221 | 道 | みち | michi | Road, Street | 道が狭いです |
+| 222 | 角 | かど | kado | Corner | 角を右に曲がります |
+| 223 | 交差点 | こうさてん | kousaten | Intersection | 交差点で止まります |
+| 224 | 信号 | しんごう | shingou | Traffic light | 信号は赤です |
+| 225 | 建物 | たても | tatemono | Building | 高い建物です |
+| 226 | 部屋 | へや | heya | Room | 部屋を掃除します |
+| 227 | 台所 | だいどころ | daidokoro | Kitchen | 台所で料理します |
+| 228 | トイレ | トイレ | toire | Toilet | トイレはどこですか |
+| 229 | お風呂 | おふろ | ofuro | Bath | お風呂に入ります |
+| 230 | 玄関 | げんかん | genkan | Entrance | 玄関で靴を脱ぎます |
+| 231 | 窓 | まど | mado | Window | 窓を開けてください |
+| 232 | ドア | ドア | doa | Door | ドアを閉めます |
+| 233 | 机 | つくえ | tsukue | Desk | 机の上に本があります |
+| 234 | 椅子 | いす | isu | Chair | 椅子に座ります |
+| 235 | ベッド | ベッド | beddo | Bed | ベッドで寝ます |
+| 236 | 鞄 | かばん | kaban | Bag | 鞄に本を入れます |
+| 237 | 財布 | さいふ | saifu | Wallet | 財布を忘れました |
+| 238 | 鍵 | かぎ | kagi | Key | 鍵をなくしました |
+| 239 | 時計 | とけい | tokei | Clock, Watch | 時計を見ます |
+| 240 | 傘 | かさ | kasa | Umbrella | 雨なので傘がいります |
+| 241 | 新聞 | しんぶん | shinbun | Newspaper | 新聞を読みます |
+| 242 | 雑誌 | ざっし | zasshi | Magazine | 雑誌を買います |
+| 243 | 辞書 | じしょ | jisho | Dictionary | 辞書で調べます |
+| 244 | 紙 | かみ | kami | Paper | 紙に書きます |
+| 245 | ペン | ペン | pen | Pen | ペンで名前を書きます |
+| 246 | 鉛筆 | えんぴつ | enpitsu | Pencil | 鉛筆で書きます |
+| 247 | 消しゴム | けしゴム | keshigomu | Eraser | 消しゴムを貸してください |
+| 248 | 花 | はな | hana | Flower | きれいな花です |
+| 249 | 木 | き | ki | Tree, Wood | 大きい木です |
+| 250 | 山 | やま | yama | Mountain | 富士山は高いです |
+| 251 | 川 | かわ | kawa | River | 川で魚を釣ります |
+| 252 | 海 | うみ | umi | Sea, Ocean | 夏は海で泳ぎます |
+| 253 | 空 | そら | sora | Sky | 空は青いです |
+| 254 | 太陽 | たいよう | taiyou | Sun | 太陽が出ています |
+| 255 | 月 | つき | tsuki | Moon | 月がきれいです |
+| 256 | 星 | ほし | hoshi | Star | 星が多いです |
+| 257 | 動物 | どうぶつ | doubutsu | Animal | 動物が好きです |
+| 258 | 犬 | いぬ | inu | Dog | 犬を飼っています |
+| 259 | 猫 | ねこ | neko | Cat | 猫は魚が好きです |
+| 260 | 鳥 | とり | tori | Bird | 鳥が空を飛びます |
+| 261 | 馬 | うま | uma | Horse | 馬は速いです |
+| 262 | 牛 | うし | ushi | Cow | 牛は牛乳を出します |
+| 263 | 豚 | ぶた | buta | Pig | 豚肉を食べます |
+| 264 | 鶏 | にわとり | niwatori | Chicken | 鶏は卵を産みます |
+| 265 | 虫 | むし | mushi | Insect | 虫が嫌いです |
+| 266 | 色 | いろ | iro | Color | 好きな色は何ですか |
+| 267 | 赤 | あか | aka | Red | 赤い車です |
+| 268 | 青 | あお | ao | Blue | 空は青いです |
+| 269 | 白 | しろ | shiro | White | 白いシャツです |
+| 270 | 黒 | くろ | kuro | Black | 黒い猫です |
+| 271 | 黄色 | きいろ | kiiro | Yellow | 黄色い花です |
+| 272 | 緑 | みどり | midori | Green | 緑の木です |
+| 273 | 茶色 | ちゃいろ | chairo | Brown | 茶色い机です |
+| 274 | 数字 | すうじ | suuji | Number | 数字を書きます |
+| 275 | 百 | ひゃく | hyaku | Hundred | 百円です |
+| 276 | 千 | せん | sen | Thousand | 千円貸してください |
+| 277 | 万 | まん | man | Ten thousand | 一万円です |
+| 278 | 半分 | はんぶん | hanbun | Half | ケーキを半分食べます |
+| 279 | 左 | ひだり | hidari | Left | 左に曲がります |
+| 280 | 右 | みぎ | migi | Right | 右手です |
+| 281 | 前 | まえ | mae | Front, Before | 駅の前です |
+| 282 | 後ろ | うしろ | ushiro | Back, Behind | 車の後ろです |
+| 283 | 上 | うえ | ue | Up, On, Above | 机の上です |
+| 284 | 下 | した | shita | Down, Under | テーブルの下です |
+| 285 | 中 | なか | naka | Inside, Middle | 箱の中です |
+| 286 | 外 | そと | soto | Outside | 外は寒いです |
+| 287 | 隣 | となり | tonari | Next to | 銀行の隣です |
+| 288 | 近く | ちかく | chikaku | Near, Vicinity | 駅の近くです |
+| 289 | 間 | あいだ | aida | Between | 学校と公園の間です |
+| 290 | これから | kore kara | From now on | これから頑張ります |
+| 291 | 先に | さきに | saki ni | Ahead, Before | 先に行きます |
+| 292 | 後で | あとで | ato de | Later | 後で電話します |
+| 293 | もう | もう | mou | Already | もう食べました |
+| 294 | まだ | まだ | mada | Not yet, Still | まだです |
+| 295 | いつも | itsumo | Always | いつも元気です |
+| 296 | 時々 | ときどき | tokidoki | Sometimes | 時々映画を見ます |
+| 297 | たまに | tama ni | Occasionally | たまに旅行します |
+| 298 | よく | yoku | Often, Well | よく分かります |
+| 299 | だいたい | daitai | Mostly, About | だいたい9時です |
+| 300 | 全部で | ぜんぶで | zenbu de | In total | 全部で千円です |
