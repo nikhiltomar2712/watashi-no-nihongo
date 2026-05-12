@@ -1,304 +1,138 @@
-# JLPT N5 Top 50 Vocabulary - Full Details
+# Minna no Nihongo N5 - Lesson 1 Vocabulary
+---
 
-| # | Kanji | Hiragana | Romaji | Meaning | Example |
-| --- | --- | --- | --- |
-| 1 | 今日 | きょう | kyou | Today | 今日は土曜日です |
-| 2 | 明日 | あした | ashita | Tomorrow | 明日、日本へ行きます |
-| 3 | 昨日 | きのう | kinou | Yesterday | 昨日、勉強しました |
-| 4 | 毎日 | まいにち | mainichi | Everyday | 毎日、漢字を書きます |
-| 5 | 今 | いま | ima | Now | 今、何時ですか |
-| 6 | 朝 | あさ | asa | Morning | 朝ごはんを食べます |
-| 7 | 昼 | ひる | hiru | Noon | 昼ごはんはラーメンです |
-| 8 | 夜 | よる | yoru | Night | 夜、寝ます |
-| 9 | 週末 | しゅうまつ | shuumatsu | Weekend | 週末は休みです |
-| 10 | 年 | とし / ねん | toshi / nen | Year | 今年2026年です |
-| 11 | 私 | わたし | watashi | I, Me | 私は学生です |
-| 12 | 友達 | ともだち | tomodachi | Friend | 友達と話します |
-| 13 | 家族 | かぞく | kazoku | Family | 家族は4人です |
-| 14 | 父 | ちち | chichi | Father | 父は会社員です |
-| 15 | 母 | はは | haha | Mother | 母は先生です |
-| 16 | 先生 | せんせい | sensei | Teacher | 先生、質問があります |
-| 17 | 学生 | がくせい | gakusei | Student | 私は学生です |
-| 18 | 子供 | こども | kodomo | Child | 子供が3人います |
-| 19 | 人 | ひと | hito | Person | あの人は誰ですか |
-| 20 | 日本人 | にほんじん | nihonjin | Japanese person | 私は日本人じゃありません |
-| 21 | 日本 | にほん | nihon | Japan | 日本へ行きたいです |
-| 22 | 学校 | がっこう | gakkou | School | 学校で勉強します |
-| 23 | 家 | いえ / うち | ie / uchi | House, Home | 家に帰ります |
-| 24 | 会社 | かいしゃ | kaisha | Company | 会社で働きます |
-| 25 | 駅 | えき | eki | Station | 駅まで行きます |
-| 26 | 大学 | だいがく | daigaku | University | 大学は大きいです |
-| 27 | 東京 | とうきょう | toukyou | Tokyo | 東京に住んでいます |
-| 28 | 国 | くに | kuni | Country | あなたの国はどこですか |
-| 29 | 店 | みせ | mise | Shop | あの店は新しいです |
-| 30 | 部屋 | へや | heya | Room | 部屋に机があります |
-| 31 | 行く | いく | iku | To go | 学校へ行きます |
-| 32 | 来る | くる | kuru | To come | 友達が来ます |
-| 33 | 帰る | かえる | kaeru | To return | 5時に帰ります |
-| 34 | 食べる | たべる | taberu | To eat | パンを食べます |
-| 35 | 飲む | のむ | nomu | To drink | 水を飲みます |
-| 36 | 見る | みる | miru | To see/watch | テレビを見ます |
-| 37 | 聞く | きく | kiku | To hear/ask | 音楽を聞きます |
-| 38 | 話す | はなす | hanasu | To speak | 日本語を話します |
-| 39 | 読む | よむ | yomu | To read | 本を読みます |
-| 40 | 書く | かく | kaku | To write | 名前を書きます |
-| 41 | 買う | かう | kau | Kau | To buy | 靴を買います |
-| 42 | する | する | suru | To do | 勉強をします |
-| 43 | 勉強する | べんきょうする | benkyou suru | To study | 日本語を勉強します |
-| 44 | 寝る | ねる | neru | To sleep | 11時に寝ます |
-| 45 | 起きる | おきる | okiru | To wake up | 7時に起きます |
-| 46 | 大きい | おおきい | ookii | Big | 大学は大きいです |
-| 47 | 小さい | ちいさい | chiisai | Small | 部屋は小さいです |
-| 48 | 新しい | あたらしい | atarashii | New | 新しい本です |
-| 49 | 古い | ふるい | furui | Old | 古い家です |
-| 50 | いい | いい | ii | Good | 天気はいいです |
-| 51 | 月曜日 | げつようび | getsuyoubi | Monday | 月曜日は忙しいです |
-| 52 | 火曜日 | かようび | kayoubi | Tuesday | 火曜日にテストがあります |
-| 53 | 水曜日 | すいようび | suiyoubi | Wednesday | 水曜日は休みです |
-| 54 | 木曜日 | もくようび | mokuyoubi | Thursday | 木曜日に会いましょう |
-| 55 | 金曜日 | きんようび | kinyoubi | Friday | 金曜日の夜は映画です |
-| 56 | 土曜日 | どようび | doyoubi | Saturday | 土曜日に遊びます |
-| 57 | 日曜日 | にちようび | nichiyoubi | Sunday | 日曜日は家にいます |
-| 58 | 一月 | いちがつ | ichigatsu | January | 一月は寒いです |
-| 59 | 時間 | じかん | jikan | Time, Hour | 時間がありますか |
-| 60 | 何時 | なんじ | nanji | What time | 今、何時ですか |
-| 61 | 電車 | でんしゃ | densha | Train | 電車で会社へ行きます |
-| 62 | 車 | くるま | kuruma | Car | 車で東京へ行きます |
-| 63 | 自転車 | じてんしゃ | jitensha | Bicycle | 自転車で学校へ行きます |
-| 64 | 飛行機 | ひこうき | hikouki | Airplane | 飛行機で日本へ行きます |
-| 65 | 写真 | しゃしん | shashin | Photo | 写真を撮ります |
-| 66 | 映画 | えいが | eiga | Movie | 映画を見ます |
-| 67 | 音楽 | おんがく | ongaku | Music | 音楽を聞きます |
-| 68 | 仕事 | しごと | shigoto | Job, Work | 仕事は9時からです |
-| 69 | 休み | やすみ | yasumi | Rest, Holiday | 明日は休みです |
-| 70 | 病院 | びょういん | byouin | Hospital | 病院へ行きます |
-| 71 | 銀行 | ぎんこう | ginkou | Bank | 銀行でお金をおろします |
-| 72 | 郵便局 | ゆうびんきょく | yuubinkyoku | Post Office | 郵便局はどこですか |
-| 73 | 図書館 | としょかん | toshokan | Library | 図書館で勉強します |
-| 74 | 公園 | こうえん | kouen | Park | 公園を散歩します |
-| 75 | 喫茶店 | きっさてん | kissaten | Coffee Shop | 喫茶店でコーヒーを飲みます |
-| 76 | レストラン | レストラン | resutoran | Restaurant | レストランで食べます |
-| 77 | お金 | おかね | okane | Money | お金がありません |
-| 78 | 名前 | なまえ | namae | Name | 名前は何ですか |
-| 79 | 電話 | でんわ | denwa | Phone, Call | 電話をかけます |
-| 80 | 手紙 | てがみ | tegami | Letter | 手紙を書きます |
-| 81 | 天気 | てんき | tenki | Weather | 今日は天気がいいです |
-| 82 | 雨 | あめ | ame | Rain | 雨が降っています |
-| 83 | 雪 | ゆき | yuki | Snow | 雪が好きです |
-| 84 | 高い | たかい | takai | Expensive, Tall | この本は高いです |
-| 85 | 安い | やすい | yasui | Cheap | この店は安いです |
-| 86 | 多い | おおい | ooi | Many, Much | 人が多いです |
-| 87 | 少ない | すくない | sukunai | Few, Little | 時間が少ないです |
-| 88 | 暑い | あつい | atsui | Hot | 今日は暑いです |
-| 89 | 寒い | さむい | samui | Cold | 冬は寒いです |
-| 90 | 難しい | むずかしい | muzukashii | Difficult | 日本語は難しいです |
-| 91 | 易しい | やさしい | yasashii | Easy | この問題は易しいです |
-| 92 | 好き | すき | suki | Like | 猫が好きです |
-| 93 | 嫌い | きらい | kirai | Dislike | 納豆は嫌いです |
-| 94 | 上手 | じょうず | jouzu | Good at, Skillful | 彼は日本語が上手です |
-| 95 | 下手 | へた | heta | Bad at, Unskillful | 私は歌が下手です |
-| 96 | ある | aru | To exist, To have - things | 机の上に本があります |
-| 97 | いる | いる | iru | To exist, To have - people/animals | 部屋に猫がいます |
-| 98 | 分かる | わかる | wakaru | To understand | 日本語が分かります |
-| 99 | できる | できる | dekiru | Can do, Be able to | 漢字ができます |
-| 100 | だれ | だれ | dare | Who | あの人はだれですか |
-| 101 | 来月 | らいげつ | raigetsu | Next month | 来月、日本へ行きます |
-| 102 | 先月 | せんげつ | sengetsu | Last month | 先月、試験がありました |
-| 103 | 今年 | ことし | kotoshi | This year | 今年、N4を取ります |
-| 104 | 去年 | きょねん | kyonen | Last year | 去年、高校生でした |
-| 105 | 来年 | らいねん | rainen | Next year | 来年、大学生です |
-| 106 | 午前 | ごぜん | gozen | A.M., Morning | 午前9時に会議です |
-| 107 | 午後 | ごご | gogo | P.M., Afternoon | 午後3時に会いましょう |
-| 108 | 朝ご飯 | あさごはん | asagohan | Breakfast | 朝ご飯を食べましたか |
-| 109 | 昼ご飯 | ひるごはん | hirugohan | Lunch | 昼ご飯はカレーです |
-| 110 | 晩ご飯 | ばんごはん | bangohan | Dinner | 晩ご飯は何ですか |
-| 111 | 魚 | さかな | sakana | Fish | 魚が好きです |
-| 112 | 肉 | にく | niku | Meat | 肉を食べません |
-| 113 | 野菜 | やさい | yasai | Vegetable | 野菜を毎日食べます |
-| 114 | 果物 | くだもの | kudamono | Fruit | 果物を買います |
-| 115 | 水 | みず | mizu | Water | 水を飲みます |
-| 116 | お茶 | おちゃ | ocha | Tea | 緑茶を飲みます |
-| 117 | 牛乳 | ぎゅうにゅう | gyuunyuu | Milk | 牛乳が嫌いです |
-| 118 | 靴 | くつ | kutsu | Shoes | 新しい靴を買いました |
-| 119 | 服 | ふく | fuku | Clothes | 服が高いです |
-| 120 | 帽子 | ぼうし | boushi | Hat, Cap | 帽子をかぶります |
-| 121 | 天気予報 | てんきよほう | tenki yohou | Weather forecast | 天気予報を見ます |
-| 122 | 晴れ | はれ | hare | Sunny | 今日は晴れです |
-| 123 | 曇り | くもり | kumori | Cloudy | 明日は曇りです |
-| 124 | 風 | かぜ | kaze | Wind | 風が強いです |
-| 125 | 春 | はる | haru | Spring | 春は暖かいです |
-| 126 | 夏 | なつ | natsu | Summer | 夏は暑いです |
-| 127 | 秋 | あき | aki | Autumn | 秋は涼しいです |
-| 128 | 冬 | ふゆ | fuyu | Winter | 冬は寒いです |
-| 129 | 暖かい | あたたかい | atatakai | Warm | 春は暖かいです |
-| 130 | 涼しい | すずしい | suzushii | Cool | 秋は涼しいです |
-| 131 | 甘い | あまい | amai | Sweet | ケーキは甘いです |
-| 132 | 辛い | からい | karai | Spicy | カレーは辛いです |
-| 133 | 塩 | しお | shio | Salt | 塩を取ってください |
-| 134 | 砂糖 | さとう | satou | Sugar | 砂糖は甘いです |
-| 135 | 広い | ひろい | hiroi | Wide, Spacious | 部屋は広いです |
-| 136 | 狭い | せまい | semai | Narrow, Small | 道が狭いです |
-| 137 | 近い | ちかい | chikai | Near, Close | 駅は近いです |
-| 138 | 遠い | とおい | tooi | Far | 学校は遠いです |
-| 139 | 速い | はやい | hayai | Fast | 新幹線は速いです |
-| 140 | 遅い | おそい | osoi | Slow, Late | バスは遅いです |
-| 141 | 体 | からだ | karada | Body | 体が元気です |
-| 142 | 頭 | あたま | atama | Head | 頭が痛いです |
-| 143 | 目 | め | me | Eye | 目が大きいです |
-| 144 | 耳 | みみ | mimi | Ear | 耳で聞きます |
-| 145 | 口 | くち | kuchi | Mouth | 口で話します |
-| 146 | 手 | て | te | Hand | 手で書きます |
-| 147 | 足 | あし | ashi | Foot, Leg | 足で歩きます |
-| 148 | 病気 | びょうき | byouki | Illness | 病気になりました |
-| 149 | 薬 | くすり | kusuri | Medicine | 薬を飲みます |
-| 150 | 元気 | げんき | genki | Healthy, Energetic | 元気ですか |
-| 151 | 旅行 | りょこう | ryokou | Travel, Trip | 日本へ旅行します |
-| 152 | 写真を撮る | しゃしんをとる | shashin o toru | Take a photo | 富士山の写真を撮ります |
-| 153 | 泳ぐ | およぐ | oyogu | To swim | 海で泳ぎます |
-| 154 | 歌う | うたう | utau | To sing | カラオケで歌います |
-| 155 | 踊る | おどる | odoru | To dance | パーティーで踊ります |
-| 156 | 弾く | ひく | hiku | To play instrument | ギターを弾きます |
-| 157 | 待つ | まつ | matsu | To wait | バスを待ちます |
-| 158 | 急ぐ | いそぐ | isogu | To hurry | 急いでください |
-| 159 | 止まる | とまる | tomaru | To stop | ここで止まります |
-| 160 | 曲がる | まがる | magaru | To turn | 右に曲がります |
-| 161 | 渡る | わたる | wataru | To cross | 橋を渡ります |
-| 162 | 入る | はいる | hairu | To enter | 部屋に入ります |
-| 163 | 出る | でる | deru | To leave, Exit | 家を出ます |
-| 164 | 乗る | のる | noru | To ride, Get on | 電車に乗ります |
-| 165 | 降りる | おりる | oriru | To get off | 次で降ります |
-| 166 | 換える | かえる | kaeru | To exchange | お金を換えます |
-| 167 | 借りる | かりる | kariru | To borrow | 本を借ります |
-| 168 | 貸す | かす | kasu | To lend | お金を貸します |
-| 169 | 教える | おしえる | oshieru | To teach, Tell | 日本語を教えます |
-| 170 | 習う | ならう | narau | To learn | ピアノを習います |
-| 171 | 掛ける | かける | kakeru | To hang, Make call | 電話を掛けます |
-| 172 | 手伝う | てつだう | tetsudau | To help | 宿題を手伝います |
-| 173 | 始まる | はじまる | hajimaru | To begin | 授業が始まります |
-| 174 | 終わる | おわる | owaru | To end, Finish | 映画が終わります |
-| 175 | 始める | はじめる | hajimeru | To start something | 仕事を始めます |
-| 176 | 終える | おえる | oeru | To finish something | 宿題を終えます |
-| 177 | 開ける | あける | akeru | To open | 窓を開けます |
-| 178 | 閉める | しめる | shimeru | To close | ドアを閉めます |
-| 179 | 点ける | つける | tsukeru | To turn on | 電気をつけます |
-| 180 | 消す | けす | kesu | To turn off, Erase | テレビを消します |
-| 181 | 作る | つくる | tsukuru | To make | 料理を作ります |
-| 182 | 売る | うる | uru | To sell | 車を売ります |
-| 183 | 知る | しる | shiru | To know | 彼を知っています |
-| 184 | 住む | すむ | sumu | To live, Reside | 東京に住んでいます |
-| 185 | 働く | はたらく | hataraku | To work | 会社で働きます |
-| 186 | 休む | やすむ | yasumu | To rest, Be absent | 今日は休みます |
-| 187 | 違う | ちがう | chigau | To be different, Wrong | 答えが違います |
-| 188 | 同じ | おなじ | onaji | Same | 同じ本です |
-| 189 | 一番 | いちばん | ichiban | Most, Best, Number one | 富士山が一番高いです |
-| 190 | 少し | すこし | sukoshi | A little, Few | 少し分かります |
-| 191 | たくさん | たくさん | takusan | Many, Much | 水をたくさん飲みます |
-| 192 | 全部 | ぜんぶ | zenbu | All, Everything | 全部食べました |
-| 193 | 皆 | みんな | minna | Everyone, All people | 皆で歌います |
-| 194 | 一緒に | いっしょに | issho ni | Together | 一緒に行きましょう |
-| 195 | 一人で | ひとりで | hitori de | Alone, By oneself | 一人で住んでいます |
-| 196 | どうして | どうして | doushite | Why | どうして遅いですか |
-| 197 | どんな | donna | What kind of | どんな音楽が好きですか |
-| 198 | どの | どの | dono | Which | どの本ですか |
-| 199 | どちら | どちら | dochira | Which one, Where | どちらがいいですか |
-| 200 | どう | どう | dou | How | 日本語はどうですか |
-| 201 | 家族 | かぞく | kazoku | Family | 家族は4人です |
-| 202 | 父 | ちち | chichi | My father | 父は会社員です |
-| 203 | 母 | はは | haha | My mother | 母は料理が上手です |
-| 204 | 兄 | あに | ani | My older brother | 兄は大学生です |
-| 205 | 姉 | あね | ane | My older sister | 姉は東京にいます |
-| 206 | 弟 | おとうと | otouto | My younger brother | 弟は中学生です |
-| 207 | 妹 | いもうと | imouto | My younger sister | 妹は猫が好きです |
-| 208 | 子供 | こども | kodomo | Child | 子供が公園で遊びます |
-| 209 | 大人 | おとな | otona | Adult | 大人はお酒を飲みます |
-| 210 | 友達 | ともだち | tomodachi | Friend | 友達と映画を見ます |
-| 211 | 医者 | いしゃ | isha | Doctor | 医者になりたいです |
-| 212 | 学生 | がくせい | gakusei | Student | 私はAmityの学生です |
-| 213 | 先生 | せんせい | sensei | Teacher | 先生に質問します |
-| 214 | 会社員 | かいしゃいん | kaishain | Office worker | 兄は会社員です |
-| 215 | 店員 | てんいん | ten'in | Shop clerk | 店員を呼びます |
-| 216 | 国 | くに | kuni | Country | 日本はきれいな国です |
-| 217 | 外国 | がいこく | gaikoku | Foreign country | 外国へ旅行します |
-| 218 | 外国人 | がいこくじん | gaikokujin | Foreigner | 彼は外国人です |
-| 219 | 町 | まち | machi | Town, City | 静かな町です |
-| 220 | 村 | むら | mura | Village | 村に住んでいます |
-| 221 | 道 | みち | michi | Road, Street | 道が狭いです |
-| 222 | 角 | かど | kado | Corner | 角を右に曲がります |
-| 223 | 交差点 | こうさてん | kousaten | Intersection | 交差点で止まります |
-| 224 | 信号 | しんごう | shingou | Traffic light | 信号は赤です |
-| 225 | 建物 | たても | tatemono | Building | 高い建物です |
-| 226 | 部屋 | へや | heya | Room | 部屋を掃除します |
-| 227 | 台所 | だいどころ | daidokoro | Kitchen | 台所で料理します |
-| 228 | トイレ | トイレ | toire | Toilet | トイレはどこですか |
-| 229 | お風呂 | おふろ | ofuro | Bath | お風呂に入ります |
-| 230 | 玄関 | げんかん | genkan | Entrance | 玄関で靴を脱ぎます |
-| 231 | 窓 | まど | mado | Window | 窓を開けてください |
-| 232 | ドア | ドア | doa | Door | ドアを閉めます |
-| 233 | 机 | つくえ | tsukue | Desk | 机の上に本があります |
-| 234 | 椅子 | いす | isu | Chair | 椅子に座ります |
-| 235 | ベッド | ベッド | beddo | Bed | ベッドで寝ます |
-| 236 | 鞄 | かばん | kaban | Bag | 鞄に本を入れます |
-| 237 | 財布 | さいふ | saifu | Wallet | 財布を忘れました |
-| 238 | 鍵 | かぎ | kagi | Key | 鍵をなくしました |
-| 239 | 時計 | とけい | tokei | Clock, Watch | 時計を見ます |
-| 240 | 傘 | かさ | kasa | Umbrella | 雨なので傘がいります |
-| 241 | 新聞 | しんぶん | shinbun | Newspaper | 新聞を読みます |
-| 242 | 雑誌 | ざっし | zasshi | Magazine | 雑誌を買います |
-| 243 | 辞書 | じしょ | jisho | Dictionary | 辞書で調べます |
-| 244 | 紙 | かみ | kami | Paper | 紙に書きます |
-| 245 | ペン | ペン | pen | Pen | ペンで名前を書きます |
-| 246 | 鉛筆 | えんぴつ | enpitsu | Pencil | 鉛筆で書きます |
-| 247 | 消しゴム | けしゴム | keshigomu | Eraser | 消しゴムを貸してください |
-| 248 | 花 | はな | hana | Flower | きれいな花です |
-| 249 | 木 | き | ki | Tree, Wood | 大きい木です |
-| 250 | 山 | やま | yama | Mountain | 富士山は高いです |
-| 251 | 川 | かわ | kawa | River | 川で魚を釣ります |
-| 252 | 海 | うみ | umi | Sea, Ocean | 夏は海で泳ぎます |
-| 253 | 空 | そら | sora | Sky | 空は青いです |
-| 254 | 太陽 | たいよう | taiyou | Sun | 太陽が出ています |
-| 255 | 月 | つき | tsuki | Moon | 月がきれいです |
-| 256 | 星 | ほし | hoshi | Star | 星が多いです |
-| 257 | 動物 | どうぶつ | doubutsu | Animal | 動物が好きです |
-| 258 | 犬 | いぬ | inu | Dog | 犬を飼っています |
-| 259 | 猫 | ねこ | neko | Cat | 猫は魚が好きです |
-| 260 | 鳥 | とり | tori | Bird | 鳥が空を飛びます |
-| 261 | 馬 | うま | uma | Horse | 馬は速いです |
-| 262 | 牛 | うし | ushi | Cow | 牛は牛乳を出します |
-| 263 | 豚 | ぶた | buta | Pig | 豚肉を食べます |
-| 264 | 鶏 | にわとり | niwatori | Chicken | 鶏は卵を産みます |
-| 265 | 虫 | むし | mushi | Insect | 虫が嫌いです |
-| 266 | 色 | いろ | iro | Color | 好きな色は何ですか |
-| 267 | 赤 | あか | aka | Red | 赤い車です |
-| 268 | 青 | あお | ao | Blue | 空は青いです |
-| 269 | 白 | しろ | shiro | White | 白いシャツです |
-| 270 | 黒 | くろ | kuro | Black | 黒い猫です |
-| 271 | 黄色 | きいろ | kiiro | Yellow | 黄色い花です |
-| 272 | 緑 | みどり | midori | Green | 緑の木です |
-| 273 | 茶色 | ちゃいろ | chairo | Brown | 茶色い机です |
-| 274 | 数字 | すうじ | suuji | Number | 数字を書きます |
-| 275 | 百 | ひゃく | hyaku | Hundred | 百円です |
-| 276 | 千 | せん | sen | Thousand | 千円貸してください |
-| 277 | 万 | まん | man | Ten thousand | 一万円です |
-| 278 | 半分 | はんぶん | hanbun | Half | ケーキを半分食べます |
-| 279 | 左 | ひだり | hidari | Left | 左に曲がります |
-| 280 | 右 | みぎ | migi | Right | 右手です |
-| 281 | 前 | まえ | mae | Front, Before | 駅の前です |
-| 282 | 後ろ | うしろ | ushiro | Back, Behind | 車の後ろです |
-| 283 | 上 | うえ | ue | Up, On, Above | 机の上です |
-| 284 | 下 | した | shita | Down, Under | テーブルの下です |
-| 285 | 中 | なか | naka | Inside, Middle | 箱の中です |
-| 286 | 外 | そと | soto | Outside | 外は寒いです |
-| 287 | 隣 | となり | tonari | Next to | 銀行の隣です |
-| 288 | 近く | ちかく | chikaku | Near, Vicinity | 駅の近くです |
-| 289 | 間 | あいだ | aida | Between | 学校と公園の間です |
-| 290 | これから | kore kara | From now on | これから頑張ります |
-| 291 | 先に | さきに | saki ni | Ahead, Before | 先に行きます |
-| 292 | 後で | あとで | ato de | Later | 後で電話します |
-| 293 | もう | もう | mou | Already | もう食べました |
-| 294 | まだ | まだ | mada | Not yet, Still | まだです |
-| 295 | いつも | itsumo | Always | いつも元気です |
-| 296 | 時々 | ときどき | tokidoki | Sometimes | 時々映画を見ます |
-| 297 | たまに | tama ni | Occasionally | たまに旅行します |
-| 298 | よく | yoku | Often, Well | よく分かります |
-| 299 | だいたい | daitai | Mostly, About | だいたい9時です |
-| 300 | 全部で | ぜんぶで | zenbu de | In total | 全部で千円です |
+### Pronouns & People
+| Kanji/Kana | Romaji | Meaning |
+| --- | --- | --- |
+| わたし | watashi | I, me |
+| わたしたち | watashi-tachi | we, us |
+| あなた | anata | you |
+| あのかた | ano kata | that person (polite) |
+| みなさん | minasan | everyone |
+| 〜さん | -san | Mr./Ms./Mrs. (honorific) |
+| 〜ちゃん | -chan | -chan (for children, close friends) |
+| 〜くん | -kun | -kun (for boys, younger males) |
+| 〜じん | -jin | nationality suffix (person of ~) |
+
+### Countries & Nationalities
+| Kanji/Kana | Romaji | Meaning |
+| --- | --- | --- |
+| にほん | Nihon | Japan |
+| にほんじん | Nihonjin | Japanese person |
+| ちゅうごく | Chuugoku | China |
+| ちゅうごくじん | Chuugokujin | Chinese person |
+| かんこく | Kankoku | Korea |
+| かんこくじん | Kankokujin | Korean person |
+| イギリス | Igirisu | United Kingdom |
+| イギリスじん | Igirisujin | British person |
+| アメリカ | Amerika | America / USA |
+| アメリカじん | Amerikajin | American person |
+| ドイツ | Doitsu | Germany |
+| ドイツじん | Doitsujin | German person |
+| フランス | Furansu | France |
+| フランスじん | Furansujin | French person |
+| ブラジル | Burajiru | Brazil |
+| ブラジルじん | Burajirujin | Brazilian person |
+
+### Jobs & Occupations
+| Kanji/Kana | Romaji | Meaning |
+| --- | --- | --- |
+| かいしゃいん | kaishain | company employee |
+| ぎんこういん | ginkouin | bank employee |
+| いしゃ | isha | doctor |
+| がくせい | gakusei | student |
+| だいがくせい | daigakusei | university student |
+| せんせい | sensei | teacher |
+| だいがく | daigaku | university |
+| びょういん | byouin | hospital |
+| でんき | denki | electricity |
+| でんしゃ | densha | electric train |
+| こうえん | kouen | park |
+| デパート | depāto | department store |
+| ほん | hon | book |
+| しんぶん | shinbun | newspaper |
+| ざっし | zasshi | magazine |
+| ノート | nōto | notebook |
+| えんぴつ | enpitsu | pencil |
+| ボールペン | bōrupen | ballpoint pen |
+| かぎ | kagi | key |
+| とけい | tokei | watch, clock |
+| かさ | kasa | umbrella |
+| かばん | kaban | bag |
+| くつ | kutsu | shoes |
+| ネクタイ | nekutai | necktie |
+| ワイシャツ | waishatsu | dress shirt |
+| スカート | sukāto | skirt |
+| チョコレート | chokorēto | chocolate |
+| コーヒー | kōhī | coffee |
+| こうちゃ | koucha | black tea |
+| ジュース | jūsu | juice |
+| みず | mizu | water |
+| おちゃ | ocha | green tea |
+| ビール | bīru | beer |
+
+### Demonstratives & Question Words
+| Kana | Romaji | Meaning |
+| --- | --- | --- |
+| これ | kore | this (near speaker) |
+| それ | sore | that (near listener) |
+| あれ | are | that over there |
+| この | kono | this ~ |
+| その | sono | that ~ |
+| あの | ano | that ~ over there |
+| なん | nan/nani | what |
+| だれ | dare | who |
+| どなた | donata | who (polite) |
+| どちら | dochira | which way / which one (polite) |
+
+### Greetings & Particles
+| Kana | Romaji | Meaning |
+| --- | --- | --- |
+| はい | hai | yes |
+| いいえ | iie | no |
+| おねがいします | onegaishimasu | please |
+| ありがとうございます | arigatou gozaimasu | thank you |
+| どういたしまして | douitashimashite | you're welcome |
+| はじめまして | hajimemashite | nice to meet you |
+| どうぞよろしくおねがいします | douzo yoroshiku onegaishimasu | please treat me well |
+| こちらこそよろしく | kochira koso yoroshiku | likewise, nice to meet you |
+| さようなら | sayounara | goodbye |
+| さあ | saa | well then, now |
+| は | wa | topic particle |
+| の | no | possessive/association particle |
+| か | ka | question particle |
+| も | mo | also, too |
+| です | desu | polite copula (is/am/are) |
+| じゃありません | ja arimasen | is not (polite) |
+| そうですか | sou desu ka | is that so? |
+| そうです | sou desu | that's right |
+| ちがいます | chigaimasu | it's wrong / different |
+
+---
+
+### Example Sentences from Lesson 1
+1. わたしはマイク・ミラーです。  
+   Watashi wa Maiku Mirā desu.  
+   I am Mike Miller.
+
+2. ミラーさんはかいしゃいんです。  
+   Mirā-san wa kaishain desu.  
+   Mr. Miller is a company employee.
+
+3. サントスさんはブラジルじんですか。  
+   Santosu-san wa Burajirujin desu ka?  
+   Is Mr. Santos Brazilian?
+
+4. いいえ、メキシコじんです。  
+   Iie, Mekishikojin desu.  
+   No, he is Mexican.
+
+5. これはなんですか。  
+   Kore wa nan desu ka?  
+   What is this?
+
+6. それはほんです。  
+   Sore wa hon desu.  
+   That is a book.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
