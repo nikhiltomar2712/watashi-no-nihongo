@@ -5,8 +5,8 @@
 こんにちは！私はニキル・トマルです。  
 Hello! I am Nikhil Tomar.
 
-私はインドのBCA学生です。2028年12月にJLPT N1に合格して、2030年に楽天東京でSDEとして働きたいです。  
-I am a BCA student from India. I want to pass JLPT N1 in Dec 2028 and work as an SDE at Rakuten Tokyo in 2030.
+私はインドのBCA学生です。2029年12月にJLPT N1に合格して、2030年に楽天東京でSDEとして働きたいです。  
+I am a BCA student from India. I want to pass JLPT N1 in Dec 2029 and work as an SDE at Rakuten Tokyo in 2030.
 
 このリポジトリは私の日本語とプログラミングの勉強の記録です。  
 This repository is a record of my Japanese and programming studies.
@@ -16,11 +16,11 @@ This repository is a record of my Japanese and programming studies.
 ### 🎯 目標 - Goals
 | レベル - Level | 目標日 - Target Date | ステータス - Status |
 | --- | --- | --- |
-| JLPT N5 | 2025年12月 | 合格しました ✅ |
+| JLPT N5 | 2026年6月 | 合格しました ✅ |
 | JLPT N4 | 2026年12月 | 勉強中... 📚 |
-| JLPT N3 | 2027年7月 | 予定 📅 |
-| JLPT N2 | 2028年7月 | 予定 📅 |
-| JLPT N1 | 2028年12月 | 目標 🏆 |
+| JLPT N3 | 2027年12月 | 予定 📅 |
+| JLPT N2 | 2028年12月 | 予定 📅 |
+| JLPT N1 | 2029年12月 | 目標 🏆 |
 
 ---
 
