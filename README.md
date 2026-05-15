@@ -6,7 +6,7 @@
 Hello! I am Nikhil Tomar.
 
 私はインドのBCA学生です。2029年12月にJLPT N1に合格して、2030年に楽天東京でSDEとして働きたいです。  
-I am a BCA student from India. I want to pass JLPT N1 in Dec 2029 and work as an SDE at Rakuten Tokyo in 2030.
+I am a BCA student from India. I want to work in Japan 
 
 このリポジトリは私の日本語とプログラミングの勉強の記録です。  
 This repository is a record of my Japanese and programming studies.
