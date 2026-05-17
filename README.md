@@ -1,74 +1,80 @@
-# watashi-no-nihongo
+# 🇯🇵 日本語学習の旅 – My Japanese Learning Journey
 
-# 私の日本語の旅 - My Japanese Journey to Tokyo 🇯🇵
-
-こんにちは！私はニキル・トマルです。  
-Hello! I am Nikhil Tomar.
-
-私はインドのBCA学生です。2029年12月にJLPT N1に合格して、2030年に楽天東京でSDEとして働きたいです。  
-I am a BCA student from India. I want to work in Japan 
-
-このリポジトリは私の日本語とプログラミングの勉強の記録です。  
-This repository is a record of my Japanese and programming studies.
+A personal documentation of my path to Japanese language proficiency — tracking progress, resources, milestones, and growth from beginner to beyond.
 
 ---
 
-### 🎯 目標 - Goals
-| レベル - Level | 目標日 - Target Date | ステータス - Status |
-| --- | --- | --- |
-| JLPT N5 | 2026年6月 | 合格しました ✅ |
-| JLPT N4 | 2026年12月 | 勉強中... 📚 |
-| JLPT N3 | 2027年12月 | 予定 📅 |
-| JLPT N2 | 2028年12月 | 予定 📅 |
-| JLPT N1 | 2029年12月 | 目標 🏆 |
+## 📌 Overview
+
+| Detail | Information |
+|--------|-------------|
+| **Start Date** | May 2023 |
+| **Starting Point** | High School Studies |
+| **Current Institution** | Mosai (January 2026 – December 2026) |
+| **Goal** | JLPT Certification / Career in Japan |
 
 ---
 
-### 🛠️ 技術 - Tech Stack
-`Java` `JavaScript` `React.js` `Node.js` `MongoDB` `Python` `Git` `DSA`
+## 🗺️ Timeline
+
+May 2023 ─────────────────────────────────────────────► Present
+│ │
+├── 2023–2025 : High School Foundation │
+│ (Self-study + school curriculum) │
+│ │
+└── Jan 2026 – Dec 2026 : Mosai (Intensive Study) │
+(Structured program) │
+▼
+Ongoing Journey
+
 
 ---
 
-### 📚 勉強の記録 - Study Log
-N4の文法を使って書きます。間違っていたら、すみません！  
-I write using N4 grammar. If there are mistakes, sorry!
+## 📚 Learning Phases
 
-#### 2026年4月30日 - April 30, 2026
-今日、GitHubを始めました。とても嬉しいです。  
-Today, I started GitHub. I am very happy.
+### Phase 1: Foundation (May 2023 – 2025)
+- **Context:** Self-study alongside high school studies
+- **Focus:** Hiragana, Katakana, basic grammar, vocabulary building
+- **Resources:** Textbooks, online tools, practice exercises
 
-今日の勉強:
-1. 漢字: 食べる、飲む、見る、行く、来るを勉強しました。
-2. 文法: 「て形」を復習しました。
-3. コード: Javaで「Hello World」を書きました。
-
-Today's study:
-1. Kanji: Studied たべる, のむ, みる, いく, くる
-2. Grammar: Reviewed te-form
-3. Code: Wrote "Hello World" in Java
-
-明日も頑張ります！  
-I will do my best tomorrow too!
+### Phase 2: Mosai Program (January 2026 – December 2026)
+- **Type:** Formal, structured language training
+- **Focus:** Reading, writing, speaking, listening — balanced proficiency
+- **Goal:** Solid intermediate level and JLPT readiness
 
 ---
 
-#### 2026年5月1日 - May 1, 2026
-[ここに毎日追加してください - Add here daily]
+## 🎯 Current Goals
+
+| Goal | Target |
+|------|--------|
+| JLPT N5 | ✅ Achieved |
+| JLPT N4 | 🔄 In Progress |
+| JLPT N3 | 📅 Planned |
+| Conversational Fluency | 🔄 In Progress |
+| Career / Study in Japan | 📅 Future |
 
 ---
 
-### 📂 プロジェクト - Projects
-このリポジトリの中で、N4レベルの日本語でコメントを書きます。  
-In this repository, I write comments using N4-level Japanese.
+## 📖 Resources Used
 
-1. **`kanji-tracker/`** - 漢字を覚えるアプリです。Pythonで作りました。  
-   A kanji memorization app. Made with Python.
+- High school Japanese curriculum materials
+- Mosai course modules & assignments
+- Supplementary tools (to be documented)
 
-2. **`bunpou-notes/`** - N4の文法のノートです。  
-   N4 grammar notes.
+---
 
-3. **`dsa-java/`** - DSAの問題をJavaで解きます。コメントは日本語です。  
-   Solving DSA problems in Java. Comments are in Japanese.
+## 📈 Progress Tracking
+
+| Skill Area | Self-Assessment |
+|------------|-----------------|
+| Reading (読む) | 🟡 Intermediate |
+| Writing (書く) | 🟡 Intermediate |
+| Listening (聞く) | 🟢 Beginner-Medium |
+| Speaking (話す) | 🟢 Beginner-Medium |
+| Kanji Knowledge | 🔵 Building |
+
+> 🟢 Beginner | 🟡 Intermediate | 🔴 Advanced | ⚫ Mastery
 
 ---
 
