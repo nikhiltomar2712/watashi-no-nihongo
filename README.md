@@ -69,10 +69,10 @@ Ongoing Journey
 | Skill Area | Self-Assessment |
 |------------|-----------------|
 | Reading (読む) | 🟡 Intermediate |
-| Writing (書く) | 🟡 Intermediate |
-| Listening (聞く) | 🟢 Beginner-Medium |
-| Speaking (話す) | 🟢 Beginner-Medium |
-| Kanji Knowledge | 🔵 Building |
+| Writing (書く) | 🔴 Advanced |
+| Listening (聞く) | 🟡 Intermediate |
+| Speaking (話す) | 🟡 Intermediate |
+| Kanji Knowledge | 🔴 Advandced |
 
 > 🟢 Beginner | 🟡 Intermediate | 🔴 Advanced | ⚫ Mastery
 
