@@ -1,624 +1,179 @@
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 1 | 私 | わたし | I, me |
-| 2 | 私たち | わたしたち | we, us |
-| 3 | あなた | あなた | you |
-| 4 | あの人 | あのひと | that person |
-| 5 | あの方 | あのかた | that person [polite] |
-| 6 | みなさん | みなさん | everyone |
-| 7 | 〜さん | 〜さん | Mr./Ms. ~ |
-| 8 | 〜ちゃん | 〜ちゃん | ~ [familiar] |
-| 9 | 〜くん | 〜くん | ~ [to boys] |
-| 10 | 〜人 | 〜じん | ~ person, nationality |
-| 11 | 先生 | せんせい | teacher |
-| 12 | 教師 | きょうし | teacher [occupation] |
-| 13 | 学生 | がくせい | student |
-| 14 | 会社員 | かいしゃいん | company employee |
-| 15 | 社員 | しゃいん | company employee |
-| 16 | 医者 | いしゃ | doctor |
-| 17 | 研究者 | けんきゅうしゃ | researcher |
-| 18 | 大学 | だいがく | university |
-| 19 | 病院 | びょういん | hospital |
-| 20 | 電気 | でんき | electricity, light |
-| 21 | 誰 | だれ | who |
-| 22 | 何 | なに/なん | what |
-| 23 | 〜歳 | 〜さい | ~ years old |
-| 24 | 何歳 | なんさい | how old |
-| 25 | 何年 | なんねん | what year, how many years |
-| 26 | 何月 | なんがつ | what month |
-| 27 | 何日 | なんにち | what day, how many days |
-| 28 | 何時 | なんじ | what time |
-| 29 | 何分 | なんぷん | how many minutes |
-| 30 | 何曜日 | なんようび | what day of the week |
-| 31 | 何人 | なんにん | how many people |
-| 32 | 何冊 | なんさつ | how many books |
-| 33 | 何枚 | なんまい | how many flat objects |
-| 34 | 何個 | なんこ | how many small objects |
-| 35 | 本 | ほん | book |
-| 36 | 雑誌 | ざっし | magazine |
-| 37 | 新聞 | しんぶん | newspaper |
-| 38 | ノート | ノート | notebook |
-| 39 | 手帳 | てちょう | notebook, planner |
-| 40 | 名刺 | めいし | business card |
-| 41 | カード | カード | card |
-| 42 | テレホンカード | テレホンカード | phone card |
-| 43 | 鉛筆 | えんぴつ | pencil |
-| 44 | ボールペン | ボールペン | ballpoint pen |
-| 45 | 鍵 | かぎ | key |
-| 46 | 時計 | とけい | watch, clock |
-| 47 | 傘 | かさ | umbrella |
-| 48 | かばん | かばん | bag |
-| 49 | CD | シーディー | CD |
-| 50 | テープ | テープ | tape |
-| 51 | テープレコーダー | テープレコーダー | tape recorder |
-| 52 | テレビ | テレビ | TV |
-| 53 | ラジオ | ラジオ | radio |
-| 54 | カメラ | カメラ | camera |
-| 55 | コンピューター | コンピューター | computer |
-| 56 | 車 | くるま | car |
-| 57 | 飛行機 | ひこうき | airplane |
-| 58 | 船 | ふね | ship, boat |
-| 59 | 自転車 | じてんしゃ | bicycle |
-| 60 | 国 | くに | country |
-| 61 | 会社 | かいしゃ | company |
-| 62 | 家 | いえ | house, home |
-| 63 | 学校 | がっこう | school |
-| 64 | スーパー | スーパー | supermarket |
-| 65 | 銀行 | ぎんこう | bank |
-| 66 | 郵便局 | ゆうびんきょく | post office |
-| 67 | 図書館 | としょかん | library |
-| 68 | 美術館 | びじゅつかん | art museum |
-| 69 | 今 | いま | now |
-| 70 | 今日 | きょう | today |
-| 71 | 昨日 | きのう | yesterday |
-| 72 | 明日 | あした | tomorrow |
-| 73 | 朝 | あさ | morning |
-| 74 | 昼 | ひる | noon, daytime |
-| 75 | 晩 | ばん | evening, night |
-| 76 | 夜 | よる | night |
-| 77 | 午前 | ごぜん | a.m. |
-| 78 | 午後 | ご | p.m. |
-| 79 | 〜時 | 〜じ | ~ o'clock |
-| 80 | 〜分 | 〜ふん/〜ぷん | ~ minutes |
-| 81 | 半 | はん | half |
-| 82 | 何時 | なんじ | what time |
-| 83 | 何分 | なんぷん | how many minutes |
-| 84 | 月曜日 | げつようび | Monday |
-| 85 | 火曜日 | かようび | Tuesday |
-| 86 | 水曜日 | すいようび | Wednesday |
-| 87 | 木曜日 | もくようび | Thursday |
-| 88 | 金曜日 | きんようび | Friday |
-| 89 | 土曜日 | どようび | Saturday |
-| 90 | 日曜日 | にちようび | Sunday |
-| 91 | 週末 | しゅうまつ | weekend |
-| 92 | 今週 | こんしゅう | this week |
-| 93 | 先週 | せんしゅう | last week |
-| 94 | 来週 | らいしゅう | next week |
-| 95 | 今月 | こんげつ | this month |
-| 96 | 先月 | せんげつ | last month |
-| 97 | 来月 | らいげつ | next month |
-| 98 | 今年 | ことし | this year |
-| 99 | 去年 | きょねん | last year |
-| 100 | 来年 | らいねん | next year |
+**Lesson = 1**
+
+1. わたし - I, me
+2. わたしたち - we, us
+3. あなた - you
+4. あのひと - that person
+5. あのかた - that person [polite]
+6. みなさん - everyone
+7. ～さん - Mr./Ms. ~
+8. ～ちゃん - ~ [familiar]
+9. ～くん - ~ [to boys]
+10. ～じん - ~ person, nationality
+11. せんせい - teacher
+12. きょうし - teacher [occupation]
+13. がくせい - student
+14. かいしゃいん - company employee
+15. しゃいん - company employee
+16. ぎんこういん - bank employee
+17. いしゃ - doctor
+18. けんきゅうしゃ - researcher
+19. エンジニア - engineer
+20. だいがく - university
+21. びょういん - hospital
+22. でんき - electricity, light
+23. だれ - who
+24. どなた - who [polite]
+25. ～さい - ~ years old
+26. なんさい - how old
+27. おいくつ - how old [polite]
+28. はい - yes
+29. いいえ - no
+30. しつれいですが - excuse me, but
+31. おなまえは？ - What is your name?
+32. はじめまして - Nice to meet you
+33. どうぞよろしく - Pleased to meet you
+34. こちらは～さんです - This is Mr./Ms. ~
+35. ～からきました - I came from ~
+36. アメリカ - America
+37. イギリス - England, UK
+38. インド - India
+39. インドネシア - Indonesia
+40. かんこく - Korea
+41. タイ - Thailand
+42. ちゅうごく - China
+43. ドイツ - Germany
+44. にほん - Japan
+45. フランス - France
+46. ブラジル - Brazil
+47. さくらだいがく - Sakura University
+48. ふじだいがく - Fuji University
+49. IMC - IMC [company name]
+50. パワーでんき - Power Electric [company name]
+51. ブラジルエアー - Brazil Air [company name]
+52. AKC - AKC [company name]
+53. こうべびょういん - Kobe Hospital
 =========================================================================================================================================================
 =========================================================================================================================================================
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 101 | 誕生日 | たんじょうび | birthday |
-| 102 | 何日 | なんにち | what day, how many days |
-| 103 | 一人 | ひとり | one person |
-| 104 | 二人 | ふたり | two people |
-| 105 | 一つ | ひとつ | one thing |
-| 106 | 二つ | ふたつ | two things |
-| 107 | いくつ | いくつ | how many things |
-| 108 | 一人で | ひとりで | alone |
-| 109 | 皆 | みんな | everyone |
-| 110 | 家族 | かぞく | family |
-| 111 | 父 | ち | my father |
-| 112 | 母 | はは | my mother |
-| 113 | 兄 | あに | my older brother |
-| 114 | 姉 | あね | my older sister |
-| 115 | 弟 | おとうと | my younger brother |
-| 116 | 妹 | いもうと | my younger sister |
-| 117 | 父さん | とうさん | father [informal] |
-| 118 | 母さん | かあさん | mother [informal] |
-| 119 | お父さん | おとうさん | father [polite] |
-| 120 | お母さん | おかあさん | mother [polite] |
-| 121 | お兄さん | おにいさん | older brother [polite] |
-| 122 | お姉さん | おねえさん | older sister [polite] |
-| 123 | 弟さん | おとうとさん | younger brother [polite] |
-| 124 | 妹さん | いもうとさん | younger sister [polite] |
-| 125 | 夫 | おっと | my husband |
-| 126 | 妻 | つま | my wife |
-| 127 | ご主人 | ごしゅじん | husband [polite] |
-| 128 | 奥さん | おくさん | wife [polite] |
-| 129 | 子供 | こども | child, children |
-| 130 | 息子 | むすこ | my son |
-| 131 | 娘 | むすめ | my daughter |
-| 132 | お子さん | おこさん | child [polite] |
-| 133 | 祖父 | そふ | grandfather |
-| 134 | 祖母 | そぼ | grandmother |
-| 135 | おじいさん | おじいさん | grandfather [polite] |
-| 136 | おばあさん | おばあさん | grandmother [polite] |
-| 137 | 親戚 | しんせき | relative |
-| 138 | 友達 | ともだち | friend |
-| 139 | 彼 | かれ | he, boyfriend |
-| 140 | 彼女 | かのじょ | she, girlfriend |
-| 141 | 猫 | ねこ | cat |
-| 142 | 犬 | いぬ | dog |
-| 143 | ペット | ペット | pet |
-| 144 | この | この | this |
-| 145 | その | その | that |
-| 146 | あの | あの | that over there |
-| 147 | どの | どの | which |
-| 148 | これ | これ | this thing |
-| 149 | それ | それ | that thing |
-| 150 | あれ | あれ | that thing over there |
-| 151 | どれ | どれ | which thing |
-| 152 | ここ | ここ | here |
-| 153 | そこ | そこ | there |
-| 154 | あそこ | あそこ | over there |
-| 155 | どこ | どこ | where |
-| 156 | こちら | こちら | this way [polite] |
-| 157 | そちら | そちら | that way [polite] |
-| 158 | あちら | あちら | that way over there [polite] |
-| 159 | どちら | どちら | which way [polite] |
-| 160 | 何 | なに | what |
-| 161 | 何も | なにも | nothing |
-| 162 | どこも | どこも | nowhere |
-| 163 | だれも | だれも | nobody |
-| 164 | 少し | すこし | a little |
-| 165 | たくさん | たくさん | a lot |
-| 166 | 全部 | ぜんぶ | all, everything |
-| 167 | 一緒に | いっしょに | together |
-| 168 | 一人で | ひとりで | alone |
-| 169 | 食事 | しょくじ | meal |
-| 170 | 朝ご飯 | あさごはん | breakfast |
-| 171 | 昼ご飯 | ひるごはん | lunch |
-| 172 | 晩ご飯 | ばんごはん | dinner |
-| 173 | パン | パン | bread |
-| 174 | 卵 | たまご | egg |
-| 175 | 肉 | にく | meat |
-| 176 | 魚 | さかな | fish |
-| 177 | 野菜 | やさい | vegetable |
-| 178 | 果物 | くだもの | fruit |
-| 179 | 米 | こめ | rice [uncooked] |
-| 180 | ご飯 | ごはん | rice [cooked], meal |
-| 181 | 水 | みず | water |
-| 182 | お茶 | おちゃ | green tea, tea |
-| 183 | 紅茶 | こうちゃ | black tea |
-| 184 | 牛乳 | ぎゅうにゅう | milk |
-| 185 | ジュース | ジュース | juice |
-| 186 | コーヒー | コーヒー | coffee |
-| 187 | ビール | ビール | beer |
-| 188 | お酒 | おさけ | alcohol, sake |
-| 189 | レストラン | レストラン | restaurant |
-| 190 | 喫茶店 | きっさてん | coffee shop |
-| 191 | スーパー | スーパー | supermarket |
-| 192 | デパート | デパート | department store |
-| 193 | 買い物 | かいもの | shopping |
-| 194 | 買う | かう | to buy |
-| 195 | 食べる | たべる | to eat |
-| 196 | 飲む | のむ | to drink |
-| 197 | 見る | みる | to see, watch |
-| 198 | 聞く | きく | to listen, ask |
-| 199 | 読む | よむ | to read |
-| 200 | 書く | かく | to write |
+**Lesson = 2**
+
+1. これ - this [thing]
+2. それ - that [thing]
+3. あれ - that [thing over there]
+4. どれ - which [thing]
+5. この - this ~
+6. その - that ~
+7. あの - that ~ over there
+8. どの - which ~
+9. ここ - here
+10. そこ - there
+11. あそこ - over there
+12. どこ - where
+13. こちら - this way, this person [polite]
+14. そちら - that way, that person [polite]
+15. あちら - that way over there, that person over there [polite]
+16. どちら - which way, who [polite]
+17. ほん - book
+18. じしょ - dictionary
+19. ざっし - magazine
+20. しんぶん - newspaper
+21. ノート - notebook
+22. てちょう - planner, pocket notebook
+23. めいし - business card
+24. カード - card
+25. テレホンカード - phone card
+26. えんぴつ - pencil
+27. ボールペン - ballpoint pen
+28. シャープペンシル - mechanical pencil
+29. かぎ - key
+30. とけい - watch, clock
+31. かさ - umbrella
+32. かばん - bag
+33. CD - CD
+34. テープ - tape
+35. テープレコーダー - tape recorder
+36. テレビ - TV
+37. ラジオ - radio
+38. カメラ - camera
+39. コンピューター - computer
+40. くるま - car
+41. つくえ - desk
+42. いす - chair
+43. チョコレート - chocolate
+44. コーヒー - coffee
+45. おみやげ - souvenir
+46. えいご - English language
+47. にほんご - Japanese language
+48. ～ご - ~ language
+49. なん - what
+50. そう - so, like that
+51. そうですか - I see, is that so
+52. ちがいます - No, it isn't
+53. そうじゃありません - No, it isn't
+54. あのう - well, um
+55. ほんのきもちです - It's just a token of my gratitude
+56. どうぞ - please, here you are
+57. どうも - thanks
+58. どうもありがとうございます - Thank you very much
+59. これからおせわになります - Thank you for your support from now on
+60. こちらこそよろしく - Pleased to meet you too
 =========================================================================================================================================================
 =========================================================================================================================================================
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 201 | 行く | いく | to go |
-| 202 | 来る | くる | to come |
-| 203 | 帰る | かえる | to return, go home |
-| 204 | 働く | はたらく | to work |
-| 205 | 休む | やすむ | to rest, take a day off |
-| 206 | 起きる | おきる | to get up |
-| 207 | 寝る | ねる | to sleep, go to bed |
-| 208 | 座る | すわる | to sit |
-| 209 | 立つ | たつ | to stand |
-| 210 | 死ぬ | しぬ | to die |
-| 211 | 使う | つかう | to use |
-| 212 | 持つ | もつ | to hold, have |
-| 213 | 取る | とる | to take, take a photo |
-| 214 | 会う | あう | to meet |
-| 215 | 見せる | みせる | to show |
-| 216 | 教える | おしえる | to teach, tell |
-| 217 | 習う | ならう | to learn, take lessons |
-| 218 | 勉強する | べんきょうする | to study |
-| 219 | 散歩する | さんぽする | to take a walk |
-| 220 | 買い物する | かいものする | to go shopping |
-| 221 | 電話する | でんわする | to make a phone call |
-| 222 | 話す | はなす | to speak, talk |
-| 223 | 歌う | うたう | to sing |
-| 224 | 聞く | きく | to listen, ask |
-| 225 | 借りる | かるりる | to borrow |
-| 226 | 貸す | かす | to lend |
-| 227 | あげる | あげる | to give |
-| 228 | もらう | もらう | to receive |
-| 229 | 知る | しる | to know |
-| 230 | 分かる | わかる | to understand |
-| 231 | ある | ある | to be, exist [inanimate] |
-| 232 | いる | いる | to be, exist [animate] |
-| 233 | する | する | to do |
-| 234 | 来る | くる | to come |
-| 235 | 写真 | しゃしん | photo |
-| 236 | 手紙 | てがみ | letter |
-| 237 | プレゼント | プレゼント | present, gift |
-| 238 | 荷物 | にもつ | luggage, baggage |
-| 239 | お金 | おかね | money |
-| 240 | 切手 | きって | postage stamp |
-| 241 | 葉書 | はがき | postcard |
-| 242 | 封筒 | ふうとう | envelope |
-| 243 | 住所 | じゅうしょ | address |
-| 244 | 名前 | なまえ | name |
-| 245 | 電話番号 | でんわばんごう | phone number |
-| 246 | 誕生日 | たんじょうび | birthday |
-| 247 | 郵便局 | ゆうびんきょく | post office |
-| 248 | 銀行 | ぎんこう | bank |
-| 249 | 図書館 | としょかん | library |
-| 250 | 美術館 | びじゅつかん | art museum |
-| 251 | 公園 | こうえん | park |
-| 252 | 寺 | てら | temple |
-| 253 | 神社 | じんじゃ | Shinto shrine |
-| 254 | 山 | やま | mountain |
-| 255 | 川 | かわ | river |
-| 256 | 海 | うみ | sea |
-| 257 | 花 | はな | flower |
-| 258 | 木 | き | tree |
-| 259 | 魚 | さかな | fish |
-| 260 | 鳥 | とり | bird |
-| 261 | 猫 | ねこ | cat |
-| 262 | 犬 | いぬ | dog |
-| 263 | 動物 | どうぶつ | animal |
-| 264 | 虫 | むし | insect |
-| 265 | 今晩 | こんばん | tonight |
-| 266 | 昨日 | きのう | yesterday |
-| 267 | 一昨日 | おととい | the day before yesterday |
-| 268 | 明日 | あした | tomorrow |
-| 269 | 明後日 | あさって | the day after tomorrow |
-| 270 | 今朝 | けさ | this morning |
-| 271 | 今晩 | こんばん | tonight |
-| 272 | 今週 | こんしゅう | this week |
-| 273 | 先週 | せんしゅう | last week |
-| 274 | 来週 | らいしゅう | next week |
-| 275 | 今月 | こんげつ | this month |
-| 276 | 先月 | せんげつ | last month |
-| 277 | 来月 | らいげつ | next month |
-| 278 | 今年 | ことし | this year |
-| 279 | 去年 | きょねん | last year |
-| 280 | 来年 | らいねん | next year |
-| 281 | 何日 | なんにち | what day, how many days |
-| 282 | 何時 | なんじ | what time |
-| 283 | 何分 | なんぷん | how many minutes |
-| 284 | 何曜日 | なんようび | what day of the week |
-| 285 | 何月 | なんがつ | what month |
-| 286 | 何年 | なんねん | what year, how many years |
-| 287 | いつ | いつ | when |
-| 288 | いつも | いつも | always, usually |
-| 289 | よく | よく | often, well |
-| 290 | たまに | たまに | sometimes |
-| 291 | あまり | あまり | not very [with negative] |
-| 292 | ぜんぜん | ぜんぜん | not at all [with negative] |
-| 293 | すぐ | すぐ | soon, immediately |
-| 294 | もう | もう | already, anymore |
-| 295 | まだ | まだ | still, yet |
-| 296 | ちょっと | ちょっと | a little, a moment |
-| 297 | たくさん | たくさん | a lot |
-| 298 | 少し | すこし | a little |
-| 299 | 全部 | ぜんぶ | all, everything |
-| 300 | 一緒に | いっしょに | together |
+**Lesson = 3**
+
+1. きょうしつ - classroom
+2. しょくどう - cafeteria, dining hall
+3. じむしょ - office
+4. かいぎしつ - meeting room, conference room
+5. うけつけ - reception desk
+6. ロビー - lobby
+7. へや - room
+8. トイレ - toilet, restroom
+9. おてあらい - toilet, restroom [polite]
+10. かいだん - stairs
+11. エレベーター - elevator
+12. エスカレーター - escalator
+13. じどうはんばいき - vending machine
+14. でんわ - telephone
+15. こうしゅうでんわ - public telephone
+16. おくに - country [polite]
+17. かいしゃ - company
+18. うち - house, home
+19. くつ - shoes
+20. ネクタイ - necktie
+21. ワイン - wine
+22. たばこ - tobacco, cigarette
+23. うりば - sales floor, department
+24. ちか - basement floor
+25. いっかい - 1st floor
+26. にかい - 2nd floor
+27. さんかい - 3rd floor
+28. よんかい - 4th floor
+29. ごかい - 5th floor
+30. ろっかい - 6th floor
+31. ななかい - 7th floor
+32. はっかい - 8th floor
+33. きゅうかい - 9th floor
+34. じゅっかい - 10th floor
+35. なんがい - what floor
+36. ～えん - ~ yen
+37. いくら - how much
+38. ひゃく - hundred
+39. せん - thousand
+40. まん - ten thousand
+41. すみません - Excuse me
+42. ～でございます - to be [polite form of です]
+43. ～をみせてください - Please show me ~
+44. じゃ - well then
+45. ～をください - Please give me ~
+46. イタリア - Italy
+47. スイス - Switzerland
+48. フランス - France
+49. ジャカルタ - Jakarta
+50. バンコク - Bangkok
+51. ベルリン - Berlin
+52. しんおさか - Shin-Osaka
 =========================================================================================================================================================
 =========================================================================================================================================================
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 301 | 見る | みる | to see, watch |
-| 302 | 聞く | きく | to hear, listen, ask |
-| 303 | 読む | よむ | to read |
-| 304 | 書く | かく | to write |
-| 305 | 話す | はなす | to speak, talk |
-| 306 | 買う | かう | to buy |
-| 307 | 売る | うる | to sell |
-| 308 | 撮る | とる | to take a photo |
-| 309 | 泳ぐ | およぐ | to swim |
-| 310 | 歩く | あるく | to walk |
-| 311 | 走る | はしる | to run |
-| 312 | 運転する | うんてんする | to drive |
-| 313 | 乗る | のる | to ride, get on |
-| 314 | 降りる | おりる | to get off |
-| 315 | 乗換える | のりかえる | to transfer |
-| 316 | 止まる | とまる | to stop |
-| 317 | 曲がる | まがる | to turn |
-| 318 | 入る | はいる | to enter |
-| 319 | 出る | でる | to exit, leave |
-| 320 | 開く | あく | to open [intransitive] |
-| 321 | 開ける | あける | to open [transitive] |
-| 322 | 閉まる | しまる | to close [intransitive] |
-| 323 | 閉める | しめる | to close [transitive] |
-| 324 | 始まる | はじまる | to start, begin [intransitive] |
-| 325 | 始める | はじめる | to start, begin [transitive] |
-| 326 | 終わる | おわる | to finish, end [intransitive] |
-| 327 | 終える | おえる | to finish, end [transitive] |
-| 328 | できる | できる | can do, be able to |
-| 329 | いる | いる | to need |
-| 330 | 欲しい | ほしい | want |
-| 331 | 好き | すき | like |
-| 332 | 嫌い | きらい | dislike |
-| 333 | 上手 | じょうず | good at |
-| 334 | 下手 | へた | bad at |
-| 335 | いい | いい | good |
-| 336 | 悪い | わるい | bad |
-| 337 | 新しい | あたらしい | new |
-| 338 | 古い | ふるい | old [things] |
-| 339 | 高い | たかい | expensive, tall |
-| 340 | 安い | やすい | cheap |
-| 341 | 大きい | おおきい | big |
-| 342 | 小さい | ちいさい | small |
-| 343 | 多い | おおい | many, much |
-| 344 | 少ない | すくない | few, little |
-| 345 | 早い | はやい | early, fast |
-| 346 | 遅い | おそい | late, slow |
-| 347 | 難しい | むずかしい | difficult |
-| 348 | 易しい | やさしい | easy |
-| 349 | 暑い | あつい | hot [weather] |
-| 350 | 寒い | さむい | cold [weather] |
-| 351 | 暖かい | あたかい | warm |
-| 352 | 涼しい | すずしい | cool, comfortable |
-| 353 | 近い | ちかい | near, close |
-| 354 | 遠い | とおい | far |
-| 355 | 速い | はやい | fast |
-| 356 | 遅い | おそい | slow |
-| 357 | 明るい | あかるい | bright |
-| 358 | 暗い | くらい | dark |
-| 359 | 楽しい | たのしい | fun, enjoyable |
-| 360 | 悲しい | かなしい | sad |
-| 361 | 寂しい | さびしい | lonely |
-| 362 | 怖い | こわい | scary |
-| 363 | 危ない | あぶない | dangerous |
-| 364 | 大丈夫 | だいじょうぶ | alright, OK |
-| 365 | 元気 | げんき | healthy, energetic |
-| 366 | 暇 | ひま | free, not busy |
-| 367 | 忙しい | いそがしい | busy |
-| 368 | 有名 | ゆうめい | famous |
-| 369 | 便利 | べんり | convenient |
-| 370 | 不便 | ふべん | inconvenient |
-| 371 | きれい | きれい | pretty, clean |
-| 372 | 静か | しずか | quiet |
-| 373 | にぎやか | にぎやか | lively, bustling |
-| 374 | 親切 | しんせつ | kind |
-| 375 | 便利 | べんり | convenient |
-| 376 | 危険 | きけん | dangerous |
-| 377 | 安全 | あんぜん | safe |
-| 378 | 自由 | じゆう | free |
-| 379 | 暇 | ひま | free time |
-| 380 | 時間 | じかん | time |
-| 381 | 午前 | ごぜん | a.m. |
-| 382 | 午後 | ご | p.m. |
-| 383 | 朝 | あさ | morning |
-| 384 | 昼 | ひる | noon, daytime |
-| 385 | 晩 | ばん | evening |
-| 386 | 夜 | よる | night |
-| 387 | 今日 | きょう | today |
-| 388 | 昨日 | きのう | yesterday |
-| 389 | 明日 | あした | tomorrow |
-| 390 | 今週 | こんしゅう | this week |
-| 391 | 先週 | せんしゅう | last week |
-| 392 | 来週 | らいしゅう | next week |
-| 393 | 今月 | こんげつ | this month |
-| 394 | 先月 | せんげつ | last month |
-| 395 | 来月 | らいげつ | next month |
-| 396 | 今年 | ことし | this year |
-| 397 | 去年 | きょねん | last year |
-| 398 | 来年 | らいねん | next year |
-| 399 | 誕生日 | たんじょうび | birthday |
-| 400 | 休み | やすみ | holiday, day off |
-=========================================================================================================================================================
-=========================================================================================================================================================
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 401 | 旅行 | りょこう | trip, travel |
-| 402 | 旅行する | りょこうする | to travel |
-| 403 | 切符 | きっぷ | ticket |
-| 404 | 一枚 | いちまい | one flat object |
-| 405 | 片道 | かたみち | one way |
-| 406 | 往復 | おうふく | round trip |
-| 407 | 急行 | きゅうこう | express train |
-| 408 | 各駅停車 | かくえきていしゃ | local train |
-| 409 | 乗換え | のりかえ | transfer |
-| 410 | 乗換える | のりかえる | to transfer |
-| 411 | 降りる | おりる | to get off |
-| 412 | 乗る | のる | to ride, get on |
-| 413 | 着く | つく | to arrive |
-| 414 | 出発する | しゅっぱつする | to depart |
-| 415 | 到着する | とうちゃくする | to arrive |
-| 416 | 遅れる | おくれる | to be late |
-| 417 | 時間に遅れる | じかんにおくれる | to be late for time |
-| 418 | 間に合う | まにあう | to be in time for |
-| 419 | 間に合わない | まにあわない | to not be in time |
-| 420 | 駅 | えき | station |
-| 421 | 空港 | くうこう | airport |
-| 422 | 飛行機 | ひこうき | airplane |
-| 423 | 船 | ふね | ship, boat |
-| 424 | 自転車 | じてんしゃ | bicycle |
-| 425 | バス | ばす | bus |
-| 426 | タクシー | たくしー | taxi |
-| 427 | 地下鉄 | ちかてつ | subway |
-| 428 | 電車 | でんしゃ | train |
-| 429 | 道路 | どうろ | road |
-| 430 | 橋 | はし | bridge |
-| 431 | 川 | かわ | river |
-| 432 | 山 | やま | mountain |
-| 433 | 海 | うみ | sea |
-| 434 | 空 | そら | sky |
-| 435 | 天気 | てんき | weather |
-| 436 | 晴れ | はれ | clear weather |
-| 437 | 曇り | くもり | cloudy weather |
-| 438 | 雨 | あめ | rain |
-| 439 | 雪 | ゆき | snow |
-| 440 | 風 | かぜ | wind |
-| 441 | 暑い | あつい | hot [weather] |
-| 442 | 寒い | さむい | cold [weather] |
-| 443 | 暖かい | あたかい | warm |
-| 444 | 涼しい | すずしい | cool, comfortable |
-| 445 | 寒気 | さむけ | chill, cold snap |
-| 446 | 熱 | ねつ | fever, heat |
-| 447 | 頭痛 | ずつう | headache |
-| 448 | 腹痛 | ふくつう | stomachache |
-| 449 | 風邪 | かぜ | cold [illness] |
-| 450 | 病気 | びょうき | illness |
-| 451 | 怪我 | けが | injury |
-| 452 | 病院 | びょういん | hospital |
-| 453 | 薬 | くすり | medicine |
-| 454 | 医者 | いしゃ | doctor |
-| 455 | 看護師 | かんごし | nurse |
-| 456 | 診察 | しんさつ | medical examination |
-| 457 | 休む | やすむ | to rest, take a day off |
-| 458 | 休み | やすみ | rest, holiday |
-| 459 | 大丈夫 | だいじょうぶ | alright, OK |
-| 460 | 大丈夫ですか | だいじょうぶですか | Are you alright? |
-| 461 | 大丈夫です | だいじょうぶです | I'm alright |
-| 462 | 大変 | たいへん | tough, terrible |
-| 463 | 大変ですね | たいへんですね | That's tough, isn't it |
-| 464 | 困る | こまる | to be troubled |
-| 465 | 助ける | たすける | to help |
-| 466 | 助かる | たすかる | to be helped, be saved |
-| 467 | 危ない | あぶない | dangerous |
-| 468 | 危ないです | あぶないです | It's dangerous |
-| 469 | 気をつける | きをつける | to be careful |
-| 470 | 気をつけてください | きをつけてください | Please be careful |
-| 471 | ありがとうございます | ありがとうございます | Thank you very much |
-| 472 | どういたしまして | どういたしまして | You're welcome |
-| 473 | すみません | すみません | Excuse me, sorry |
-| 474 | 失礼します | しつれいします | Excuse me [leaving] |
-| 475 | 失礼しました | しつれいしました | Excuse me [did something rude] |
-| 476 | ごめんなさい | ごめんなさい | I'm sorry |
-| 477 | お願いします | おねがいします | Please |
-| 478 | どうぞ | どうぞ | Please, go ahead |
-| 479 | どうも | どうも | Thanks, well |
-| 480 | ちょっと | ちょっと | a little, a moment |
-| 481 | 少し | すこし | a little |
-| 482 | たくさん | たくさん | a lot |
-| 483 | 全部 | ぜんぶ | all, everything |
-| 484 | 一部 | いちぶ | a part, some |
-| 485 | 半分 | はんぶん | half |
-| 486 | 少しずつ | すこしずつ | little by little |
-| 487 | すぐ | すぐ | soon, immediately |
-| 488 | もうすぐ | もうすぐ | soon, in a moment |
-| 489 | まだ | まだ | still, yet |
-| 490 | もう | もう | already, anymore |
-| 491 | まだです | まだです | Not yet |
-| 492 | もう終わりました | もうおわりました | It's already finished |
-| 493 | いつも | いつも | always, usually |
-| 494 | よく | よく | often, well |
-| 495 | たまに | たまに | sometimes |
-| 496 | あまり | あまり | not very [with negative] |
-| 497 | ぜんぜん | ぜんぜん | not at all [with negative] |
-| 498 | だいたい | だいたい | approximately, mostly |
-| 499 | だいたいわかります | だいたいわかります | I mostly understand |
-| 500 | だいたい大丈夫です | だいたいだいじょうぶです | It's mostly alright |
-=========================================================================================================================================================
-=========================================================================================================================================================
-| # | Word | Reading | Meaning |
-| --- | --- | --- | --- |
-| 501 | 料理 | りょうり | cooking, dish |
-| 502 | 料理する | りょうりする | to cook |
-| 503 | 洗う | あらう | to wash |
-| 504 | 洗濯する | せんたくする | to do laundry |
-| 505 | 掃除する | そうじする | to clean |
-| 506 | 買い物する | かいものする | to go shopping |
-| 507 | 作る | つくる | to make, create |
-| 508 | 直す | なおす | to fix, repair |
-| 509 | 捨てる | すてる | to throw away |
-| 510 | 取る | とる | to take, get |
-| 511 | 返す | かえす | to return something |
-| 512 | 借りる | かりる | to borrow |
-| 513 | 貸す | かす | to lend |
-| 514 | 教える | おしえる | to teach, tell |
-| 515 | 習う | ならう | to learn, take lessons |
-| 516 | 勉強する | べんきょうする | to study |
-| 517 | 研究する | けんきゅうする | to research |
-| 518 | 働く | はたらく | to work |
-| 519 | 休む | やすむ | to rest, take a day off |
-| 520 | 会社 | かいしゃ | company |
-| 521 | 仕事 | しごと | work, job |
-| 522 | 職場 | しょくば | workplace |
-| 523 | 出張 | しゅっちょう | business trip |
-| 524 | 会議 | かいぎ | meeting |
-| 525 | 残業する | ざんぎょうする | to work overtime |
-| 526 | 給料 | きゅうりょう | salary |
-| 527 | 休暇 | きゅうか | vacation, leave |
-| 528 | 出勤する | しゅっきんする | to go to work |
-| 529 | 退勤する | たいきんする | to leave work |
-| 530 | 電話する | でんわする | to make a phone call |
-| 531 | 電話番号 | でんわばんごう | phone number |
-| 532 | メールする | メールする | to send an email |
-| 533 | ファックスする | ファックスする | to send a fax |
-| 534 | 手紙 | てがみ | letter |
-| 535 | 郵便局 | ゆうびんきょく | post office |
-| 536 | 切手 | きって | postage stamp |
-| 537 | 葉書 | はがき | postcard |
-| 538 | 荷物 | にもつ | luggage, baggage |
-| 539 | 送る | おくる | to send |
-| 540 | 届く | とどく | to arrive, be delivered |
-| 541 | 届ける | とどける | to deliver |
-| 542 | 引っ越す | ひっこす | to move house |
-| 543 | 住む | すむ | to live, reside |
-| 544 | 家賃 | やちん | rent |
-| 545 | マンション | マンション | apartment |
-| 546 | アパート | アパート | apartment |
-| 547 | 部屋 | へや | room |
-| 548 | 台所 | だいどころ | kitchen |
-| 549 | 風呂 | ふろ | bath |
-| 550 | トイレ | トイレ | toilet |
-| 551 | 家具 | かぐ | furniture |
-| 552 | テレビ | テレビ | TV |
-| 553 | 冷蔵庫 | れいぞうこ | refrigerator |
-| 554 | 洗濯機 | せんたくき | washing machine |
-| 555 | エアコン | エアコン | air conditioner |
-| 556 | 暑い | あつい | hot |
-| 557 | 寒い | さむい | cold |
-| 558 | 暖かい | あたかい | warm |
-| 559 | 涼しい | すずしい | cool |
-| 560 | 天気 | てんき | weather |
-| 561 | 晴れ | はれ | clear weather |
-| 562 | 曇り | くもり | cloudy weather |
-| 563 | 雨 | あめ | rain |
-| 564 | 雪 | ゆき | snow |
-| 565 | 風 | かぜ | wind |
-| 566 | 台風 | たいふう | typhoon |
-| 567 | 地震 | じしん | earthquake |
-| 568 | 火事 | かじ | fire |
-| 569 | 事故 | じこ | accident |
-| 570 | 病気 | びょうき | illness |
-| 571 | 風邪 | かぜ | cold [illness] |
-| 572 | 熱 | ねつ | fever |
-| 573 | 頭痛 | ずつう | headache |
-| 574 | 腹痛 | ふくつう | stomachache |
-| 575 | 怪我 | けが | injury |
-| 576 | 病院 | びょういん | hospital |
-| 577 | 薬 | くすり | medicine |
-| 578 | 医者 | いしゃ | doctor |
-| 579 | 看護師 | かんごし | nurse |
-| 580 | 診察する | しんさつする | to examine |
-| 581 | 入院する | にゅういんする | to be hospitalized |
-| 582 | 退院する | たいいんする | to be discharged |
-| 583 | 手術する | しゅじゅつする | to have surgery |
-| 584 | 元気 | げんき | healthy, energetic |
-| 585 | 疲れる | つかれる | to get tired |
-| 586 | 困る | こまる | to be troubled |
-| 587 | 助ける | たすける | to help |
-| 588 | 助かる | たすかる | to be helped, be saved |
-| 589 | 危ない | あぶない | dangerous |
-| 590 | 安全 | あんぜん | safe |
-| 591 | 注意する | ちゅういする | to be careful, warn |
-| 592 | 気をつける | きをつける | to be careful |
-| 593 | 大丈夫 | だいじょうぶ | alright, OK |
-| 594 | 大変 | たいへん | tough, terrible |
-| 595 | ありがとうございます | ありがとうございます | Thank you very much |
-| 596 | どういたしまして | どういたしまして | You're welcome |
-| 597 | すみません | すみません | Excuse me, sorry |
-| 598 | 失礼します | しつれいします | Excuse me [leaving] |
-| 599 | お願いします | おねがいします | Please |
-| 600 | どうぞ | どうぞ | Please, go ahead |
-=========================================================================================================================================================
-=========================================================================================================================================================
+**Lesson = 4**
+
