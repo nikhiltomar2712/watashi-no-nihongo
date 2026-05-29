@@ -4915,3 +4915,210 @@ KEY DIFFERENCES TO REMEMBER
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
+=== LESSON 21: PLAIN FORM ふつうけい + THOUGHT & QUOTATION ===
+
+1. PLAIN FORM ふつうけい = INFORMAL STYLE
+Plain Form is used in casual conversation, diaries, novels, and before grammar like と思います, でしょう, と言います, ので, から, 前に, とき.
+It replaces the ます-form. Has 4 tenses: Present Aff, Present Neg, Past Aff, Past Neg.
+
+1-1. VERBS PLAIN FORM
+
+[PRESENT AFFIRMATIVE] = Dictionary Form
+Group 1 u-verbs: Change ます to u-sound
+かきます → かく, のみます → のむ, いきます → いく, よみます → よむ
+かえります → かえる, あそびます → あそぶ, まちます → まつ
+しにます → しぬ, とります → とる, かいます → かう
+はなします → はなす, けします → けす, おします → おす
+
+Group 2 ru-verbs: Drop ます, add る
+たべます → たべる, みます → みる, ねます → ねる, おきます → おきる
+おしえます → おしえる, かりります → かりる, でます → でる, あけます → あける
+
+Group 3 irregular:
+します → する, きます → くる
+べんきょうします → べんきょうする, さんぽします → さんぽする, そうじします → そうじする
+
+[PRESENT NEGATIVE] = ない-form
+Group 1: Change final u to a-sound + ない. う → わない
+かく → かかない, のむ → のまない, いく → いかない, よむ → よまない
+かえる → かえらない, あそぶ → あそばない, まつ → またない
+しぬ → しなない, とる → とらない, かう → かわない, はなす → はなさない
+Exception: あります → ない
+
+Group 2: Drop る, add ない
+たべる → たべない, みる → みない, ねる → ねない, おきる → おきない
+
+Group 3: する → しない, くる → こない
+
+[PAST AFFIRMATIVE] = た-form
+Same as て-form: て→た, で→だ
+かいて → かいた, のんで → のんだ, いって → いった, よんで → よんだ
+かえって → かえった, あそんで → あそんだ, まって → まった
+しんで → しんだ, とって → とった, かって → かった, はなして → はなした
+たべて → たべた, みて → みた, して → した, きて → きた
+
+[PAST NEGATIVE] = なかった
+ない-form drop い + かった
+かかない → かかなかった, のまない → のまなかった
+たべない → たべなかった, しない → しなかった, こない → こなかった
+
+1-2. い-ADJECTIVES PLAIN FORM
+Present Aff: Drop です → たかいです → たかい, さむいです → さむい, よいです → いい
+Present Neg: くないです → くない → たかくないです → たかくない
+Past Aff: かったです → かった → たかかったです → たかかった
+Past Neg: くなかったです → くなかった → たかくなかったです → たかくなかった
+
+1-3. な-ADJECTIVES PLAIN FORM
+Present Aff: です → だ → しずかです → しずかだ, げんきです → げんきだ
+Present Neg: じゃありません → じゃない → しずかじゃありません → しずかじゃない
+Past Aff: でした → だった → しずかでした → しずかだった
+Past Neg: じゃありませんでした → じゃなかった → しずかじゃありませんでした → しずかじゃなかった
+
+1-4. NOUNS PLAIN FORM
+Same as na-adjectives
+Present Aff: がくせいです → がくせいだ, あめです → あめだ
+Present Neg: がくせいじゃありません → がくせいじゃない
+Past Aff: がくせいでした → がくせいだった
+Past Neg: がくせいじゃありませんでした → がくせいじゃなかった
+
+Note: In questions, だ is dropped. げんき？ OK. げんきだ？ sounds blunt/very male.
+
+=== 2. PLAIN FORM + とおもいます = I THINK THAT ~ ===
+Express opinion, guess, conjecture. DO NOT use for facts you directly experienced.
+
+Structure:
+Verb: 行くと思います, 行かないと思います, 行ったと思います, 行かなかったと思います
+i-adj: 大きいと思います, 大きくないと思います, 大きかったと思います, 大きくなかったと思います
+na-adj: 有名だと思います, 有名じゃないと思います, 有名だったと思います, 有名じゃなかったと思います
+Noun: 休みだと思います, 休みじゃないと思います, 休みだったと思います, 休みじゃなかったと思います
+
+Examples:
+あしたは雨が降ると思います。
+Ashita wa ame ga furu to omoimasu.
+I think it will rain tomorrow.
+
+田中さんはもう帰ったと思います。
+Tanaka-san wa mou kaetta to omoimasu.
+I think Mr. Tanaka has already gone home.
+
+この本はおもしろいと思います。
+Kono hon wa omoshiroi to omoimasu.
+I think this book is interesting.
+
+彼は学生じゃないと思います。
+Kare wa gakusei ja nai to omoimasu.
+I think he is not a student.
+
+Asking opinion: ～と思いますか
+試験はどうでしたか。
+むずかしかったと思います。
+Shiken wa dou deshita ka.
+Muzukashikatta to omoimasu.
+How was the exam? I think it was difficult.
+
+思っています = continuous opinion held for a while
+私は日本の生活に慣れたと思っています。
+Watashi wa Nihon no seikatsu ni nareta to omotte imasu.
+I think I have gotten used to life in Japan.
+
+IMPORTANT RULE: Don't use と思います for known facts
+Wrong: 私は日本人だと思います。 ← You know you're Japanese
+Right: 私は日本人です。
+Wrong: きのう8時に起きたと思います。 ← You know when you woke up
+Right: きのう8時に起きました。
+
+=== 3. PLAIN FORM + でしょう = PROBABLY ~ / ~ RIGHT? ===
+Two main uses:
+1. Conjecture: probably ~, 90% sure
+2. Confirmation: ~, right? with rising intonation
+
+Structure: Plain Form + でしょう
+CRITICAL: na-adj and Noun must DROP だ before でしょう
+元気でしょう OK, 元気だでしょう WRONG
+先生でしょう OK, 先生だでしょう WRONG
+
+Examples:
+1. Conjecture:
+あしたはたぶん曇りでしょう。
+Ashita wa tabun kumori deshou.
+It will probably be cloudy tomorrow.
+
+富士山は今雪があるでしょう。
+Fujisan wa ima yuki ga aru deshou.
+Mt. Fuji probably has snow now.
+
+2. Seeking agreement:
+東京は人が多いでしょう？
+Toukyou wa hito ga ooi deshou?
+Tokyo has many people, doesn't it?
+
+このケーキ、おいしいでしょう？
+Kono keeki, oishii deshou?
+This cake is delicious, right?
+
+Casual forms:
+だろう = plain/masculine conjecture → あした雨だろう。
+でしょ = casual confirmation → いいでしょ？
+
+=== 4. PLAIN FORM + といいます = SAYS THAT ~ ===
+Indirect speech. Tense of 言います = when you heard it, not the content's time.
+
+ミラーさんは来月国へ帰ると言いました。
+Miraa-san wa raigetsu kuni e kaeru to iimashita.
+Mr. Miller said he will return to his country next month.
+
+山田さんは「頭が痛い」と言いました。
+Yamada-san wa "atama ga itai" to iimashita.
+Mr. Yamada said "I have a headache".
+
+母は野菜を食べなさいと言っています。
+Haha wa yasai o tabenasai to itte imasu.
+My mother is telling me to eat vegetables.
+
+Casual: って = と言っていました/と言いました
+木村さん、来ないって。
+Kimura-san, konai tte.
+Kimura says he's not coming.
+
+=== 5. N1 は N2 が ～ とおもいます ===
+When the subject of your thought is different from "I"
+
+私は日本の食べ物はおいしいと思います。
+Watashi wa Nihon no tabemono wa oishii to omoimasu.
+I think Japanese food is delicious.
+[私は=I is main, 日本の食べ物は=topic inside thought]
+
+ミラーさんは日本語はむずかしいと思っています。
+Miraa-san wa Nihongo wa muzukashii to omotte imasu.
+Mr. Miller thinks Japanese is difficult.
+
+=== 6. WHEN TO USE PLAIN FORM ===
+Must use Plain Form before:
+と思います, でしょう, と言います, ので, から, のに, けど, が, とき, 前に, 後で, んです, の, し
+
+Examples:
+雨が降ると思います。 OK
+雨が降りますと思います。 WRONG
+食べる前に手を洗います。 OK
+食べます前に手を洗います。 WRONG
+
+=== 7. CASUAL CONVERSATION ===
+ます-form → Plain Form in casual speech
+思います → 思う
+あした雨が降ると思う。
+でしょう → でしょ/だろう
+寒いでしょ？ / 寒いだろう。
+言います → 言う/って
+田中さん来るって。
+
+=== 8. QUICK CONVERSION CHART ===
+行きます → 行く, 行きません → 行かない, 行きました → 行った, 行きませんでした → 行かなかった
+食べます → 食べる, 食べません → 食べない, 食べました → 食べた, 食べませんでした → 食べなかった
+します → する, しません → しない, しました → した, しませんでした → しなかった
+きます → くる, きません → こない, きました → きた, きませんでした → こなかった
+高いです → 高い, 高くないです → 高くない, 高かったです → 高かった, 高くなかったです → 高くなかった
+静かです → 静かだ, 静かじゃありません → 静かじゃない, 静かでした → 静かだった, 静かじゃありませんでした → 静かじゃなかった
+学生です → 学生だ, 学生じゃありません → 学生じゃない, 学生でした → 学生だった, 学生じゃありませんでした → 学生じゃなかった
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
