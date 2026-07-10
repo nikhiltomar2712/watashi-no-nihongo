@@ -1,0 +1,10 @@
+[Unit]
+Description=Auto-commit changes and push (change-based)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/nikki/VS code
+ExecStart=/home/nikki/VS code/scripts/auto-commit.sh
+
