@@ -1,0 +1,4567 @@
+import type { GrammarPoint } from '../types';
+
+export const grammarData: GrammarPoint[] = [
+    // ========================================================================
+    // LESSON 1: わたしはマイク・ミラーです
+    // ========================================================================
+    {
+        lesson: 1,
+        title: "わたしはマイク・ミラーです",
+        theme: "名詞文, 所有のの",
+        overview: "This lesson introduces the most fundamental Japanese sentence pattern: identifying and describing things using noun predicates. You will learn how to introduce yourself, state what things are, ask yes/no questions, and express possession.",
+        points: [
+            {
+                id: "L1-1",
+                jp: "〜は〜です",
+                en: "A is B (Noun Predicate)",
+                detail: `THE FOUNDATION OF JAPANESE GRAMMAR
+
+This is the most fundamental sentence pattern in Japanese, used to state that Topic A is equal to or has the property of Noun B.
+
+DEEP STRUCTURAL ANALYSIS:
+[Topic] は [Noun Predicate] です。
+
+COMPONENT BREAKDOWN:
+• は (wa): The TOPIC particle. Written as 'ha' but ALWAYS pronounced 'wa' when used as a particle. It establishes what the sentence is about. Think of it as "As for [Topic]..." or "Speaking of [Topic]..."
+• です: The polite COPULA. It carries NO lexical meaning by itself. Its functions are:
+  - Marks POLITENESS (plain form is だ)
+  - Indicates NON-PAST tense (present or future)
+  - Marks AFFIRMATIVE mood
+  - Provides grammatical completeness
+
+WHY THIS IS DIFFERENT FROM ENGLISH:
+English: "I am a student" → Subject (I) + Verb (am) + Complement (student)
+Japanese: わたしは学生です → Topic (I) + Particle + Complement + Copula
+
+The copula です is NOT a verb in the English sense. Japanese doesn't need a verb "to be" — the relationship between topic and predicate is established by the structure itself.
+
+USAGE CONTEXTS:
+1. SELF-INTRODUCTION: わたしは[Name]です
+2. PROFESSION/ROLE: わたしはかいしゃいんです
+3. IDENTIFYING OBJECTS: これは本です
+4. NATIONALITY: わたしはアメリカ人です
+5. TIME/DATE: 今日は月よう日です
+6. LOCATION STATEMENTS: ここはとうきょうです
+
+IMPORTANT NUANCES:
+• Japanese has NO articles (a, an, the). 学生です can mean "am a student" or "am the student"
+• The topic can be OMITTED when clear from context: 学生です (I'm a student) — わたしは is dropped
+• です can follow nouns directly, i-adjectives, and na-adjectives (with different rules)
+• In WRITTEN Japanese, である is used instead of です/だ in formal texts
+
+CULTURAL NOTE:
+Using です with anyone outside your close circle is essential. Dropping です (using だ) with strangers, superiors, or in business contexts is considered rude. The copula signals social awareness and respect.`,
+                examples: [
+                    { jp: "わたしはマイク・ミラーです。", en: "I am Mike Miller." },
+                    { jp: "わたしはかいしゃいんです。", en: "I am a company employee." },
+                    { jp: "これはじしょです。", en: "This is a dictionary." },
+                    { jp: "あの人はたなか先生です。", en: "That person is Professor Tanaka." },
+                    { jp: "今日はわたしのたんじょう日です。", en: "Today is my birthday." },
+                    { jp: "とうきょうは日本のしゅとです。", en: "Tokyo is the capital of Japan." },
+                    { jp: "こちらは山田さまです。", en: "This is Mr./Ms. Yamada. (honorific)" },
+                    { jp: "学生です。", en: "I'm a student. (topic omitted)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたし (__) 学生です。",
+                        answer: "は",
+                        explanation: "は marks the topic. Remember: it's written 'ha' but pronounced 'wa'."
+                    },
+                    {
+                        type: "translate",
+                        question: "This is a pen.",
+                        answer: "これはペンです。",
+                        explanation: "これ (this) + は (topic) + ペン (pen) + です (copula)."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "わたしはがくせい。",
+                        answer: "わたしはがくせいです。",
+                        explanation: "In formal situations, add です for politeness. Without です is too casual."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which sentence is grammatically correct?",
+                        options: ["わたし学生です", "わたしは学生です", "わたしが学生です", "わたしを学生です"],
+                        answer: "わたしは学生です",
+                        explanation: "は marks the topic. が marks subject (different nuance). を is object marker."
+                    },
+                    {
+                        type: "sentence-building",
+                        question: "Build: [I] [topic] [teacher] [copula]",
+                        answer: "わたしは先生です。",
+                        explanation: "Topic は Noun です is the fundamental pattern."
+                    }
+                ]
+            },
+            {
+                id: "L1-2",
+                jp: "〜は〜ではありません",
+                en: "A is NOT B (Negative Copula)",
+                detail: `THE POLITE NEGATIVE FORM
+
+This pattern denies that A equals B. It is the negative counterpart of 〜は〜です。
+
+ETYMOLOGICAL BREAKDOWN:
+ではありません comes from classical Japanese:
+• で: The continuative form of the copula だ (from classical にて)
+• は: Contrastive particle (same は, pronounced 'wa')  
+• あり: Stem of ある (to exist/be)
+• ません: Polite negative suffix
+
+Literally: "As for being [X], it does not exist" → "It is not [X]"
+
+VARIATIONS BY FORMALITY LEVEL:
+Most Formal:     〜ではございません (honorific, rarely used by learners)
+Standard Polite: 〜ではありません (textbook standard)
+Colloquial Polite: 〜じゃありません (contracted では→じゃ)
+Casual Written:  〜ではない (plain form)
+Casual Spoken:   〜じゃない (most common in conversation)
+Very Casual:     〜じゃねえ (rough, masculine)
+
+WHEN TO USE EACH:
+• ではありません: Job interviews, formal speeches, business emails
+• じゃありません: Everyday polite conversation, slightly softer
+• じゃないです: Mix of casual (じゃない) and polite (です), very common
+• じゃない: With friends and family
+
+USAGE PATTERNS:
+1. CORRECTION: "いいえ、わたしは先生ではありません。学生です。" (No, I'm not a teacher. I'm a student.)
+2. CONTRAST: "これは本ではありません。ノートです。" (This isn't a book. It's a notebook.)
+3. HUMBLE DENIAL: "いいえ、まだまだです。上手ではありません。" (No, I still have far to go. I'm not skilled.)
+4. FACTUAL NEGATION: "今日は休みではありません。" (Today is not a holiday.)
+
+TENSE EXTENSION:
+• Present Negative: 〜ではありません (is not)
+• Past Negative: 〜ではありませんでした (was not)
+
+COMMON MISTAKE ALERT:
+❌ わたしは学生じゃありませんです (double です)
+✓ わたしは学生じゃありません (correct)
+
+CULTURAL NOTE:
+Japanese often softens direct negation. Instead of "それはちがいます" (That's wrong), people might say "それはちょっと..." (That's a bit...). Direct negation, while grammatically correct, can feel confrontational.`,
+                examples: [
+                    { jp: "わたしはおいしゃさんではありません。", en: "I am not a doctor." },
+                    { jp: "これはわたしのかさではありません。", en: "This is not my umbrella." },
+                    { jp: "あのたてものはとしょかんではありません。", en: "That building is not a library." },
+                    { jp: "かれは日本人ではありません。", en: "He is not Japanese." },
+                    { jp: "今日は休みの日ではありません。", en: "Today is not a holiday." },
+                    { jp: "わたしは学生じゃありません。", en: "I'm not a student. (contracted)" },
+                    { jp: "それは正かくではありませんでした。", en: "That was not correct. (past negative)" },
+                    { jp: "いいえ、上手じゃないです。", en: "No, I'm not good at it. (colloquial polite)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "たなかさんは先生 (________)。(is not a teacher)",
+                        answer: "ではありません",
+                        explanation: "The polite negative form of です is ではありません."
+                    },
+                    {
+                        type: "translate",
+                        question: "I am not Japanese.",
+                        answer: "わたしは日本人ではありません。",
+                        explanation: "日本人 + ではありません. Can also say 日本人じゃありません."
+                    },
+                    {
+                        type: "conversion",
+                        question: "Convert to negative: これはわたしの本です。",
+                        answer: "これはわたしの本ではありません。",
+                        explanation: "Replace です with ではありません for polite negative."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which is the MOST CASUAL negative form?",
+                        options: ["ではありません", "じゃありません", "じゃない", "ではない"],
+                        answer: "じゃない",
+                        explanation: "じゃない is the casual spoken form. ではない is written casual."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "かれは学生ではありませんです。",
+                        answer: "かれは学生ではありません。",
+                        explanation: "Remove です after ではありません. Double copula is incorrect."
+                    }
+                ]
+            },
+            {
+                id: "L1-3",
+                jp: "〜は〜ですか",
+                en: "Is A B? (Interrogative)",
+                detail: `FORMING YES/NO QUESTIONS
+
+Simply add the particle か to the END of a statement to form a question. No word order change is needed.
+
+STRUCTURE: [Statement] + か
+
+WHY THIS IS DIFFERENT FROM ENGLISH:
+English uses SUBJECT-AUXILIARY INVERSION: "He is a student" → "Is he a student?"
+Japanese just adds か: "かれは学生です" → "かれは学生ですか。"
+
+THE PARTICLE か:
+• Functions purely as a QUESTION MARKER
+• Does NOT translate to any English word
+• Written at the end of the sentence
+• In formal writing, NO question mark (？) is needed
+• In informal writing, ？ is often added for clarity
+• In speech, intonation typically RISES then FALLS (different from English)
+
+ANSWER PATTERNS:
+AFFIRMATIVE: はい、[topic] は [predicate] です。
+NEGATIVE: いいえ、[topic] は [predicate] ではありません。
+
+TOPIC DROPPING IN ANSWERS:
+When the topic is clear from context, it is usually omitted:
+Q: 学生ですか。 (Are you a student?)
+A: はい、学生です。 (Yes, I am.) — わたしは is dropped
+
+INFORMATION QUESTIONS (WH-QUESTIONS):
+To ask WHO, WHAT, WHERE, etc., replace the unknown information with a question word:
+• 何 (なに/なん): What
+• だれ: Who (neutral)
+• どなた: Who (polite)
+• どこ: Where
+• いつ: When
+• いくら: How much
+• どちら: Which direction / Which one (polite)
+
+POLITENESS LEVELS IN QUESTIONS:
+• ですか: Standard polite
+• でしょうか: More polite/formal, shows hesitation
+• ですか？(with rising tone): Casual polite
+
+CULTURAL NOTE:
+When answering negative questions, Japanese responds logically, not like English:
+Q: 学生じゃありませんか。(Aren't you a student?)
+A: はい、学生じゃありません。(Yes, I am NOT a student. = Correct, I'm not)
+   OR
+A: いいえ、学生です。(No, I AM a student. = Incorrect, I am)
+
+This differs from English where "Yes, I am" and "No, I'm not" follow different logic.`,
+                examples: [
+                    { jp: "おしごとは何ですか。", en: "What is your occupation?" },
+                    { jp: "それはあなたのかばんですか。", en: "Is that your bag?" },
+                    { jp: "あの人はどなたですか。", en: "Who is that person? (polite)" },
+                    { jp: "今日は月よう日ですか。", en: "Is today Monday?" },
+                    { jp: "これはいくらですか。", en: "How much is this?" },
+                    { jp: "お国はどちらですか。", en: "Which country are you from? (polite)" },
+                    { jp: "失礼ですが、どちらさまですか。", en: "Excuse me, who might you be? (very polite)" },
+                    { jp: "たなかさんですか。", en: "Are you Mr./Ms. Tanaka? (casual question, rising tone)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "あなたはがくせい (__)。(question)",
+                        answer: "ですか",
+                        explanation: "Add です + か to form the polite question."
+                    },
+                    {
+                        type: "translate",
+                        question: "Is this your book?",
+                        answer: "これはあなたの本ですか。",
+                        explanation: "これ + あなたの本 + ですか. の shows possession."
+                    },
+                    {
+                        type: "response",
+                        question: "Answer negatively: あなたは日本人ですか。(You are NOT Japanese)",
+                        answer: "いいえ、日本人ではありません。",
+                        explanation: "いいえ for no, then use the negative form of the copula."
+                    },
+                    {
+                        type: "conversion",
+                        question: "Turn into a question: これはペンです。",
+                        answer: "これはペンですか。",
+                        explanation: "Simply add か after です to form a question."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which question word means 'who' (polite)?",
+                        options: ["何", "どこ", "どなた", "いくら"],
+                        answer: "どなた",
+                        explanation: "どなた is the polite form of だれ (who)."
+                    }
+                ]
+            },
+            {
+                id: "L1-4",
+                jp: "の (所有・連体助詞)",
+                en: "Possessive / Associative / Modifying Particle",
+                detail: `THE MULTI-PURPOSE CONNECTOR
+
+The particle の links two nouns where the first noun modifies or possesses the second. Think of it as a relational glue.
+
+CORE STRUCTURE: [Noun A] の [Noun B]
+→ "Noun B of Noun A" or "Noun A's Noun B"
+
+TEN DISTINCT FUNCTIONS OF の:
+
+1. POSSESSION (owner-owned):
+   わたしの本 = my book (the book belonging to me)
+   田中さんのかさ = Tanaka's umbrella
+
+2. AFFILIATION (organization-member):
+   大学の学生 = university student
+   ソニーの社いん = Sony employee
+
+3. LOCATION (place where something exists):
+   とうきょうのホテル = hotel in Tokyo
+   二かいのへや = room on the second floor
+
+4. TIME (time when something occurs):
+   明日のパーティー = tomorrow's party
+   三時の電車 = the 3 o'clock train
+
+5. TYPE/CATEGORY (what kind):
+   日本語のじしょ = Japanese (language) dictionary
+   りょ行の本 = travel book
+
+6. CREATOR/ORIGIN (who made it, where it's from):
+   ゴッホの絵 = a painting by Van Gogh
+   フランスのワイン = French wine
+
+7. MATERIAL (what it's made of):
+   木のいす = wooden chair
+   かみのふくろ = paper bag
+
+8. CONTENT (what it contains):
+   コーヒーの本 = book about coffee
+   数学のじゅぎょう = math class
+
+9. PURPOSE (what it's for):
+   つりのどうぐ = fishing gear
+   パーティーのようい = party preparations
+
+10. DIMENSION/QUANTITY:
+    三つのりんご = three apples
+    多くの人 = many people
+
+の AS A PRONOUN (Nominalizer):
+When the main noun is clear from context, it can be dropped, leaving の to function like a pronoun:
+Q: これはだれのかばんですか。(Whose bag is this?)
+A: わたしのです。(It's mine.) — かばん is omitted
+
+CHAINING の:
+Multiple の can be used in sequence:
+わたしのともだちのお母さんの車 = my friend's mother's car
+
+CONTRAST WITH ENGLISH:
+English allows both "Tokyo hotel" and "hotel in Tokyo"
+Japanese ONLY allows: とうきょうのホテル (Tokyo's hotel / hotel of Tokyo)
+The modifier ALWAYS comes before the modified with の in between.
+
+COMMON MISTAKES:
+❌ わたし本 (missing の)
+✓ わたしの本
+❌ Using の with adjectives: 高いの本 ❌ (should be 高い本 — i-adjectives modify directly)
+❌ Using の with verbs directly: 見るのテレビ ❌ (should use relative clause: 見るテレビ or 見るためのテレビ)`,
+                examples: [
+                    { jp: "これはわたしの車です。", en: "This is my car." },
+                    { jp: "かのじょは大学のきょうじゅです。", en: "She is a university professor." },
+                    { jp: "それはだれのコートですか。", en: "Whose coat is that?" },
+                    { jp: "これは日本のカメラです。", en: "This is a Japanese camera." },
+                    { jp: "つくえの上にねこがいます。", en: "There is a cat on the desk." },
+                    { jp: "英語の先生のじしょをかりました。", en: "I borrowed the English teacher's dictionary." },
+                    { jp: "これは母の手作りです。", en: "This is handmade by my mother." },
+                    { jp: "大きいのはいくらですか。", en: "How much is the big one? (の as pronoun)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "これ (__) たなかさん (__) かさです。",
+                        answer: "は、の",
+                        explanation: "は (topic) and の (possessive: Tanaka's umbrella)"
+                    },
+                    {
+                        type: "reorder",
+                        question: "Arrange: の / 本 / わたし / です / は / これ",
+                        answer: "これはわたしの本です。",
+                        explanation: "これ (topic) + は + わたしの (my) + 本 (book) + です."
+                    },
+                    {
+                        type: "translate",
+                        question: "This is my friend's car.",
+                        answer: "これはわたしのともだちの車です。",
+                        explanation: "Chain の: わたしのともだち (my friend) + の + 車 (car)."
+                    },
+                    {
+                        type: "combine",
+                        question: "Combine using の: わたし + ともだち + お父さん",
+                        answer: "わたしのともだちのお父さん",
+                        explanation: "Chain の to show nested relationships: my friend's father."
+                    },
+                    {
+                        type: "question-answer",
+                        question: "Q: これはだれのペンですか。 A: (It's mine.)",
+                        answer: "わたしのです。",
+                        explanation: "の acts as pronoun. わたしの = mine. The noun ペン is omitted."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "conversation-completion",
+                situation: "You meet someone for the first time. Complete the dialogue:",
+                dialogue: [
+                    { speaker: "A", text: "はじめまして。わたしは田中です。" },
+                    { speaker: "B", text: "______。(I am [Your Name].)" },
+                    { speaker: "A", text: "おしごとは何ですか。" },
+                    { speaker: "B", text: "______。(I am a student.)" },
+                    { speaker: "A", text: "そうですか。わたしはかいしゃいんです。" }
+                ],
+                answers: ["わたしは[Name]です。", "学生です。"],
+                explanation: "First blank: self-introduction. Second blank: profession/role statement."
+            },
+            {
+                type: "translation-roundup",
+                instructions: "Translate all sentences to Japanese:",
+                sentences: [
+                    { en: "I am a teacher.", jp: "わたしは先生です。" },
+                    { en: "This is not my bag.", jp: "これはわたしのかばんではありません。" },
+                    { en: "Is that a dictionary?", jp: "それはじしょですか。" },
+                    { en: "Whose pen is this?", jp: "これはだれのペンですか。" },
+                    { en: "It's mine.", jp: "わたしのです。" }
+                ]
+            }
+        ],
+        vocabularyFocus: [
+            "わたし (I)", "あなた (you)", "かれ (he)", "かのじょ (she)",
+            "〜人 (person of ~ nationality)", "先生 (teacher)", "学生 (student)",
+            "かいしゃいん (company employee)", "おいしゃさん (doctor)",
+            "これ/それ/あれ (this/that/that over there)"
+        ],
+        kanjiIntroduced: ["日", "本", "人", "先", "生", "学", "大", "小", "中", "山", "川", "田"],
+        studyTips: [
+            "Practice the は/wa distinction until it becomes automatic",
+            "Memorize the pattern: Topic は Noun です as one chunk",
+            "Record yourself doing self-introductions and listen back",
+            "Practice with real objects: point at things and say これは〜です",
+            "Learn the negative ではありません as a set phrase, then learn じゃない as casual variant"
+        ],
+        commonMistakes: [
+            {
+                mistake: "Pronouncing particle は as 'ha'",
+                correction: "Always pronounce particle は as 'wa'"
+            },
+            {
+                mistake: "Saying わたしはがくせい (without です)",
+                correction: "Add です for politeness: わたしはがくせいです"
+            },
+            {
+                mistake: "Using だれ instead of どなた in formal situations",
+                correction: "Use どなた for polite 'who' questions"
+            }
+        ]
+    },
+
+    // ========================================================================
+    // LESSON 2: これは何ですか
+    // ========================================================================
+    {
+        lesson: 2,
+        title: "これは何ですか",
+        theme: "指示詞 (これ/それ/あれ), 名詞修飾のの",
+        overview: "Learn the ko-so-a-do system for referring to objects based on distance from speaker and listener. Master demonstrative pronouns vs. adjectives, and expand noun modification with の.",
+        points: [
+            {
+                id: "L2-1",
+                jp: "これ・それ・あれ",
+                en: "This / That / That over there (Demonstrative PRONOUNS)",
+                detail: `THE KO-SO-A-DO SYSTEM (PRONOUNS)
+
+These are demonstrative PRONOUNS — they STAND ALONE and replace entire nouns. They refer to objects without naming them.
+
+THE COMPLETE PRONOUN SYSTEM:
+Prefix: こ (ko) → Pronoun: これ → Refers to: Thing near SPEAKER
+Prefix: そ (so) → Pronoun: それ → Refers to: Thing near LISTENER
+Prefix: あ (a) → Pronoun: あれ → Refers to: Thing far from BOTH
+Prefix: ど (do) → Pronoun: どれ → Refers to: Which thing? (question)
+
+DISTANCE RULES IN DETAIL:
+• これ: Within speaker's territory. Objects the speaker is holding, touching, or that are closer to the speaker than the listener.
+• それ: Within listener's territory. Objects near the listener, or that the listener is holding. Also used for something the speaker just mentioned (like "that" referring to previous statement).
+• あれ: Outside both territories. Objects visible but distant from both parties.
+• どれ: Question word for choosing from three or more items.
+
+PRONOUN vs ADJECTIVE DISTINCTION:
+これ is a PRONOUN (replaces a noun):
+✓ これは本です。(This is a book.)
+❌ これ本です。(Cannot directly modify a noun)
+
+この is an ADJECTIVE (must be followed by noun):
+✓ この本はおもしろいです。(This book is interesting.)
+❌ このはおもしろいです。(Cannot stand alone)
+
+THE PERSPECTIVE SHIFT IN ANSWERS:
+When Person A asks about something near them using これ, Person B answers using それ:
+A: これは何ですか。(What is this? — near A)
+B: それは本です。(That is a book. — near B from B's perspective)
+
+This shift reflects Japanese spatial awareness — the object's position relative to the SPEAKER always determines the word choice.
+
+BEYOND PHYSICAL OBJECTS:
+これ/それ/あれ can refer to ABSTRACT concepts:
+• それはいいかんがえです。(That's a good idea. — referring to what was just said)
+• あれはむずかしいもんだいだった。(That was a difficult problem. — shared past experience)
+
+CULTURAL NOTE:
+The ko-so-a-do system extends to Japanese concepts of IN-GROUP (うち) and OUT-GROUP (そと). こ-words often relate to the speaker's in-group, そ-words to the listener's group, and あ-words to things distant from both. This spatial metaphor permeates Japanese social thinking.`,
+                examples: [
+                    { jp: "これはわたしのけいたい電話です。", en: "This is my cell phone. (near speaker)" },
+                    { jp: "それはあなたのかぎですか。", en: "Is that your key? (near listener)" },
+                    { jp: "あれはとうきょうタワーです。", en: "That over there is Tokyo Tower. (far from both)" },
+                    { jp: "これは何ですか。", en: "What is this?" },
+                    { jp: "それ、かしてください。", en: "Please lend me that. (near listener)" },
+                    { jp: "どれがあなたのかばんですか。", en: "Which one is your bag? (among choices)" },
+                    { jp: "それはいいですね。", en: "That's nice, isn't it. (referring to idea mentioned)" },
+                    { jp: "あれ、見えますか。", en: "Can you see that over there?" }
+                ],
+                exercises: [
+                    {
+                        type: "multiple-choice",
+                        question: "A book is near the listener but far from the speaker. Which word should the speaker use?",
+                        options: ["これ", "それ", "あれ", "どれ"],
+                        answer: "それ",
+                        explanation: "それ is for objects in the listener's territory."
+                    },
+                    {
+                        type: "fill-in",
+                        question: "(____) は何ですか。(Pointing at something far from both people)",
+                        answer: "あれ",
+                        explanation: "あれ for objects distant from both speaker and listener."
+                    },
+                    {
+                        type: "translate",
+                        question: "Which one is Tanaka-san's?",
+                        answer: "どれがたなかさんのですか。",
+                        explanation: "どれ (which one) + が + たなかさんの (Tanaka's thing) + ですか."
+                    },
+                    {
+                        type: "conversation-completion",
+                        question: "A: それは何ですか。 B: (____) は本です。(Responding about the object)",
+                        answer: "これ",
+                        explanation: "From B's perspective, the object near B is これ, even though A said それ."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "あれ本はおもしろいです。",
+                        answer: "あの本はおもしろいです。",
+                        explanation: "あれ is a pronoun, cannot directly modify 本. Use あの (adjective)."
+                    }
+                ]
+            },
+            {
+                id: "L2-2",
+                jp: "この〜・その〜・あの〜",
+                en: "This ~ / That ~ / That ~ over there (Demonstrative ADJECTIVES)",
+                detail: `THE KO-SO-A-DO SYSTEM (ADJECTIVES)
+
+These are demonstrative ADJECTIVES — they MUST be followed by a noun. They modify nouns by specifying which one based on distance.
+
+THE COMPLETE ADJECTIVE SYSTEM:
+Prefix: こ (ko) → Adjective: この + N → Meaning: This N (near speaker)
+Prefix: そ (so) → Adjective: その + N → Meaning: That N (near listener)
+Prefix: あ (a) → Adjective: あの + N → Meaning: That N (far from both)
+Prefix: ど (do) → Adjective: どの + N → Meaning: Which N? (question)
+
+CRITICAL RULE: These words CANNOT STAND ALONE.
+✓ この本 (this book) — correct
+❌ このは本 (broken) — この needs a noun after it
+
+CONTRAST WITH PRONOUNS:
+Type: Pronoun → Japanese: これは本です → English: This is a book.
+Type: Adjective → Japanese: この本は高いです → English: This book is...
+
+PHYSICAL USAGE EXAMPLES:
+• このペン = this pen (in speaker's hand)
+• そのペン = that pen (in listener's hand)
+• あのペン = that pen over there (on the table across the room)
+
+PSYCHOLOGICAL & ABSTRACT USAGE:
+あの has a special function for SHARED KNOWLEDGE or shared memories:
+• あの人 = that person (both speaker and listener know about)
+• あの日 = that day (a significant day both remember)
+• あの時 = that time (a shared past experience)
+
+その can refer to something just mentioned in conversation:
+A: きのう、新しいレストランに行きました。(Yesterday I went to a new restaurant.)
+B: そのレストランはどうでしたか。(How was that restaurant?)
+
+どの for selection from a group:
+• どの色が好きですか。(Which color do you like?)
+• どのえいがを見ますか。(Which movie will we watch?)
+
+IMPORTANT DISTINCTION FROM ENGLISH:
+English "that" can function as both pronoun and adjective:
+• That is a book. (pronoun → それは本です)
+• That book is good. (adjective → その本はいいです)
+
+Japanese has DIFFERENT WORDS for these functions. Never confuse それ (pronoun) and その (adjective).`,
+                examples: [
+                    { jp: "この本はとてもおもしろいです。", en: "This book is very interesting." },
+                    { jp: "そのかばんは重いですか。", en: "Is that bag (near you) heavy?" },
+                    { jp: "あの山はふじ山ですか。", en: "Is that mountain over there Mt. Fuji?" },
+                    { jp: "このカメラはだれのですか。", en: "Whose camera is this?" },
+                    { jp: "あの人を知っていますか。", en: "Do you know that person? (shared knowledge)" },
+                    { jp: "どのえいがを見たいですか。", en: "Which movie do you want to watch?" },
+                    { jp: "あの時は楽しかったですね。", en: "That time was fun, wasn't it." },
+                    { jp: "その話、もっと聞かせてください。", en: "Please tell me more about that story." }
+                ],
+                exercises: [
+                    {
+                        type: "error-correction",
+                        question: "これ本はおもしろいです。",
+                        answer: "この本はおもしろいです。",
+                        explanation: "これ is a pronoun. Use この (adjective) to modify 本."
+                    },
+                    {
+                        type: "translate",
+                        question: "That bag (near you) is heavy.",
+                        answer: "そのかばんは重いです。",
+                        explanation: "その for listener's territory, かばん (bag), 重い (heavy)."
+                    },
+                    {
+                        type: "fill-in",
+                        question: "(____) えんぴつをください。(This pencil — speaker is holding it)",
+                        answer: "この",
+                        explanation: "この for objects near the speaker. Must be followed by noun."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which is correct?",
+                        options: ["これ本", "この本", "これの本", "このは本"],
+                        answer: "この本",
+                        explanation: "この must directly precede the noun without any particle."
+                    },
+                    {
+                        type: "context",
+                        question: "A friend mentions a restaurant. You want to ask about IT. Which word?",
+                        answer: "そのレストラン",
+                        explanation: "その refers to something just mentioned in conversation."
+                    }
+                ]
+            },
+            {
+                id: "L2-3",
+                jp: "〜の〜 (名詞修飾)",
+                en: "Comprehensive Noun Modification with の",
+                detail: `EXPANDING の BEYOND POSSESSION
+
+Building on Lesson 1's possessive の, this section explores the full range of noun modification using の. Understanding this deeply will dramatically improve your Japanese expression.
+
+STRUCTURE: [Modifying Noun] の [Head Noun]
+The modifying noun specifies a PROPERTY, ORIGIN, or TYPE of the head noun.
+
+CATEGORIES OF の MODIFICATION (Extended):
+
+1. POSSESSION (owner → owned):
+   田中さんのかばん (Tanaka's bag)
+   ねこの名前 (the cat's name)
+
+2. AFFILIATION (organization → member):
+   ABCかいしゃのしゃちょう (president of ABC company)
+   東大の学生 (University of Tokyo student)
+
+3. LOCATION (place → thing located there):
+   にほんの食べ物 (Japanese food)
+   つくえの上の本 (book on the desk)
+   こうえんのベンチ (park bench)
+
+4. TIME (time → event):
+   来しゅうのしけん (next week's exam)
+   四がつの花 (April flowers)
+
+5. MATERIAL (substance → object):
+   木のはし (wooden chopsticks)
+   金のゆびわ (gold ring)
+
+6. CONTENT/TYPE (category → item):
+   日本語のきょうかしょ (Japanese textbook)
+   りょうりの本 (cookbook)
+
+7. PURPOSE (use → item):
+   りょ行のじゅんび (travel preparations)
+   しけんのべんきょう (exam study)
+
+8. CREATOR (maker → creation):
+   にほんの車 (Japanese car)
+   モーツァルトのおんがく (Mozart's music)
+
+THE PRONOMINAL の:
+When the head noun is clear from context, drop it and の becomes a pronoun:
+Q: これはだれのスマホですか。
+A: たなかさんのです。(Tanaka's — スマホ omitted)
+
+これは高いのですか。(Is this the expensive one? — の replaces the noun)
+小さいのをください。(Please give me the small one.)
+
+CHAINING の:
+Multiple の can connect in sequence:
+わたしの友だちのお姉さんの子ども
+→ My friend's older sister's child
+
+The meaning builds from left to right. Each の connects adjacent nouns.
+
+CONTRAST WITH ENGLISH COMPOUND NOUNS:
+English: "Tokyo University student"
+Japanese: 東京大学の学生 (Tokyo University の student)
+
+English can stack nouns without connectors. Japanese REQUIRES の between nouns that modify each other.
+
+ORDERING PRINCIPLES:
+The modifier always comes BEFORE the modified:
+[What kind / Whose / Where / When] の [Main Thing]
+
+COMMON PITFALLS:
+❌ Using の with adjectives: 赤いの花 ❌ (should be 赤い花 — i-adjectives modify directly)
+❌ Using の with verbs directly: 見るのテレビ ❌ (should use relative clause: 見るテレビ or 見るためのテレビ)`,
+                examples: [
+                    { jp: "それはすずきさんのかさです。", en: "That is Mr. Suzuki's umbrella." },
+                    { jp: "これはかわのさいふです。", en: "This is a leather wallet." },
+                    { jp: "英語のじしょがほしいです。", en: "I want an English dictionary." },
+                    { jp: "つくえのひきだしの中にあります。", en: "It's inside the desk drawer." },
+                    { jp: "ともだちのお兄さんに会いました。", en: "I met a friend's older brother." },
+                    { jp: "おおさかのたこ焼きは有名です。", en: "Osaka's takoyaki is famous." },
+                    { jp: "大きいのはいくらですか。", en: "How much is the big one? (の as pronoun)" },
+                    { jp: "あしたのかいぎのじゅんびをします。", en: "I'll prepare for tomorrow's meeting." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "これ (__) わたし (__) かばんです。",
+                        answer: "は、の",
+                        explanation: "は (topic) and の (possession: my bag)."
+                    },
+                    {
+                        type: "translate",
+                        question: "This is a Japanese car.",
+                        answer: "これは日本の車です。",
+                        explanation: "日本 (Japan) + の + 車 (car) = Japanese car."
+                    },
+                    {
+                        type: "combine",
+                        question: "Combine: 田中さん + 車 + かぎ (key)",
+                        answer: "田中さんの車のかぎ",
+                        explanation: "Chain: 田中さんの車 (Tanaka's car) + の + かぎ (key)."
+                    },
+                    {
+                        type: "pronoun-practice",
+                        question: "Q: これはだれのペンですか。A: (It's mine — using の as pronoun)",
+                        answer: "わたしのです。",
+                        explanation: "わたしの replaces わたしのペン. The noun is dropped."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "あかいの花がきれいです。",
+                        answer: "あかい花がきれいです。",
+                        explanation: "I-adjectives modify nouns DIRECTLY without の."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "dialogue-completion",
+                situation: "At a store, pointing at items:",
+                dialogue: [
+                    { speaker: "Customer", text: "すみません、(1)____ はいくらですか。(Pointing at item near clerk)" },
+                    { speaker: "Clerk", text: "(2)____ は3000円です。" },
+                    { speaker: "Customer", text: "じゃあ、(3)____ をください。" },
+                    { speaker: "Customer", text: "(Pointing at distant item) (4)____ は何ですか。" },
+                    { speaker: "Clerk", text: "(5)____ はにんぎょうです。" }
+                ],
+                answers: ["それ", "これ", "それ", "あれ", "あれ"],
+                explanation: "Items near clerk are それ/これ depending on perspective. Distant items are あれ."
+            },
+            {
+                type: "describe-the-room",
+                instruction: "Describe objects in a room using この/その/あの and の for possession:",
+                items: [
+                    "A book near you (speaker)",
+                    "A bag near your friend",
+                    "A painting on the wall far from both",
+                    "Your friend's phone (near friend)"
+                ],
+                sampleAnswers: [
+                    "この本はわたしのです。",
+                    "そのかばんは友だちのです。",
+                    "あの絵はきれいです。",
+                    "そのけいたいは友だちのです。"
+                ]
+            }
+        ],
+        vocabularyFocus: [
+            "これ/それ/あれ/どれ (pronouns)", "この/その/あの/どの (adjectives)",
+            "本 (book)", "じしょ (dictionary)", "ざっし (magazine)", "新聞 (newspaper)",
+            "かばん (bag)", "かさ (umbrella)", "けいたい電話 (cell phone)",
+            "何 (what)", "だれ (who)", "いくら (how much)"
+        ],
+        kanjiIntroduced: ["何", "本", "語", "車", "電", "話", "聞", "読", "書", "食"],
+        studyTips: [
+            "Practice the ko-so-a-do system with physical objects around you RIGHT NOW",
+            "Draw a diagram: speaker area (こ), listener area (そ), far area (あ)",
+            "Remember: これ/それ/あれ stand alone; この/その/あの must have a noun",
+            "Chain の: practice describing relationships (my friend's father's company, etc.)",
+            "Watch Japanese drama/anime and listen for これ/それ/あれ usage"
+        ],
+        commonMistakes: [
+            {
+                mistake: "これ本 (using pronoun as adjective)",
+                correction: "この本 (use adjective form with noun)"
+            },
+            {
+                mistake: "Using あの for something near the listener",
+                correction: "Use その for listener's territory"
+            },
+            {
+                mistake: "Forgetting to use の between two nouns in modification",
+                correction: "Always insert の: [Noun A] の [Noun B]"
+            }
+        ]
+    },
+
+    // ========================================================================
+    // LESSON 3: ここはゆうびんきょくです
+    // ========================================================================
+    {
+        lesson: 3,
+        title: "ここはゆうびんきょくです",
+        theme: "場所の言葉 (ここ/そこ/あそこ), 存在 (あります/います), 助詞も",
+        overview: "Learn to describe locations and express the existence of people and things.",
+        points: [
+            {
+                id: "L3-1",
+                jp: "ここ・そこ・あそこ",
+                en: "Here / There / Over there (Place Pronouns)",
+                detail: `LOCATION PRONOUNS in the KO-SO-A-DO system:
+• ここ = here (speaker's location)
+• そこ = there (listener's location)  
+• あそこ = over there (far from both)
+• どこ = where (question)
+
+These follow the SAME distance logic as これ/それ/あれ.
+They are NOUNS (名詞) referring to places.
+Often used with に (location particle): ここにあります (it's here).
+Polite direction forms: こちら/そちら/あちら/どちら (more formal, also mean "this way/that way").`,
+                examples: [
+                    { jp: "ここはわたしのせきです。", en: "Here is my seat." },
+                    { jp: "トイレはどこですか。", en: "Where is the restroom?" },
+                    { jp: "そこに立ってください。", en: "Please stand there." },
+                    { jp: "あそこに銀行があります。", en: "There's a bank over there." },
+                    { jp: "出口はこちらです。", en: "The exit is this way. (polite)" },
+                    { jp: "ここはとしょかんです。", en: "This place is the library." },
+                    { jp: "すみません、駅はどこですか。", en: "Excuse me, where is the station?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "(____) はゆうびんきょくです。(Pointing at a map — far from both)",
+                        answer: "あそこ",
+                        explanation: "あそこ for locations far from both speaker and listener."
+                    },
+                    {
+                        type: "translate",
+                        question: "Where is the station?",
+                        answer: "駅はどこですか。",
+                        explanation: "駅 (station) + は + どこ (where) + ですか."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Polite version of ここ?",
+                        options: ["これ", "この", "こちら", "こんな"],
+                        answer: "こちら",
+                        explanation: "こちら is the polite form of ここ, meaning 'here' or 'this way'."
+                    }
+                ]
+            },
+            {
+                id: "L3-2",
+                jp: "〜がいます・あります",
+                en: "There is ~ (Animate / Inanimate Existence)",
+                detail: `EXISTENCE VERBS — one of Japanese's most distinctive features:
+
+• あります = exists (inanimate objects, plants, concepts)
+• います = exists (animate beings: people, animals, insects)
+
+This is a FUNDAMENTAL distinction with NO English equivalent.
+
+STRUCTURE:
+[Location] に [Thing] が あります/います
+→ "There is [Thing] at [Location]"
+
+[Thing] は [Location] に あります/います
+→ "As for [Thing], it's at [Location]"
+
+SUBJECT MARKER が:
+The existing thing is marked by が (subject particle), NOT は.
+が introduces NEW information or answers "what exists?"
+は marks the TOPIC (what we're talking about)
+
+ANIMATE vs INANIMATE BOUNDARY:
+• People: います
+• Animals & insects: います
+• Fish (alive): います / Fish (food): あります
+• Plants: あります (they don't move!)
+• Robots/AI: depends — if treated as sentient, います
+• Ghosts/spirits: います (considered sentient)
+• Bacteria/viruses: usually います
+
+NEGATIVE:
+• ありません (inanimate doesn't exist)
+• いません (animate doesn't exist)`,
+                examples: [
+                    { jp: "こうえんに子どもたちがいます。", en: "There are children in the park." },
+                    { jp: "つくえの上に本があります。", en: "There is a book on the desk." },
+                    { jp: "へやにだれがいますか。", en: "Who is in the room?" },
+                    { jp: "れいぞうこに何がありますか。", en: "What's in the refrigerator?" },
+                    { jp: "にわにさくらの木があります。", en: "There's a cherry tree in the garden." },
+                    { jp: "きょうしつに学生がたくさんいます。", en: "There are many students in the classroom." },
+                    { jp: "ここには何もありません。", en: "There's nothing here." },
+                    { jp: "あそこにねこがいます。", en: "There's a cat over there." }
+                ],
+                exercises: [
+                    {
+                        type: "multiple-choice",
+                        question: "Which for a cat?",
+                        options: ["あります", "います", "です", "します"],
+                        answer: "います",
+                        explanation: "Cats are animate beings → います."
+                    },
+                    {
+                        type: "fill-in",
+                        question: "つくえの上に本 (__) あります。",
+                        answer: "が",
+                        explanation: "が marks the subject (the existing thing)."
+                    },
+                    {
+                        type: "translate",
+                        question: "There is a dog in the park.",
+                        answer: "こうえんに犬がいます。",
+                        explanation: "こうえん (park) + に (location) + 犬 (dog) + が + います (exists - animate)."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "へやに本がいます。",
+                        answer: "へやに本があります。",
+                        explanation: "本 (book) is inanimate → あります, not います."
+                    }
+                ]
+            },
+            {
+                id: "L3-3",
+                jp: "〜も",
+                en: "Also / Too (Inclusive Particle)",
+                detail: `The particle も means "also" or "too" — it shows that a statement applies to ANOTHER item similarly.
+
+USAGE:
+も REPLACES particles は, が, and を:
+• わたしは学生です。かれも学生です。(I'm a student. He's also a student.)
+• 本があります。ノートもあります。(There's a book. There's also a notebook.)
+
+も can COMBINE with other particles:
+• に + も = にも (also at/to ~)
+• で + も = でも (also at/by ~)
+• へ + も = へも (also toward ~)
+
+With NEGATIVES:
+も with negatives means "not even" or emphasizes complete absence:
+• だれもいません = No one is there (not even one person)
+• 何もありません = There's nothing (not even one thing)
+
+LISTING with も〜も:
+"Both A and B":
+• コーヒーもこう茶もあります = There's both coffee and tea.`,
+                examples: [
+                    { jp: "わたしも行きます。", en: "I'll go too." },
+                    { jp: "これもわたしのです。", en: "This is also mine." },
+                    { jp: "コーヒーもこう茶もあります。", en: "We have both coffee and tea." },
+                    { jp: "だれもいません。", en: "There's no one." },
+                    { jp: "かのじょも英語をべんきょうしています。", en: "She's also studying English." },
+                    { jp: "日本にも行きたいです。", en: "I want to go to Japan too." },
+                    { jp: "肉も魚も好きです。", en: "I like both meat and fish." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは学生です。たなかさん (__) 学生です。",
+                        answer: "も",
+                        explanation: "も replaces は to mean 'also'."
+                    },
+                    {
+                        type: "translate",
+                        question: "There is nothing.",
+                        answer: "何もありません。",
+                        explanation: "何 (what) + も + ありません (doesn't exist) = nothing."
+                    },
+                    {
+                        type: "combine",
+                        question: "Combine: わたしは行きます + かれは行きます",
+                        answer: "わたしもかれも行きます。",
+                        explanation: "Both subjects marked with も for 'both ~ and ~'."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "map-description",
+                instruction: "Describe locations on a simple map:",
+                locations: ["駅", "銀行", "ゆうびんきょく", "こうえん", "としょかん"],
+                sampleAnswer: "駅はここです。銀行はあそこにあります。こうえんにとしょかんがあります。"
+            }
+        ],
+        vocabularyFocus: [
+            "ここ/そこ/あそこ/どこ", "あります/います", "も",
+            "駅 (station)", "銀行 (bank)", "ゆうびんきょく (post office)",
+            "としょかん (library)", "こうえん (park)", "へや (room)"
+        ],
+        kanjiIntroduced: ["駅", "銀", "行", "園", "室", "所", "上", "下", "中", "外"],
+        studyTips: [
+            "Practice the あります/います distinction with everything you see",
+            "Use ここ/そこ/あそこ while walking around your home",
+            "Memorize も as the 'me too!' particle"
+        ],
+        commonMistakes: [
+            {
+                mistake: "Using あります for people/animals",
+                correction: "Use います for all living, moving beings"
+            },
+            {
+                mistake: "Using が instead of も when both items share a property",
+                correction: "も replaces が when meaning 'also'"
+            }
+        ]
+    },
+
+    // ========================================================================
+    // LESSON 4: 今、何時ですか
+    // ========================================================================
+    {
+        lesson: 4,
+        title: "今、何時ですか",
+        theme: "時間表現, 動詞ます形, 助詞から/まで/に",
+        overview: "Learn to tell time, express daily routines using polite verb forms, and use time particles to specify when actions occur and their duration.",
+        points: [
+            {
+                id: "L4-1",
+                jp: "今〜時〜分です",
+                en: "Telling Time (It is ~ o'clock ~ minutes)",
+                detail: `TIME EXPRESSION STRUCTURE:
+今 (now) + [Hour]時 + [Minute]分 + です
+
+HOURS (〜時 - じ):
+1時 (いちじ), 2時 (にじ), 3時 (さんじ), 4時 (よじ)*, 5時 (ごじ), 6時 (ろくじ),
+7時 (しちじ/ななじ), 8時 (はちじ), 9時 (くじ)*, 10時 (じゅうじ), 11時 (じゅういちじ),
+12時 (じゅうにじ), 何時 (なんじ - what time)
+*Irregular readings: 4時 is よじ (not よんじ or しじ), 9時 is くじ (not きゅうじ)
+
+MINUTES (〜分 - ふん/ぷん):
+The suffix changes pronunciation based on the number:
+• 1分 = いっぷん (not いちふん)
+• 3分 = さんぷん (not さんふん)
+• 6分 = ろっぷん
+• 8分 = はっぷん (or はちふん)
+• 10分 = じゅっぷん (or じっぷん)
+
+RULE: After 2, 5, 7, 9 → ふん
+After 1, 3, 4, 6, 8, 10 → ぷん
+
+HALF HOURS:
+• 半 (はん) = half
+• 1時半 = 1:30 (いちじはん)
+• No need to say 30分 when using 半
+
+AM/PM:
+• 午前 (ごぜん) = AM
+• 午後 (ごご) = PM
+• 午前8時 = 8 AM (before noon)
+• 午後3時 = 3 PM (after noon)
+
+APPROXIMATE TIME:
+• 〜ごろ = around/about ~ (time)
+• 3時ごろ = around 3 o'clock
+
+ASKING TIME:
+• 今、何時ですか = What time is it now?
+• 何時に = At what time?`,
+                examples: [
+                    { jp: "今は午前9時15分です。", en: "It is 9:15 AM now." },
+                    { jp: "かいぎは午後2時からです。", en: "The meeting is from 2 PM." },
+                    { jp: "今、何時ですか。", en: "What time is it now?" },
+                    { jp: "電車は11時半に出発します。", en: "The train departs at 11:30." },
+                    { jp: "今はちょうど12時です。", en: "It's exactly 12 o'clock now." },
+                    { jp: "8時45分です。", en: "It's 8:45." },
+                    { jp: "毎あさ6時ごろに起きます。", en: "I wake up around 6 every morning." }
+                ],
+                exercises: [
+                    {
+                        type: "translate",
+                        question: "It is 7:30.",
+                        answer: "7時半です。(しちじはんです)",
+                        explanation: "半 means half. 7時半 = 7:30."
+                    },
+                    {
+                        type: "fill-in",
+                        question: "今は午後 (__) 時です。(3 o'clock)",
+                        answer: "3",
+                        explanation: "3時 = さんじ. 午後 marks PM."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "What is 4 o'clock?",
+                        options: ["しじ", "よんじ", "よじ", "よっじ"],
+                        answer: "よじ",
+                        explanation: "4時 is irregular: よじ, not よんじ or しじ."
+                    },
+                    {
+                        type: "reading",
+                        question: "How do you read 9時?",
+                        answer: "くじ",
+                        explanation: "9時 is irregular: くじ, not きゅうじ."
+                    }
+                ]
+            },
+            {
+                id: "L4-2",
+                jp: "ます・ません",
+                en: "Polite Verb Forms (Non-Past Affirmative/Negative)",
+                detail: `THE MASU-FORM — your gateway to Japanese verbs.
+
+Japanese verbs in polite speech end in 〜ます (affirmative) or 〜ません (negative).
+This form is NON-PAST — used for present habits AND future actions.
+
+VERB GROUPS (preview):
+Group 1 (U-verbs / 五段): Change final -u to -i and add ます
+  書く (kaku) → 書きます (kakimasu)
+  読む (yomu) → 読みます (yomimasu)
+  話す (hanasu) → 話します (hanashimasu)
+
+Group 2 (Ru-verbs / 一段): Drop る and add ます
+  食べる (taberu) → 食べます (tabemasu)
+  見る (miru) → 見ます (mimasu)
+
+Group 3 (Irregular): 
+  する → します
+  来る (kuru) → 来ます (kimasu)
+
+USAGE:
+• PRESENT HABIT: 毎日コーヒーを飲みます (I drink coffee every day)
+• FUTURE: 明日、映画を見ます (I will watch a movie tomorrow)
+• POLITE STATEMENTS: Used with strangers, superiors, in business
+
+NEGATIVE: Replace ます with ません
+  飲みます → 飲みません (don't drink / won't drink)
+  食べます → 食べません (don't eat / won't eat)
+
+The ます form doesn't change for person (I/you/he/she/we/they all use same form).`,
+                examples: [
+                    { jp: "毎日コーヒーを飲みます。", en: "I drink coffee every day." },
+                    { jp: "明日は早く起きません。", en: "I won't wake up early tomorrow." },
+                    { jp: "日本語の新聞を読みますか。", en: "Do you read Japanese newspapers?" },
+                    { jp: "週末はいつも買い物をします。", en: "I always go shopping on weekends." },
+                    { jp: "すみません、タバコはすいません。", en: "Sorry, I don't smoke." },
+                    { jp: "毎ばん11時にねます。", en: "I go to sleep at 11 every night." },
+                    { jp: "あした、何をしますか。", en: "What will you do tomorrow?" },
+                    { jp: "日本語を勉強します。", en: "I study/will study Japanese." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "食べる → Polite affirmative",
+                        answer: "食べます",
+                        explanation: "Drop る, add ます for Group 2 verbs."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "行く → Polite negative",
+                        answer: "行きません",
+                        explanation: "Change く→き, add ません for negative."
+                    },
+                    {
+                        type: "translate",
+                        question: "I don't drink alcohol.",
+                        answer: "お酒を飲みません。",
+                        explanation: "お酒 (alcohol) + を + 飲みません (don't drink)."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Polite form of する?",
+                        options: ["すります", "します", "すます", "しります"],
+                        answer: "します",
+                        explanation: "する is irregular → します."
+                    }
+                ]
+            },
+            {
+                id: "L4-3",
+                jp: "〜から〜まで",
+                en: "From ~ to ~ (Time/Space Range)",
+                detail: `RANGE PARTICLES:
+• から = from (starting point)
+• まで = until/to (ending point)
+
+These can be used TOGETHER (から〜まで) or INDEPENDENTLY.
+
+WITH TIME:
+• 9時から = from 9 o'clock
+• 5時まで = until 5 o'clock
+• 9時から5時まで = from 9 to 5
+
+WITH PLACES:
+• 東京から = from Tokyo
+• 大阪まで = to/until Osaka
+• 東京から大阪まで = from Tokyo to Osaka
+
+WITH PEOPLE (giving/receiving):
+• 田中さんから = from Mr. Tanaka
+• Used with もらう (receive): 田中さんからもらいました
+
+TIME DURATION QUESTIONS:
+• 何時からですか = From what time?
+• 何時までですか = Until what time?
+• 〜から〜までどのくらいですか = How long from ~ to ~?
+
+IMPORTANT: Don't confuse this から with the reason から (because). 
+Context distinguishes them.`,
+                examples: [
+                    { jp: "会議は1時から3時までです。", en: "The meeting is from 1 to 3." },
+                    { jp: "家から駅まで歩いて10分です。", en: "It's a 10-minute walk from home to the station." },
+                    { jp: "夏休みは7月から8月までです。", en: "Summer vacation is from July to August." },
+                    { jp: "銀行は9時から開いています。", en: "The bank is open from 9." },
+                    { jp: "ここからそこまでどのくらいですか。", en: "How far is it from here to there?" },
+                    { jp: "仕事は月よう日から金よう日までです。", en: "Work is from Monday to Friday." },
+                    { jp: "何時まで勉強しますか。", en: "Until what time do you study?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かいぎは2時 (__) 4時 (__) です。",
+                        answer: "から、まで",
+                        explanation: "から marks start, まで marks end."
+                    },
+                    {
+                        type: "translate",
+                        question: "I work from 9 to 5.",
+                        answer: "9時から5時まで働きます。",
+                        explanation: "から (from) + まで (until), 働きます (work)."
+                    },
+                    {
+                        type: "question-answer",
+                        question: "Q: 何時から何時までですか。A: (from 10 to 6)",
+                        answer: "10時から6時までです。",
+                        explanation: "Repeat から〜まで structure in the answer."
+                    }
+                ]
+            },
+            {
+                id: "L4-4",
+                jp: "〜に (時間の助詞)",
+                en: "At (Specific Time Point)",
+                detail: `TIME PARTICLE に:
+Marks a SPECIFIC time point when an action occurs.
+
+USED WITH:
+• Specific clock times: 3時に (at 3 o'clock)
+• Days of the week: 月曜日に (on Monday)
+• Dates: 4月1日に (on April 1st)
+• Named holidays: クリスマスに (on Christmas)
+
+NOT USED WITH:
+• Relative time words: 今日 (today), 明日 (tomorrow), きのう (yesterday)
+  ❌ 明日に行きます
+  ✓ 明日行きます
+
+• General/regular times: 毎日 (every day), 毎週 (every week)
+  ❌ 毎日に
+  ✓ 毎日
+
+• Time words that aren't specific points: 今 (now), いつも (always)
+  ❌ 今に行きます
+  ✓ 今行きます
+
+WHY? に pins down a specific anchor point. Relative times already have this implicitly.
+
+QUESTION WORD:
+• 何時に = at what time
+• 何時に起きますか = What time do you wake up?`,
+                examples: [
+                    { jp: "毎朝6時に起きます。", en: "I get up at 6 every morning." },
+                    { jp: "来週の金曜日に試験があります。", en: "There's an exam next Friday." },
+                    { jp: "何時にねますか。", en: "What time do you go to sleep?" },
+                    { jp: "3月21日に日本に来ました。", en: "I came to Japan on March 21st." },
+                    { jp: "昼休みはいつも12時に休みます。", en: "I always take lunch break at 12." },
+                    { jp: "日曜日に友だちと会います。", en: "I'll meet a friend on Sunday." },
+                    { jp: "明日、病院に行きます。", en: "I'll go to the hospital tomorrow. (no に!)" },
+                    { jp: "毎日、日本語を勉強します。", en: "I study Japanese every day. (no に!)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは7時 (__) 起きます。",
+                        answer: "に",
+                        explanation: "に marks the specific time when the action occurs."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "明日に映画を見ます。",
+                        answer: "明日、映画を見ます。",
+                        explanation: "No に with relative time words like 明日."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which needs に?",
+                        options: ["今日", "毎日", "3時", "あした"],
+                        answer: "3時",
+                        explanation: "Specific clock times require に. Relative times do not."
+                    },
+                    {
+                        type: "translate",
+                        question: "I go to bed at 11 PM.",
+                        answer: "午後11時にねます。",
+                        explanation: "午後11時 + に + ねます (sleep/go to bed)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "daily-schedule",
+                instruction: "Write your daily schedule using time expressions:",
+                template: "わたしは___時に起きます。___時に朝ごはんを食べます。___から___まで勉強します。",
+                sampleAnswer: "わたしは7時に起きます。8時に朝ごはんを食べます。9時から5時まで働きます。"
+            }
+        ],
+        vocabularyFocus: [
+            "起きる (get up)", "ねる (sleep)", "食べる (eat)", "飲む (drink)",
+            "行く (go)", "来る (come)", "帰る (return)", "働く (work)",
+            "勉強する (study)", "時 (hour)", "分 (minute)", "半 (half)"
+        ],
+        kanjiIntroduced: ["時", "分", "半", "今", "午", "前", "後", "毎", "何", "来"],
+        studyTips: [
+            "Practice telling time in Japanese whenever you check the clock",
+            "Create flashcards for ます conjugations of common verbs",
+            "Pay attention to when native speakers drop に with time words",
+            "Listen for から and まで in announcements (train stations are great!)"
+        ],
+        commonMistakes: [
+            {
+                mistake: "Using に with 今日/明日/きのう",
+                correction: "These relative time words don't need に"
+            },
+            {
+                mistake: "4時 = しじ or よんじ",
+                correction: "4時 is よじ (irregular reading)"
+            }
+        ]
+    },
+
+    // ========================================================================
+    // LESSON 5: この電車は甲子園へ行きますか
+    // ========================================================================
+    {
+        lesson: 5,
+        title: "この電車は甲子園へ行きますか",
+        theme: "方向 (へ), 手段 (で), 一緒に (と), 目的語 (を)",
+        overview: "Learn to express movement toward destinations, means of transportation, doing things with others, and marking direct objects of actions.",
+        points: [
+            {
+                id: "L5-1",
+                jp: "〜へ行きます",
+                en: "Go to ~ (Direction Particle へ)",
+                detail: `DIRECTION PARTICLE へ:
+Written as へ but pronounced 'e' (like え) when used as a particle.
+Marks the DIRECTION or DESTINATION of movement.
+
+へ vs に for DESTINATION:
+• へ emphasizes the DIRECTION/PATH toward a destination
+• に emphasizes the specific FINAL DESTINATION
+• In practice, OFTEN INTERCHANGEABLE for destinations
+
+BUT there are cases where only one works:
+• への (modifying a noun): 東京への電車 = train TO Tokyo ✓
+  (にの is grammatically incorrect ❌)
+• In set phrases: 日本へようこそ (Welcome to Japan)
+• When direction is more important than arrival: 西へ向かう (head west)
+
+COMMON MOVEMENT VERBS:
+• 行きます = go
+• 来ます = come
+• 帰ります = return (go home/back)
+• 出かけます = go out
+• しゅっぱつします = depart
+
+POLITE DIRECTION WORDS:
+• こちら/そちら/あちら/どちら = this way/that way/that way over there/which way
+  These often replace ここへ/そこへ/あそこへ/どこへ in polite speech.`,
+                examples: [
+                    { jp: "夏休みに日本へ行きます。", en: "I'll go to Japan during summer vacation." },
+                    { jp: "明日、どこへ行きますか。", en: "Where are you going tomorrow?" },
+                    { jp: "かれはよく図書館へ行きます。", en: "He often goes to the library." },
+                    { jp: "来年、アメリカへ留学します。", en: "I'll study abroad in America next year." },
+                    { jp: "駅へはどうやって行きますか。", en: "How do you go to the station?" },
+                    { jp: "家へ帰ります。", en: "I'm going home." },
+                    { jp: "スーパーへ買い物に行きます。", en: "I'm going shopping at the supermarket." },
+                    { jp: "東京への切符を買いました。", en: "I bought a ticket to Tokyo. (への modifier)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "あした、どこ (__) 行きますか。",
+                        answer: "へ",
+                        explanation: "へ marks the destination/direction. Pronounced 'e'."
+                    },
+                    {
+                        type: "translate",
+                        question: "I will return home.",
+                        answer: "家へ帰ります。",
+                        explanation: "家 (home) + へ (direction) + 帰ります (return)."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Pronunciation of へ as particle?",
+                        options: ["he", "e", "ha", "wa"],
+                        answer: "e",
+                        explanation: "Particle へ is always pronounced 'e', same as え."
+                    }
+                ]
+            },
+            {
+                id: "L5-2",
+                jp: "〜で行きます",
+                en: "Go by ~ (Means of Transport)",
+                detail: `MEANS PARTICLE で:
+Attached to nouns indicating MEANS, METHOD, or INSTRUMENT.
+
+TRANSPORTATION:
+[Vehicle] で + [Destination] へ + 行きます/来ます/帰ます
+
+Common vehicles:
+• 電車で = by train
+• バスで = by bus
+• 車で = by car
+• 自転車で = by bicycle
+• タクシーで = by taxi
+• 飛行機で = by airplane
+• 船で = by boat/ship
+
+WALKING:
+歩いて (あるいて) = on foot, by walking
+❌ 徒歩で (とほで) exists but is less common in casual speech
+✓ 歩いて行きます = go on foot / walk
+
+で with OTHER MEANS:
+• 日本語で話す = speak in Japanese (language as means)
+• ペンで書く = write with a pen (tool as means)
+• メールで送る = send by email (method as means)
+
+DISTINCTION FROM LOCATION で:
+• Location で: 公園で遊ぶ (play AT the park)
+• Means で: 車で行く (go BY car)
+Context makes it clear.`,
+                examples: [
+                    { jp: "学校へバスで行きます。", en: "I go to school by bus." },
+                    { jp: "大阪まで電車で行きました。", en: "I went to Osaka by train." },
+                    { jp: "会社へは自転車で行きます。", en: "I go to work by bicycle." },
+                    { jp: "家から駅まで歩いて行きます。", en: "I walk from home to the station." },
+                    { jp: "北海道へ飛行機で行くつもりです。", en: "I plan to go to Hokkaido by plane." },
+                    { jp: "タクシーで空港へ行きます。", en: "I'll go to the airport by taxi." },
+                    { jp: "船でにほんに来ました。", en: "I came to Japan by ship." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは電車 (__) 学校へ行きます。",
+                        answer: "で",
+                        explanation: "で marks the means of transportation."
+                    },
+                    {
+                        type: "translate",
+                        question: "I walk to the station.",
+                        answer: "駅まで歩いて行きます。",
+                        explanation: "歩いて (on foot/walking) replaces [vehicle] + で."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "バスを行きます。",
+                        answer: "バスで行きます。",
+                        explanation: "で marks means. を marks direct object — you're not 'going the bus'."
+                    }
+                ]
+            },
+            {
+                id: "L5-3",
+                jp: "〜と行きます",
+                en: "Go with ~ (Companion Particle)",
+                detail: `COMPANION PARTICLE と:
+Means "with" when indicating a person (or animal) you do something together with.
+
+STRUCTURE: [Person] と [Action]
+
+This と marks COMPANIONSHIP, mutual participation.
+
+CONTRAST WITH OTHER と USES:
+• Companion と: 友だちと行く (go with a friend)
+• Listing と: パンと牛乳 (bread and milk — between nouns)
+• Quotation と: 「はい」と言う (say "yes" — Lesson 21)
+• Conditional と: 春になると...(when spring comes — Lesson 25)
+
+CONTEXT CLUES:
+Companion と is followed by an ACTION VERB.
+Listing と connects NOUNS.
+
+ALONE:
+一人で (ひとりで) = alone, by oneself
+❌ No と used.
+
+TOGETHER:
+一緒に (いっしょに) = together
+Can be used WITH と: 友だちと一緒に = together with a friend
+
+QUESTION:
+• だれと = with whom
+• だれと行きますか = Who are you going with?`,
+                examples: [
+                    { jp: "きのう、友だちと映画を見ました。", en: "Yesterday I watched a movie with a friend." },
+                    { jp: "だれと日本へ来ましたか。", en: "With whom did you come to Japan?" },
+                    { jp: "家族と一緒に旅行したいです。", en: "I want to travel together with my family." },
+                    { jp: "かのじょと食事に行きます。", en: "I'm going out to eat with my girlfriend." },
+                    { jp: "一人で買い物に行きました。", en: "I went shopping alone." },
+                    { jp: "ねこと遊びました。", en: "I played with the cat." },
+                    { jp: "田中さんと会いました。", en: "I met with Mr. Tanaka." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは友だち (__) こうえんへ行きます。",
+                        answer: "と",
+                        explanation: "と marks the companion — going with a friend."
+                    },
+                    {
+                        type: "translate",
+                        question: "I went alone.",
+                        answer: "一人で行きました。",
+                        explanation: "一人で = alone/by oneself. No と needed."
+                    },
+                    {
+                        type: "multiple-choice",
+                        question: "Which と means 'with'?",
+                        options: ["パンと牛乳", "友だちと行く", "春となると", "〜と思う"],
+                        answer: "友だちと行く",
+                        explanation: "Companion と is followed by an action verb."
+                    }
+                ]
+            },
+            {
+                id: "L5-4",
+                jp: "〜を (目的語)",
+                en: "Direct Object Particle",
+                detail: `OBJECT PARTICLE を:
+Written as を, pronounced 'o' (same as お).
+Marks the DIRECT OBJECT — the thing that receives the action of a transitive verb.
+
+STRUCTURE: [Object] を [Transitive Verb]
+
+Transitive verbs NEED an object: 食べる (eat something), 見る (see something)
+Intransitive verbs DON'T: 寝る (sleep — no object), 起きる (wake up — no object)
+
+ADDITIONAL USES OF を:
+1. STARTING POINT of movement (leaving a place):
+   家を出る (leave home)
+   電車を降りる (get off the train)
+   大学を卒業する (graduate from university)
+
+2. PATH of movement (going through/along):
+   道を歩く (walk along the road)
+   公園を散歩する (take a walk through the park)
+   空を飛ぶ (fly through the sky)
+
+3. DURATION of time (with time expressions):
+   一日を過ごす (spend a day)
+   
+PRONUNCIATION: を is ALWAYS 'o'. Never 'wo' in modern Japanese.
+
+OMISSION IN CASUAL SPEECH:
+In casual conversation, を is often dropped:
+何食べる？ (What're you eating?) — 何を食べる without を`,
+                examples: [
+                    { jp: "毎朝、新聞を読みます。", en: "I read the newspaper every morning." },
+                    { jp: "何を食べますか。", en: "What will you eat?" },
+                    { jp: "ここで写真を撮ってもいいですか。", en: "May I take photos here?" },
+                    { jp: "7時に家を出ます。", en: "I leave home at 7." },
+                    { jp: "駅で電車を降ります。", en: "I get off the train at the station." },
+                    { jp: "音楽を聞きます。", en: "I listen to music." },
+                    { jp: "コーヒーを飲みたいです。", en: "I want to drink coffee." },
+                    { jp: "日本語を勉強しています。", en: "I'm studying Japanese." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは本 (__) 読みます。",
+                        answer: "を",
+                        explanation: "を marks 本 as the direct object of 読む (read)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I eat sushi.",
+                        answer: "すしを食べます。",
+                        explanation: "すし (object) + を + 食べます (eat)."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "電車に降ります。",
+                        answer: "電車を降ります。",
+                        explanation: "降りる (get off) uses を for the thing you're exiting."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "travel-plan",
+                instruction: "Describe how you will go somewhere, with whom, by what means:",
+                template: "わたしは[place]へ[person]と[transport]で行きます。",
+                sampleAnswer: "わたしは東京へ友だちと電車で行きます。"
+            }
+        ],
+        vocabularyFocus: [
+            "行く (go)", "来る (come)", "帰る (return)", "電車 (train)", "バス (bus)",
+            "車 (car)", "自転車 (bicycle)", "歩いて (on foot)", "飛行機 (airplane)",
+            "友だち (friend)", "家族 (family)", "一人で (alone)"
+        ],
+        kanjiIntroduced: ["行", "来", "帰", "電", "車", "歩", "飛", "機", "友", "家", "族"],
+        studyTips: [
+            "Remember へ = 'e' (direction), で = 'de' (means), と = 'to' (with), を = 'o' (object)",
+            "Practice saying how you commute: わたしは[transport]で[place]へ行きます",
+            "Notice を in Japanese subtitles — it appears constantly"
+        ],
+        commonMistakes: [
+            {
+                mistake: "Using に for means: 電車に行きます ❌",
+                correction: "Use で for means: 電車で行きます ✓"
+            },
+            {
+                mistake: "Pronouncing を as 'wo'",
+                correction: "を is always pronounced 'o'"
+            }
+        ]
+    },
+
+    // ========================================================================
+    // LESSON 6: いっしょに行きませんか
+    // ========================================================================
+    {
+        lesson: 6,
+        title: "いっしょに行きませんか",
+        theme: "他動詞とを, 誘い (〜ませんか), 手段ので",
+        overview: "Practice more transitive verbs with objects, learn to make invitations and suggest activities.",
+        points: [
+            {
+                id: "L6-1",
+                jp: "〜を〜ます (他動詞)",
+                en: "Verb + Direct Object (Extended Practice)",
+                detail: `More common transitive verbs with を:
+• 読みます (read) • 書きます (write) • 聞きます (listen/hear)
+• 見ます (watch/see) • 作ります (make) • 買います (buy)
+• 撮ります (take photo) • 食べます (eat) • 飲みます (drink)
+
+Some verbs that DON'T use を for what English considers 'object':
+• 会います (meet) → 〜に会います (meet WITH someone)
+• 乗ります (ride) → 〜に乗ります (ride ON something)
+• 入ります (enter) → 〜に入ります (enter INTO something)`,
+                examples: [
+                    { jp: "きのう、手紙を書きました。", en: "I wrote a letter yesterday." },
+                    { jp: "パーティーで歌を歌いました。", en: "I sang a song at the party." },
+                    { jp: "家で何をしますか。", en: "What do you do at home?" },
+                    { jp: "かれはいつもニュースを見ます。", en: "He always watches the news." },
+                    { jp: "CDをよく聞きますか。", en: "Do you often listen to CDs?" },
+                    { jp: "どこで切符を買いますか。", en: "Where do you buy tickets?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "毎日、日記 (__) 書きます。",
+                        answer: "を",
+                        explanation: "日記 (diary) is the object of 書く (write)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I listen to music.",
+                        answer: "音楽を聞きます。",
+                        explanation: "音楽 (music) + を + 聞きます (listen)."
+                    }
+                ]
+            },
+            {
+                id: "L6-2",
+                jp: "〜ませんか",
+                en: "Won't you ~? / Shall we ~? (Invitation)",
+                detail: `POLITE INVITATION FORM:
+Verb (ます-form minus ます) + ませんか
+
+This is the STANDARD way to invite someone to do something together.
+It's soft, polite, and leaves room for refusal.
+
+AFFIRMATIVE RESPONSE: ええ、いいですね。/ はい、そうしましょう。
+NEGATIVE RESPONSE: すみません、ちょっと... (trailing off — polite refusal)
+
+CONTRAST WITH 〜ましょう:
+• 〜ませんか = "Won't you...?" (invitation, asking for agreement — more polite)
+• 〜ましょう = "Let's..." (more direct suggestion)
+
+〜ましょうか can also be used: "Shall I/we...?" (offering to do something)`,
+                examples: [
+                    { jp: "いっしょに映画を見ませんか。", en: "Won't you watch a movie with me?" },
+                    { jp: "今度、食事に行きませんか。", en: "Won't you go out for a meal sometime?" },
+                    { jp: "週末、どこかへ行きませんか。", en: "Shall we go somewhere this weekend?" },
+                    { jp: "お茶を飲みませんか。", en: "Won't you have some tea?" }
+                ],
+                exercises: [
+                    {
+                        type: "conversion",
+                        question: "Convert to invitation: 買い物に行きます。",
+                        answer: "買い物に行きませんか。",
+                        explanation: "Replace ます with ませんか to form invitation."
+                    },
+                    {
+                        type: "translate",
+                        question: "Shall we have lunch together?",
+                        answer: "いっしょに昼ごはんを食べませんか。",
+                        explanation: "いっしょに (together) + 食べませんか (won't you eat?)."
+                    }
+                ]
+            },
+            {
+                id: "L6-3",
+                jp: "〜で (手段・方法)",
+                en: "By means of ~ (Tools, Language, Method)",
+                detail: `Expanding で beyond transport:
+• Language: 日本語で話す (speak in Japanese)
+• Tools: はしで食べる (eat with chopsticks)
+• Instruments: ペンで書く (write with a pen)
+• Methods: メールで送る (send by email)
+
+IMPORTANT: Distinguish from location で (place of action):
+• 図書館で本を読む (read books AT the library — location)
+• ペンで手紙を書く (write a letter WITH a pen — means)`,
+                examples: [
+                    { jp: "日本語で話してください。", en: "Please speak in Japanese." },
+                    { jp: "はしで寿司を食べます。", en: "I eat sushi with chopsticks." },
+                    { jp: "鉛筆で名前を書きました。", en: "I wrote my name with a pencil." },
+                    { jp: "インターネットで調べました。", en: "I researched it on the internet." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "日本語 (__) 話しましょう。",
+                        answer: "で",
+                        explanation: "で marks the means (language used to speak)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I eat with a fork.",
+                        answer: "フォークで食べます。",
+                        explanation: "フォーク (fork) + で (means) + 食べます (eat)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "invitation-practice",
+                instruction: "Write invitations for these situations:",
+                situations: [
+                    "Invite a friend to a movie",
+                    "Invite a colleague for coffee",
+                    "Invite someone to go shopping"
+                ],
+                sampleAnswers: [
+                    "いっしょに映画を見ませんか。",
+                    "コーヒーを飲みませんか。",
+                    "買い物に行きませんか。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["読みます", "書きます", "聞きます", "見ます", "作ります", "買います", "撮ります", "〜ませんか"],
+        studyTips: ["Practice 〜ませんか as a chunk — it's one of the most useful patterns", "Learn which verbs use を vs に"]
+    },
+
+    // ========================================================================
+    // LESSON 7: いらっしゃいませ
+    // ========================================================================
+    {
+        lesson: 7,
+        title: "いらっしゃいませ",
+        theme: "授受 (あげる/もらう), 間接目的語に, もう",
+        overview: "Master the Japanese giving/receiving system, mark indirect objects, and express completed actions.",
+        points: [
+            {
+                id: "L7-1",
+                jp: "〜に〜をあげます",
+                en: "Give (something) to (someone)",
+                detail: `GIVING (あげる):
+[Giver] は [Recipient] に [Object] を あげます。
+
+CRITICAL SOCIAL RULES:
+• あげる is used when giving TO EQUALS or INFERIORS
+• Giving to SUPERIORS requires さしあげる (humble)
+• The giver can be the speaker, in-group member, or a third person
+• Using あげる to give to superiors is RUDE
+
+PERSPECTIVE: The action is viewed from the GIVER's side.
+When the giver is YOU and the recipient is someone else, あげる is natural.
+When someone gives to YOU, use くれる instead.
+
+CASUAL FORM: あげる (plain) — used among friends/family.`,
+                examples: [
+                    { jp: "母の誕生日に花をあげました。", en: "I gave flowers to my mother for her birthday." },
+                    { jp: "友だちにお土産をあげるつもりです。", en: "I plan to give souvenirs to my friends." },
+                    { jp: "だれにその本をあげましたか。", en: "To whom did you give that book?" },
+                    { jp: "先生にCDをさしあげました。", en: "I gave a CD to my teacher. (humble)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは友だち (__) プレゼント (__) あげました。",
+                        answer: "に、を",
+                        explanation: "に marks recipient, を marks the object given."
+                    },
+                    {
+                        type: "translate",
+                        question: "I gave my friend a book.",
+                        answer: "友だちに本をあげました。",
+                        explanation: "友だち (recipient) + に + 本 (object) + を + あげました."
+                    }
+                ]
+            },
+            {
+                id: "L7-2",
+                jp: "〜に〜をもらいます",
+                en: "Receive (something) from (someone)",
+                detail: `RECEIVING (もらう):
+[Receiver] は [Giver] に/から [Object] を もらいます。
+
+USAGE:
+• The RECEIVER is the subject (usually speaker or in-group)
+• The giver is marked by に or から (から emphasizes source)
+• When receiving from SUPERIORS, use いただく (humble)
+
+PERSPECTIVE: Viewed from the RECEIVER's side.
+This is the standard way to say "I got X from Y."
+
+に vs から:
+• に = neutral receipt
+• から = emphasizes the source (like "from")
+
+SOCIAL NOTE:
+When someone does something FOR you (not just giving an object), use 〜てもらう (Lesson 24).`,
+                examples: [
+                    { jp: "わたしは母からセーターをもらいました。", en: "I received a sweater from my mother." },
+                    { jp: "だれにその時計をもらいましたか。", en: "From whom did you receive that watch?" },
+                    { jp: "誕生日に何をもらいましたか。", en: "What did you receive for your birthday?" },
+                    { jp: "先生に推薦状をいただきました。", en: "I received a recommendation letter from my teacher. (humble)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "たん生日に友だち (__) 花をもらいました。",
+                        answer: "に/から",
+                        explanation: "に or から marks the giver. から emphasizes source."
+                    },
+                    {
+                        type: "translate",
+                        question: "I received a present from my father.",
+                        answer: "父にプレゼントをもらいました。",
+                        explanation: "父 (father - giver) + に + プレゼント + をもらいました."
+                    }
+                ]
+            },
+            {
+                id: "L7-3",
+                jp: "もう〜ました",
+                en: "Already did ~ (Completed Action)",
+                detail: `ALREADY (もう):
+もう + Past tense verb = "have already done"
+
+The adverb もう signals completion.
+Often used in questions to check status.
+
+OPPOSITE:
+まだ + Negative = "not yet"
+まだ食べていません = haven't eaten yet
+
+QUESTION PATTERN:
+もう〜ましたか = Have you already ~?
+→ はい、もう〜ました = Yes, already did
+→ いいえ、まだです / まだ〜ていません = Not yet`,
+                examples: [
+                    { jp: "もう昼ごはんを食べましたか。", en: "Have you already eaten lunch?" },
+                    { jp: "はい、もう食べました。", en: "Yes, I've already eaten." },
+                    { jp: "レポートはもう提出しました。", en: "I've already submitted the report." },
+                    { jp: "映画はもう始まりました。", en: "The movie has already started." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "(____) しゅく題をしましたか。",
+                        answer: "もう",
+                        explanation: "もう = already. Used to ask if something is done."
+                    },
+                    {
+                        type: "response",
+                        question: "Answer: もう昼ごはんを食べましたか。(You haven't eaten yet)",
+                        answer: "いいえ、まだです。",
+                        explanation: "まだ (not yet) is the negative counterpart of もう."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "giving-receiving-diagram",
+                instruction: "For each scenario, write a sentence using あげる or もらう:",
+                scenarios: [
+                    { from: "You", to: "Friend", item: "book" },
+                    { from: "Mother", to: "You", item: "sweater" },
+                    { from: "Teacher", to: "You", item: "dictionary" }
+                ],
+                sampleAnswers: [
+                    "わたしは友だちに本をあげました。",
+                    "わたしは母にセーターをもらいました。",
+                    "わたしは先生にじしょをいただきました。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["あげる", "もらう", "くれる (preview)", "もう", "まだ", "プレゼント", "お土産"],
+        studyTips: ["The giving/receiving system is culturally crucial — practice the social rules", "Remember: もう = already (positive), まだ = not yet (negative)"]
+    },
+
+    // ========================================================================
+    // LESSON 8: そろそろ失礼します
+    // ========================================================================
+    {
+        lesson: 8,
+        title: "そろそろ失礼します",
+        theme: "形容詞 (い形容詞・な形容詞), 好き/きらい, 上手/下手",
+        overview: "Learn to describe things using adjectives, express likes/dislikes, and abilities.",
+        points: [
+            {
+                id: "L8-1",
+                jp: "い形容詞",
+                en: "I-Adjectives (Present/ Negative)",
+                detail: `I-ADJECTIVES all end in 〜い in dictionary form.
+
+MODIFYING NOUNS: Attach directly
+• 高い本 (expensive book)
+• おいしい料理 (delicious food)
+
+AS PREDICATE: Add です
+• この本は高いです (This book is expensive.)
+
+NEGATIVE: Replace い with くないです
+• 高くないです (is not expensive)
+• おいしくないです (is not delicious)
+
+PAST: Replace い with かったです
+• 高かったです (was expensive)
+
+PAST NEGATIVE: くなかったです
+• 高くなかったです (was not expensive)
+
+IRREGULAR: いい → よくない (negative), よかった (past)
+
+Common i-adjectives: 大きい、小さい、新しい、古い、良い、悪い、暑い、寒い、高い、安い、早い、遅い、楽しい、難しい、易しい、明るい、暗い、広い、狭い`,
+                examples: [
+                    { jp: "このリンゴはとてもおいしいです。", en: "This apple is very delicious." },
+                    { jp: "今日は暑くないです。", en: "It is not hot today." },
+                    { jp: "新しいくつを買いました。", en: "I bought new shoes." },
+                    { jp: "あのビルは高いですね。", en: "That building is tall, isn't it?" },
+                    { jp: "日本語の文法は難しいですか。", en: "Is Japanese grammar difficult?" },
+                    { jp: "昨日は寒かったです。", en: "Yesterday was cold." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "高い → Negative",
+                        answer: "高くない",
+                        explanation: "Drop い, add くない for negative."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "いい → Past",
+                        answer: "よかった",
+                        explanation: "いい is irregular. Past is よかった."
+                    },
+                    {
+                        type: "translate",
+                        question: "This isn't delicious.",
+                        answer: "これはおいしくないです。",
+                        explanation: "おいしい → おいしくない (negative)."
+                    }
+                ]
+            },
+            {
+                id: "L8-2",
+                jp: "な形容詞",
+                en: "Na-Adjectives (Require な before nouns)",
+                detail: `NA-ADJECTIVES don't end in い (with exceptions like きれい).
+
+MODIFYING NOUNS: MUST add な
+• 静かな町 (quiet town) ← な required!
+• 有名な人 (famous person)
+
+AS PREDICATE: Add です (without な)
+• この町は静かです (This town is quiet.)
+
+NEGATIVE: ではありません / じゃありません
+• 静かではありません (is not quiet)
+
+PAST: でした
+• 静かでした (was quiet)
+
+Common na-adjectives: 静か、便利、元気、有名、好き、きらい、上手、下手、簡単、親切、大切、大丈夫、色々、賑やか、きれい (beautiful/clean — ends in い but is na-adj!)`,
+                examples: [
+                    { jp: "ここはとても静かなところですね。", en: "This is a very quiet place." },
+                    { jp: "便利なアプリを見つけました。", en: "I found a convenient app." },
+                    { jp: "彼女は親切な人です。", en: "She is a kind person." },
+                    { jp: "これは簡単な問題です。", en: "This is a simple problem." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "しずか (__) こうえんです。",
+                        answer: "な",
+                        explanation: "静か is a na-adjective — needs な before a noun."
+                    },
+                    {
+                        type: "translate",
+                        question: "This station is convenient.",
+                        answer: "この駅は便利です。",
+                        explanation: "便利 (na-adj) + です as predicate — no な needed."
+                    }
+                ]
+            },
+            {
+                id: "L8-3",
+                jp: "〜が好きです・きらいです",
+                en: "Like / Dislike (Na-Adjectives)",
+                detail: `LIKES & DISLIKES structure:
+[Person] は [Thing] が 好き/きらい です。
+
+WHY が? 好き and きらい are adjectives meaning "liked" and "disliked."
+The liked/disliked thing is the SUBJECT marked by が.
+
+DEGREES:
+• 大好き = like very much / love
+• あまり好きじゃない = don't like very much
+• 大きらい = hate
+
+QUESTION: 何が好きですか / どんな〜が好きですか`,
+                examples: [
+                    { jp: "わたしはねこが好きです。", en: "I like cats." },
+                    { jp: "あなたはどんな音楽が好きですか。", en: "What kind of music do you like?" },
+                    { jp: "甘いものが大好きです。", en: "I love sweet things." },
+                    { jp: "かれは勉強があまり好きではありません。", en: "He doesn't like studying very much." },
+                    { jp: "わたしは虫がきらいです。", en: "I hate bugs." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしはスポーツ (__) 好きです。",
+                        answer: "が",
+                        explanation: "が marks the liked thing (subject of the adjective)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I love sushi.",
+                        answer: "すしが大好きです。",
+                        explanation: "大好き = like very much/love. Structure: Thing が 大好きです."
+                    }
+                ]
+            },
+            {
+                id: "L8-4",
+                jp: "〜が上手です・下手です",
+                en: "Good at / Poor at (Skill Adjectives)",
+                detail: `SKILL EXPRESSIONS:
+[Person] は [Skill] が 上手/下手 です。
+
+• 上手 (じょうず) = skilled, good at
+• 下手 (へた) = unskilled, poor at
+
+Like 好き/きらい, these are na-adjectives using が.
+
+POLITE SELF-DEPRECATION:
+Japanese modesty culture: You should NOT say 上手です about yourself.
+Instead say: まだまだです (I still have far to go) or あまり上手じゃありません.
+
+COMPLIMENTING OTHERS: お上手ですね！(You're skilled!) — very natural.
+
+にがて (苦手):
+Similar to 下手 but means "not one's strong point" — softer, can mean you dislike it too.`,
+                examples: [
+                    { jp: "田中さんは料理が上手ですね。", en: "Tanaka-san is good at cooking." },
+                    { jp: "わたしはスポーツが下手です。", en: "I'm poor at sports." },
+                    { jp: "日本語が上手になりたいです。", en: "I want to become good at Japanese." },
+                    { jp: "いいえ、まだまだです。", en: "No, I still have a long way to go. (humble response to compliment)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かのじょはえ (__) 上手です。",
+                        answer: "が",
+                        explanation: "が marks the skill area with 上手/下手."
+                    },
+                    {
+                        type: "cultural-response",
+                        question: "Someone says: 日本語が上手ですね。How do you respond modestly?",
+                        answer: "いいえ、まだまだです。",
+                        explanation: "Japanese culture values modesty. Don't say ありがとう to skill compliments."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "preference-survey",
+                instruction: "Write about your likes, dislikes, and skills:",
+                template: "わたしは___が好きです。___がきらいです。___が上手です。___が下手です。",
+                sampleAnswer: "わたしは音楽が好きです。虫がきらいです。料理が上手です。スポーツが下手です。"
+            }
+        ],
+        vocabularyFocus: ["好き", "きらい", "大好き", "上手", "下手", "食べ物", "飲み物", "音楽", "スポーツ"],
+        studyTips: ["Memorize い-adj conjugation: い→くない→かった→くなかった", "Remember きれい and ゆうめい are na-adjectives despite ending in い"]
+    },
+
+    // ========================================================================
+    // LESSON 9: 残念ですが
+    // ========================================================================
+    {
+        lesson: 9,
+        title: "残念ですが",
+        theme: "所有 (ある/いる), 助数詞, 理由 (から)",
+        overview: "Express possession using ある/いる, count objects, and give reasons.",
+        points: [
+            {
+                id: "L9-1",
+                jp: "〜があります・います (所有)",
+                en: "Have ~ (Possession Expression)",
+                detail: `POSSESSION = EXISTENCE:
+Japanese expresses "having" as "existing in one's sphere."
+
+[Person] は [Thing] が あります = (Person has Thing — inanimate)
+[Person] は [Living Being] が います = (Person has Living Being)
+
+LOGIC: "As for Person, Thing exists (near/with them)"
+There is NO direct "to have" verb in Japanese.
+
+CONTRAST with Location ある/いる:
+• Location: 公園に犬がいます (There's a dog IN the park)
+• Possession: わたしは犬がいます (I have a dog — lit. As for me, a dog exists)`,
+                examples: [
+                    { jp: "わたしはお金がたくさんあります。", en: "I have a lot of money." },
+                    { jp: "質問がありますか。", en: "Do you have a question?" },
+                    { jp: "彼女は海外の友だちがいます。", en: "She has friends overseas." },
+                    { jp: "明日、大事な試験があります。", en: "I have an important exam tomorrow." },
+                    { jp: "わたしは兄弟が三人います。", en: "I have three siblings." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは車 (__) あります。",
+                        answer: "が",
+                        explanation: "が marks the possessed/existing thing."
+                    },
+                    {
+                        type: "translate",
+                        question: "I have a cat.",
+                        answer: "わたしはねこがいます。",
+                        explanation: "ねこ (animate) + が + います. Lit: As for me, a cat exists."
+                    }
+                ]
+            },
+            {
+                id: "L9-2",
+                jp: "助数詞 (つ/人/枚/台)",
+                en: "Counting Objects in Japanese",
+                detail: `JAPANESE COUNTER SYSTEM:
+Almost everything requires a specific counter word.
+
+BASIC PATTERN: [Number] + [Counter] + の + [Noun] OR [Noun] + が + [Number] + [Counter]
+
+GENERIC COUNTER (つ):
+1-10 using native Japanese numbers:
+一つ(ひとつ)、二つ(ふたつ)、三つ(みっつ)、四つ(よっつ)、五つ(いつつ)、六つ(むっつ)、七つ(ななつ)、八つ(やっつ)、九つ(ここのつ)、十(とお)
+
+COMMON SPECIFIC COUNTERS:
+• 〜人 (にん): people (一人=ひとり, 二人=ふたり, 三人=さんにん...)
+• 〜枚 (まい): flat objects (paper, tickets, shirts)
+• 〜台 (だい): machines/vehicles (cars, computers, TVs)
+• 〜冊 (さつ): bound items (books, notebooks)
+• 〜本 (ほん/ぼん/ぽん): long cylindrical objects (bottles, pens, trees)
+• 〜回 (かい): times/occurrences
+• 〜円 (えん): yen (money)`,
+                examples: [
+                    { jp: "りんごを三つください。", en: "Three apples, please." },
+                    { jp: "教室に学生が二十人います。", en: "There are 20 students in the classroom." },
+                    { jp: "紙を一枚ください。", en: "One sheet of paper, please." },
+                    { jp: "車が二台あります。", en: "I have two cars." },
+                    { jp: "ビールを三本ください。", en: "Three bottles of beer, please." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "えんぴつが五 (__) あります。",
+                        answer: "本",
+                        explanation: "本 is the counter for long cylindrical objects like pencils."
+                    },
+                    {
+                        type: "translate",
+                        question: "I have two books.",
+                        answer: "本が二冊あります。",
+                        explanation: "冊 is the counter for bound items (books)."
+                    }
+                ]
+            },
+            {
+                id: "L9-3",
+                jp: "〜から (理由)",
+                en: "Because ~ (Reason Particle)",
+                detail: `REASON から:
+[Sentence A (reason)] から、[Sentence B (result)].
+
+This から means "because" — the reason comes FIRST.
+• 時間がないから、行きません。(Because I don't have time, I won't go.)
+
+The reason clause ENDS with the PLAIN form (not です/ます typically, though ですから exists).
+The result clause can be polite.
+
+〜から can also come at the END of a sentence (casual explanation):
+A: どうして行かないの？ (Why aren't you going?)
+B: 時間がないから。(Because I don't have time.)
+
+DISTINGUISH from:
+• Time から (from) — followed by time/place, not a reason clause
+• ので is a more formal "because"`,
+                examples: [
+                    { jp: "暑いから、窓を開けましょう。", en: "Because it's hot, let's open the window." },
+                    { jp: "明日は休みだから、遅くまで起きていられる。", en: "Because tomorrow's a holiday, I can stay up late." },
+                    { jp: "どうして遅れましたか。 — 電車が遅れたからです。", en: "Why were you late? — Because the train was delayed." }
+                ],
+                exercises: [
+                    {
+                        type: "combine",
+                        question: "Combine: お金がありません。買いません。",
+                        answer: "お金がないから、買いません。",
+                        explanation: "Reason (ない from ありません) + から + result."
+                    },
+                    {
+                        type: "translate",
+                        question: "Because I'm busy, I can't go.",
+                        answer: "忙しいから、行けません。",
+                        explanation: "忙しい (busy) + から + 行けません (can't go)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "counting-practice",
+                instruction: "Count these items using correct counters:",
+                items: ["3 apples", "2 tickets", "1 car", "4 people", "5 books"],
+                answers: ["りんごが三つ", "チケットが二枚", "車が一台", "四人", "本が五冊"]
+            }
+        ],
+        vocabularyFocus: ["ある", "いる", "たくさん", "〜つ", "〜人", "〜枚", "〜台", "〜冊", "〜本", "から (because)"],
+        studyTips: ["Learn counters gradually — focus on most common ones first", "Remember: ある/いる for possession = 'X exists in my sphere'"]
+    },
+
+    // ========================================================================
+    // LESSON 10: ナンプラーがありますか
+    // ========================================================================
+    {
+        lesson: 10,
+        title: "ナンプラーがありますか",
+        theme: "位置の言葉 (上/下/中/前/後ろ), 列挙 (と/や)",
+        overview: "Describe precise locations and list multiple items.",
+        points: [
+            {
+                id: "L10-1",
+                jp: "〜の上・下・中・前・後ろ・近く",
+                en: "Position Words (On/Under/Inside/In front of/Behind/Near)",
+                detail: `POSITION WORDS are NOUNS in Japanese (not prepositions!).
+They FOLLOW the reference object with の.
+
+STRUCTURE: [Reference Object] の [Position] に [Thing] が あります/います
+
+COMMON POSITION WORDS:
+• 上 (うえ) = above, on top of
+• 下 (した) = under, beneath
+• 中 (なか) = inside
+• 外 (そと) = outside
+• 前 (まえ) = in front of
+• 後ろ (うしろ) = behind
+• 隣 (となり) = next to (same category: building next to building)
+• 横 (よこ) = beside (physical side)
+• 近く (ちかく) = near
+• 間 (あいだ) = between
+
+WHY THEY'RE NOUNS:
+"机の上" = "the desk's top surface" (上 is the head noun)
+NOT "on the desk" (prepositional phrase like English)`,
+                examples: [
+                    { jp: "本は机の上です。", en: "The book is on the desk." },
+                    { jp: "ねこが車の下にいます。", en: "A cat is under the car." },
+                    { jp: "書類は引き出しの中にあります。", en: "The documents are inside the drawer." },
+                    { jp: "銀行は郵便局の隣にあります。", en: "The bank is next to the post office." },
+                    { jp: "駅の前にコンビニがあります。", en: "There's a convenience store in front of the station." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かばんはいす (__) 上にあります。",
+                        answer: "の",
+                        explanation: "の connects the reference object to the position noun."
+                    },
+                    {
+                        type: "translate",
+                        question: "The cat is under the table.",
+                        answer: "ねこはテーブルの下にいます。",
+                        explanation: "テーブルの下 = table's underneath. います for animate."
+                    }
+                ]
+            },
+            {
+                id: "L10-2",
+                jp: "〜と〜 (列挙)",
+                en: "And (Complete List of Nouns)",
+                detail: `PARTICLE と for EXHAUSTIVE LISTING:
+[Noun A] と [Noun B] = A and B (that's all, or specifically these)
+
+CONTRAST WITH や (non-exhaustive):
+• 本とペン = book and pen (these specific two)
+• 本やペン = books and pens (among other things)
+
+USE と when:
+1. Listing the complete set
+2. Listing specific items you're talking about
+3. The number of items is clear and limited`,
+                examples: [
+                    { jp: "冷蔵庫に牛乳と卵があります。", en: "There's milk and eggs in the fridge." },
+                    { jp: "わたしは英語と日本語を話します。", en: "I speak English and Japanese." },
+                    { jp: "パンとスープを注文しました。", en: "I ordered bread and soup." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "コーヒー (__) こう茶、どちらがいいですか。",
+                        answer: "と",
+                        explanation: "と lists the two choices exhaustively."
+                    },
+                    {
+                        type: "translate",
+                        question: "I bought apples and oranges.",
+                        answer: "りんごとみかんを買いました。",
+                        explanation: "と lists the specific items bought."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "room-description",
+                instruction: "Describe the location of 5 items in your room using position words:",
+                sampleAnswer: "本は机の上にあります。かばんはいすの下にあります。..."
+            }
+        ],
+        vocabularyFocus: ["上", "下", "中", "外", "前", "後ろ", "隣", "横", "近く", "と (and)", "や (and among others)"],
+        studyTips: ["Remember: position words are NOUNS, not prepositions", "の always connects reference object to position noun"]
+    },
+
+    // ========================================================================
+    // LESSON 11: これ、お願いします
+    // ========================================================================
+    {
+        lesson: 11,
+        title: "これ、お願いします",
+        theme: "人数の数え方, 数量表現, 注文 (〜をください)",
+        overview: "Count family members, use quantity expressions, and order items politely.",
+        points: [
+            {
+                id: "L11-1",
+                jp: "家族を数える",
+                en: "Counting People & Family Members",
+                detail: `UNIQUE COUNTER FOR PEOPLE:
+• 一人 (ひとり) = 1 person
+• 二人 (ふたり) = 2 people
+• 三人 (さんにん) = 3 people (regular from here)
+• 四人 (よにん) = 4 people (note: よにん, not よんにん)
+• 五人 (ごにん) and up: number + にん
+
+ASKING: 何人 (なんにん) = how many people?
+
+FAMILY TERMS:
+When talking about YOUR family to outsiders, use HUMBLE forms:
+• 父 (ちち) = my father (vs. お父さん = someone else's father)
+• 母 (はは) = my mother
+• 兄 (あに) = my older brother
+• 姉 (あね) = my older sister
+• 弟 (おとうと) = my younger brother
+• 妹 (いもうと) = my younger sister
+• 祖父 (そふ) = my grandfather
+• 祖母 (そぼ) = my grandmother`,
+                examples: [
+                    { jp: "わたしは兄が一人います。", en: "I have one older brother." },
+                    { jp: "ご兄弟は何人いますか。", en: "How many siblings do you have?" },
+                    { jp: "家族は五人です。", en: "There are five people in my family." },
+                    { jp: "一人っ子なので、兄弟がいません。", en: "I'm an only child, so I have no siblings." },
+                    { jp: "パーティーに何人来ますか。", en: "How many people are coming to the party?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かぞくは (__) 人です。(4 people)",
+                        answer: "四",
+                        explanation: "四人 = よにん (4 people). Note the irregular reading."
+                    },
+                    {
+                        type: "translate",
+                        question: "I have two younger sisters.",
+                        answer: "妹が二人います。",
+                        explanation: "妹 (younger sister - humble) + 二人 (2 people) + います."
+                    }
+                ]
+            },
+            {
+                id: "L11-2",
+                jp: "〜つ (一般助数詞)",
+                en: "Counting with 〜つ (Generic Objects)",
+                detail: `The 〜つ counter is the most GENERAL counter, used when no specific counter exists or you don't know the right one.
+
+1-10: 一つ、二つ、三つ、四つ、五つ、六つ、七つ、八つ、九つ、十
+Beyond 10, use 個 (こ) or specific counters.
+
+Used for: small miscellaneous items, abstract things, general counting.
+When combined with の: 三つのりんご = three apples`,
+                examples: [
+                    { jp: "りんごを三つください。", en: "Three apples, please." },
+                    { jp: "冷蔵庫に卵が六つあります。", en: "There are six eggs in the fridge." },
+                    { jp: "二つのハンバーガーをください。", en: "Two hamburgers, please." },
+                    { jp: "三つの願いをかなえてください。", en: "Please grant me three wishes." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "みかんを (____) ください。(4 oranges)",
+                        answer: "四つ (よっつ)",
+                        explanation: "四つ is the native Japanese counting for 4 items."
+                    },
+                    {
+                        type: "translate",
+                        question: "Please give me two of these.",
+                        answer: "これを二つください。",
+                        explanation: "これ + を + 二つ (quantity) + ください (please give)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "family-introduction",
+                instruction: "Introduce your family:",
+                template: "家族は___人です。父と母と___がいます。",
+                sampleAnswer: "家族は四人です。父と母と妹が一人います。"
+            }
+        ],
+        vocabularyFocus: ["父", "母", "兄", "姉", "弟", "妹", "一人", "二人", "〜人", "〜つ"],
+        studyTips: ["Learn your own family structure in Japanese first", "Practice humble vs. respectful family terms"]
+    },
+
+    // ========================================================================
+    // LESSON 12: お祭りはどうでしたか
+    // ========================================================================
+    {
+        lesson: 12,
+        title: "お祭りはどうでしたか",
+        theme: "形容詞・名詞の過去形, 比較 (より/ほうが), 最上級 (で一番)",
+        overview: "Express past states and make comparisons between things.",
+        points: [
+            {
+                id: "L12-1",
+                jp: "名詞・な形容詞の過去 (〜でした)",
+                en: "Was ~ (Noun/Na-adjective Past)",
+                detail: `PAST TENSE FOR NOUNS & NA-ADJECTIVES:
+Affirmative: 〜でした
+Negative: 〜ではありませんでした / 〜じゃありませんでした
+
+Examples:
+• 学生でした (was a student)
+• 静かでした (was quiet)
+• 学生ではありませんでした (was not a student)
+
+CONTRAST WITH I-ADJECTIVE PAST:
+I-adjectives: い → かった (高かった = was expensive)
+Nouns/Na-adj: add でした (静かでした = was quiet)`,
+                examples: [
+                    { jp: "きのうはいい天気でした。", en: "Yesterday was good weather." },
+                    { jp: "先週は忙しかったです。", en: "Last week was busy. (i-adj)" },
+                    { jp: "お祭りは賑やかでした。", en: "The festival was lively. (na-adj)" },
+                    { jp: "十年前、ここは静かな町でした。", en: "Ten years ago, this was a quiet town." }
+                ],
+                exercises: [
+                    {
+                        type: "conversion",
+                        question: "Convert to past: 学生です。",
+                        answer: "学生でした。",
+                        explanation: "です → でした for noun past affirmative."
+                    },
+                    {
+                        type: "conversion",
+                        question: "Convert to past negative: 静かです。",
+                        answer: "静かではありませんでした。",
+                        explanation: "ではありません → ではありませんでした for past negative."
+                    }
+                ]
+            },
+            {
+                id: "L12-2",
+                jp: "〜より〜のほうが",
+                en: "More ~ than ~ (Comparative)",
+                detail: `COMPARATIVE STRUCTURE:
+[A] は [B] より [Adjective] です = A is more ~ than B
+
+Alternatively: [A] のほうが [B] より [Adjective] です (emphasizes A)
+
+QUESTION FORMAT:
+[A] と [B] と どちらが [Adjective] ですか = Between A and B, which is more ~?
+
+ANSWER OPTIONS:
+• [A] のほうが [Adjective] です = A is more ~
+• どちらも [Adjective] です = Both are ~
+• どちらも [negative] = Neither is ~
+
+EQUIVALENCE:
+[A] は [B] と同じくらい [Adjective] です = A is about as ~ as B`,
+                examples: [
+                    { jp: "この部屋はあの部屋より広いです。", en: "This room is more spacious than that room." },
+                    { jp: "犬より猫のほうが好きです。", en: "I like cats more than dogs." },
+                    { jp: "コーヒーと紅茶とどちらが好きですか。", en: "Which do you prefer, coffee or tea?" },
+                    { jp: "日本では、コーラよりお茶のほうが人気があります。", en: "In Japan, tea is more popular than cola." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "電車はバス (__) 便利です。",
+                        answer: "より",
+                        explanation: "より marks the comparison standard (thing being compared against)."
+                    },
+                    {
+                        type: "translate",
+                        question: "Summer is hotter than spring.",
+                        answer: "夏は春より暑いです。",
+                        explanation: "夏 (A) + は + 春 (B) + より + 暑い (hotter)."
+                    },
+                    {
+                        type: "question-answer",
+                        question: "Q: りんごとみかんとどちらが好きですか。A: (You prefer apples)",
+                        answer: "りんごのほうが好きです。",
+                        explanation: "のほうが marks the preferred option."
+                    }
+                ]
+            },
+            {
+                id: "L12-3",
+                jp: "〜で一番",
+                en: "The Most ~ (Superlative)",
+                detail: `SUPERLATIVE STRUCTURE:
+[Category] で [Thing] が一番 [Adjective] です
+= In [Category], [Thing] is the most [Adjective].
+
+OR: [Thing] は [Category] で一番 [Adjective] です
+
+で marks the category/domain (within which the comparison is made).
+一番 (いちばん) = number one / most.
+
+EXAMPLES BY DOMAIN:
+• Place: 日本で一番 (in Japan, the most ~)
+• Group: クラスで一番 (in the class, the most ~)
+• Time: 一年で一番 (in the year, the most ~)`,
+                examples: [
+                    { jp: "富士山は日本で一番高い山です。", en: "Mt. Fuji is the tallest mountain in Japan." },
+                    { jp: "クラスでだれが一番背が高いですか。", en: "Who is the tallest in the class?" },
+                    { jp: "果物の中で何が一番好きですか。", en: "What fruit do you like the most?" },
+                    { jp: "これが店で一番安い時計です。", en: "This is the cheapest watch in the store." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "日本 (__) 一番有名なお寺はどこですか。",
+                        answer: "で",
+                        explanation: "で marks the domain (within Japan)."
+                    },
+                    {
+                        type: "translate",
+                        question: "Summer is the hottest season.",
+                        answer: "夏は一番暑い季節です。",
+                        explanation: "一番 + 暑い (hottest) + 季節 (season)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "comparison-practice",
+                instruction: "Compare items using より and 一番:",
+                items: ["dogs vs cats", "train vs bus", "your favorite food in the world"],
+                sampleAnswers: [
+                    "犬より猫のほうが好きです。",
+                    "電車はバスより早いです。",
+                    "世界で寿司が一番好きです。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["より", "ほうが", "一番", "どちら", "同じくらい", "でした", "〜の中で"],
+        studyTips: ["For comparison questions, always answer with のほうが", "で marks the domain of comparison for superlatives"]
+    },
+
+    // ========================================================================
+    // LESSON 13: 別々にお願いします
+    // ========================================================================
+    {
+        lesson: 13,
+        title: "別々にお願いします",
+        theme: "欲しい/たい, 目的 (〜に行く), 〜のに",
+        overview: "Express desires and the purpose of going/coming somewhere.",
+        points: [
+            {
+                id: "L13-1",
+                jp: "〜がほしい",
+                en: "Want (an Object)",
+                detail: `DESIRE FOR OBJECTS:
+[Person] は [Object] が ほしいです = (Person) wants (Object).
+
+ほしい is an I-ADJECTIVE (desired).
+The desired object is marked by が (not を!).
+
+RULE: Can ONLY be used for:
+• Speaker's own desires: わたしは〜がほしい
+• Questions to listener: あなたは〜がほしいですか
+
+For THIRD PERSON desires, use ほしがっている:
+彼は新しい車をほしがっている = He wants a new car.
+(Directly stating another's inner desire is presumptuous.)`,
+                examples: [
+                    { jp: "新しいパソコンがほしいです。", en: "I want a new computer." },
+                    { jp: "今、何が一番ほしいですか。", en: "What do you want the most right now?" },
+                    { jp: "誕生日に何がほしいですか。", en: "What do you want for your birthday?" },
+                    { jp: "彼女は高いバッグをほしがっている。", en: "She wants an expensive bag. (3rd person)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "わたしは新しい車 (__) ほしいです。",
+                        answer: "が",
+                        explanation: "が marks the desired object with ほしい."
+                    },
+                    {
+                        type: "translate",
+                        question: "I want a new phone.",
+                        answer: "新しいけいたいがほしいです。",
+                        explanation: "新しい (new) + けいたい (phone) + が + ほしい."
+                    }
+                ]
+            },
+            {
+                id: "L13-2",
+                jp: "〜たい (動詞の連用形+たい)",
+                en: "Want to Do ~",
+                detail: `DESIRE FOR ACTIONS:
+[Verb stem (masu-form minus ます)] + たいです
+
+Conjugates like an i-adjective:
+• 食べたい = want to eat
+• 食べたくない = don't want to eat
+• 食べたかった = wanted to eat
+• 食べたくなかった = didn't want to eat
+
+Object marker: Can use を or が with 〜たい
+• すしを食べたい (focus on action)
+• すしが食べたい (focus on object desired)
+
+Third person: Use 〜たがっている
+• 彼は日本に行きたがっている = He wants to go to Japan`,
+                examples: [
+                    { jp: "すしを食べたいです。", en: "I want to eat sushi." },
+                    { jp: "夏休みに海で泳ぎたい。", en: "I want to swim in the sea during summer vacation." },
+                    { jp: "何をしたいですか。", en: "What do you want to do?" },
+                    { jp: "今は何も食べたくない。", en: "I don't want to eat anything now." },
+                    { jp: "日本に住みたいです。", en: "I want to live in Japan." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "食べる → 〜たい form",
+                        answer: "食べたい",
+                        explanation: "Drop る (from 食べます stem: 食べ), add たい."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "行く → 〜たい form",
+                        answer: "行きたい",
+                        explanation: "From 行きます (ikimasu), stem is 行き (iki), add たい = 行きたい."
+                    },
+                    {
+                        type: "translate",
+                        question: "I want to go to Japan.",
+                        answer: "日本に行きたいです。",
+                        explanation: "日本に (to Japan) + 行きたい (want to go)."
+                    }
+                ]
+            },
+            {
+                id: "L13-3",
+                jp: "〜に行く・来る (目的)",
+                en: "Go/Come to Do ~",
+                detail: `PURPOSE OF MOVEMENT:
+[Verb stem] + に + [Movement Verb: 行く/来る/帰る]
+
+The verb stem (masu-form minus ます) nominalizes the action.
+に marks the PURPOSE.
+
+EXAMPLES:
+• 食べに行く = go to eat
+• 買い物に行く = go shopping
+• 勉強に来る = come to study
+• 遊びに来る = come to hang out/visit
+
+NOTE: The purpose noun can also be a noun:
+• 旅行に行く = go on a trip
+• 仕事に行く = go to work`,
+                examples: [
+                    { jp: "明日、映画を見に行きます。", en: "Tomorrow I'll go to see a movie." },
+                    { jp: "日本へ日本語を勉強に来ました。", en: "I came to Japan to study Japanese." },
+                    { jp: "昼ごはんを食べに食堂へ行きました。", en: "I went to the cafeteria to eat lunch." },
+                    { jp: "友だちが遊びに来ました。", en: "A friend came to visit." },
+                    { jp: "忘れ物を取りに家に帰った。", en: "I went home to get something I forgot." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "買い物 (__) 行きます。",
+                        answer: "に",
+                        explanation: "に marks the purpose of the movement."
+                    },
+                    {
+                        type: "translate",
+                        question: "I will go to eat lunch.",
+                        answer: "昼ごはんを食べに行きます。",
+                        explanation: "食べ (verb stem) + に + 行きます (go)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "desire-and-purpose",
+                instruction: "Write about what you want and your purpose for going places:",
+                template: "わたしは___がほしいです。___たいです。週末、___に行きます。",
+                sampleAnswer: "わたしは新しい本がほしいです。りょ行したいです。週末、買い物に行きます。"
+            }
+        ],
+        vocabularyFocus: ["ほしい", "〜たい", "〜に行く", "〜に来る", "買い物", "旅行", "遊び"],
+        studyTips: ["〜たい conjugates as i-adjective", "Purpose に uses verb stem, not dictionary form"]
+    },
+
+    // ========================================================================
+    // LESSON 14: みどり町までお願いします
+    // ========================================================================
+    {
+        lesson: 14,
+        title: "みどり町までお願いします",
+        theme: "て形, 依頼 (〜てください), 許可 (〜てもいい), 禁止 (〜てはいけない)",
+        overview: "Master the te-form and use it for requests, asking permission, and prohibition.",
+        points: [
+            {
+                id: "L14-1",
+                jp: "て形",
+                en: "Te-form (The Most Important Conjugation)",
+                detail: `THE TE-FORM — Your gateway to intermediate Japanese.
+The te-form is used for: requests, permission, prohibition, progressive actions, connecting sentences, giving/receiving favors, and much more.
+
+GROUP 1 (U-VERBS) — Based on final sound:
+• う・つ・る → って (買う→買って、待つ→待って、取る→取って)
+• む・ぶ・ぬ → んで (読む→読んで、遊ぶ→遊んで、死ぬ→死んで)
+• く → いて (書く→書いて) *Exception: 行く→行って
+• ぐ → いで (泳ぐ→泳いで)
+• す → して (話す→話して)
+
+GROUP 2 (RU-VERBS): Drop る, add て
+• 食べる→食べて、見る→見て、起きる→起きて
+
+GROUP 3 (IRREGULAR):
+• する→して、来る→きて
+
+MEMORY SONG (for Group 1):
+うつる → って (u-tsu-ru → tte)
+むぶぬ → んで (mu-bu-nu → nde)
+く → いて (ku → ite)
+ぐ → いで (gu → ide)
+す → して (su → shite)`,
+                examples: [
+                    { jp: "書く → 書いて", en: "write → writing/te-form" },
+                    { jp: "読む → 読んで", en: "read → reading/te-form" },
+                    { jp: "食べる → 食べて", en: "eat → eating/te-form" },
+                    { jp: "する → して", en: "do → doing/te-form" },
+                    { jp: "来る → 来て (きて)", en: "come → coming/te-form" },
+                    { jp: "買う → 買って", en: "buy → buying/te-form" },
+                    { jp: "話す → 話して", en: "speak → speaking/te-form" }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "待つ → Te-form",
+                        answer: "待って",
+                        explanation: "つ → って (Group 1 rule)."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "泳ぐ → Te-form",
+                        answer: "泳いで",
+                        explanation: "ぐ → いで (voiced)."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "行く → Te-form",
+                        answer: "行って",
+                        explanation: "Exception! 行く becomes 行って, not 行いて."
+                    }
+                ]
+            },
+            {
+                id: "L14-2",
+                jp: "〜てください",
+                en: "Please Do ~ (Polite Request)",
+                detail: `POLITE REQUEST:
+[Verb te-form] + ください = Please do [Verb]
+
+ください comes from くださる (to give - honorific).
+Literally: "Give me the action of doing X"
+
+This is the standard polite request form in daily life.
+
+More casual: just the te-form alone (食べて = Eat. / Please eat.)
+More formal: 〜てくださいませんか (Would you please...?)`,
+                examples: [
+                    { jp: "名前をここに書いてください。", en: "Please write your name here." },
+                    { jp: "ちょっと待ってください。", en: "Please wait a moment." },
+                    { jp: "この薬を1日3回飲んでください。", en: "Please take this medicine 3 times a day." },
+                    { jp: "すみません、英語を話してください。", en: "Excuse me, please speak English." },
+                    { jp: "写真を見せてください。", en: "Please show me the photo." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "ここにすわって (______)。",
+                        answer: "ください",
+                        explanation: "Te-form + ください = polite request."
+                    },
+                    {
+                        type: "translate",
+                        question: "Please eat.",
+                        answer: "食べてください。",
+                        explanation: "食べて (te-form of 食べる) + ください."
+                    }
+                ]
+            },
+            {
+                id: "L14-3",
+                jp: "〜てもいいです",
+                en: "May ~ / It's Okay to ~ (Permission)",
+                detail: `ASKING & GIVING PERMISSION:
+[Te-form] + もいいです = It's okay to do ~ / You may do ~
+
+QUESTION: [Te-form] + もいいですか = May I ~?
+
+AFFIRMATIVE ANSWERS:
+• はい、いいですよ = Yes, it's fine
+• はい、どうぞ = Yes, please go ahead
+
+NEGATIVE (Denying Permission):
+• すみません、ちょっと... = Sorry, it's a bit... (soft refusal)
+• いいえ、だめです = No, it's not allowed (direct)
+• 〜てはいけません = Must not (strong prohibition)`,
+                examples: [
+                    { jp: "ここでタバコを吸ってもいいですか。", en: "May I smoke here?" },
+                    { jp: "この本を借りてもいいですか。", en: "May I borrow this book?" },
+                    { jp: "窓を開けてもいいですか。", en: "May I open the window?" },
+                    { jp: "ここに座ってもいいです。", en: "You may sit here." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "しゃしんをとって (__) いいですか。",
+                        answer: "も",
+                        explanation: "ても = te-form + も (even). もいい = even doing is okay."
+                    },
+                    {
+                        type: "translate",
+                        question: "May I use this?",
+                        answer: "これを使ってもいいですか。",
+                        explanation: "使って (te-form of 使う) + もいいですか."
+                    }
+                ]
+            },
+            {
+                id: "L14-4",
+                jp: "〜てはいけません",
+                en: "Must Not / Not Allowed (Prohibition)",
+                detail: `STRONG PROHIBITION:
+[Te-form] + はいけません = Must not / It's not allowed
+
+Literally: "If you do ~, it won't go" (won't be acceptable)
+This is a strong, formal prohibition used in rules and by authority.
+
+CASUAL VERSION: 〜てはだめ / 〜ちゃだめ (colloquial contraction)
+• 食べてはいけません → 食べちゃだめ (Don't eat!)
+
+Usage context: Rules, signs, parental instructions, formal prohibitions.
+For personal "shouldn't," 〜ないほうがいい is softer.`,
+                examples: [
+                    { jp: "ここに車を止めてはいけません。", en: "You must not park the car here." },
+                    { jp: "図書館で大きな声で話してはいけません。", en: "Don't speak loudly in the library." },
+                    { jp: "この部屋に入ってはいけません。", en: "You must not enter this room." },
+                    { jp: "試験中に携帯を使ってはいけません。", en: "Don't use your phone during the exam." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "ここでたべて (__) いけません。",
+                        answer: "は",
+                        explanation: "ては = te-form + は (contrastive)."
+                    },
+                    {
+                        type: "translate",
+                        question: "You must not smoke here.",
+                        answer: "ここでタバコを吸ってはいけません。",
+                        explanation: "吸って + はいけません = must not smoke."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "request-practice",
+                instruction: "Make requests using 〜てください:",
+                situations: ["Ask someone to wait", "Ask to borrow a pen", "Ask someone to teach you Japanese"],
+                sampleAnswers: ["待ってください。", "ペンを貸してください。", "日本語を教えてください。"]
+            }
+        ],
+        vocabularyFocus: ["て形", "〜てください", "〜てもいい", "〜てはいけない", "待つ", "貸す", "教える", "見せる"],
+        studyTips: ["Master te-form conjugation — it's used everywhere", "Remember the song: うつる→って, むぶぬ→んで, く→いて, ぐ→いで, す→して", "Exception: 行く→行って"]
+    },
+
+    // ========================================================================
+    // LESSON 15: 家族に写真を送ります
+    // ========================================================================
+    {
+        lesson: 15,
+        title: "家族に写真を送ります",
+        theme: "て形+いる (進行形/状態/習慣), 許可の復習",
+        overview: "Use te-iru for ongoing actions, resultant states, and habitual actions.",
+        points: [
+            {
+                id: "L15-1",
+                jp: "〜ています (進行形)",
+                en: "Is Doing ~ (Present Continuous)",
+                detail: `ONGOING ACTIONS:
+[Te-form] + います = is currently doing / in progress
+
+Same as English -ing:
+• 食べている = is eating
+• 読んでいる = is reading
+• 待っている = is waiting
+
+CASUAL: 〜ている (often contracted to 〜てる in speech)
+• 食べてる = (I'm) eating
+
+NEGATIVE: 〜ていません = is not doing
+PAST: 〜ていました = was doing
+
+Used with DURATIVE verbs (actions that take time):
+食べる、飲む、読む、書く、待つ、歩く、走る、勉強する、働く etc.`,
+                examples: [
+                    { jp: "今、何をしていますか。", en: "What are you doing now?" },
+                    { jp: "母は台所で料理をしています。", en: "My mother is cooking in the kitchen." },
+                    { jp: "雨が強く降っています。", en: "It's raining heavily." },
+                    { jp: "妹は部屋で音楽を聞いています。", en: "My younger sister is listening to music in her room." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "読む → Progressive polite",
+                        answer: "読んでいます",
+                        explanation: "読んで (te-form) + います = is reading."
+                    },
+                    {
+                        type: "translate",
+                        question: "I am studying Japanese.",
+                        answer: "日本語を勉強しています。",
+                        explanation: "勉強して + います = am studying."
+                    }
+                ]
+            },
+            {
+                id: "L15-2",
+                jp: "〜ています (結果の状態)",
+                en: "State Resulting from Change",
+                detail: `STATE AFTER CHANGE:
+With INSTANTANEOUS change verbs, 〜ている describes the STATE that continues after the change occurred.
+
+KEY EXAMPLES:
+• 結婚している = is married (state after marrying, NOT "is getting married")
+• 住んでいる = lives in (state after moving there, NOT "is moving")
+• 知っている = knows (state after learning, NOT "is knowing")
+• 持っている = has/possesses (state after acquiring)
+• 着ている = is wearing (state after putting on)
+• 開いている = is open (state after opening)
+• 閉まっている = is closed (state after closing)
+
+CONTRAST WITH ENGLISH:
+English uses simple present for these states: "I live in Tokyo" / "I know him"
+Japanese MUST use 〜ている: 東京に住んでいる / 彼を知っている
+
+NEGATIVE of 知っている: 知らない (irregular — NOT 知っていない)`,
+                examples: [
+                    { jp: "田中さんを知っていますか。", en: "Do you know Mr. Tanaka?" },
+                    { jp: "わたしは東京に住んでいます。", en: "I live in Tokyo." },
+                    { jp: "彼女は結婚しています。", en: "She is married." },
+                    { jp: "眼鏡をかけています。", en: "I'm wearing glasses." },
+                    { jp: "デパートはもう閉まっています。", en: "The department store is already closed." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かれはけっこん (______) います。",
+                        answer: "して",
+                        explanation: "結婚して = te-form. 結婚している = is married (state)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I know him.",
+                        answer: "かれを知っています。",
+                        explanation: "知っている = know (state of having learned)."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "しらないです。 (I don't know — is this correct?)",
+                        answer: "知りません/知らない — correct. 知っていません is wrong.",
+                        explanation: "知っている → negative is 知らない/知りません (irregular)."
+                    }
+                ]
+            },
+            {
+                id: "L15-3",
+                jp: "〜ています (習慣)",
+                en: "Habitual / Regular Action",
+                detail: `HABITUAL ACTIONS:
+〜ている can express regular, habitual actions — often with time expressions.
+
+• 毎日、ジョギングをしている = jog every day (as a habit/routine)
+• 週末はいつもアルバイトをしている = always work part-time on weekends
+
+This overlaps with plain present but emphasizes the ongoing nature of the habit.
+Plain present (ジョギングをする) is more factual/general.
+〜ている feels more like "I've been doing this as my practice."`,
+                examples: [
+                    { jp: "毎日、日本語を勉強しています。", en: "I study Japanese every day." },
+                    { jp: "週末はいつもアルバイトをしています。", en: "I always work part-time on weekends." },
+                    { jp: "彼は毎朝新聞を読んでいます。", en: "He reads the newspaper every morning." },
+                    { jp: "週に2回ジムに通っています。", en: "I go to the gym twice a week." }
+                ],
+                exercises: [
+                    {
+                        type: "translate",
+                        question: "I go jogging every morning.",
+                        answer: "毎朝ジョギングをしています。",
+                        explanation: "している expresses the habitual action."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "describe-actions",
+                instruction: "Describe what these people are doing right now:",
+                situations: ["Your mother in the kitchen", "A child in the park", "A student in the library"],
+                sampleAnswers: [
+                    "母は料理をしています。",
+                    "子どもは遊んでいます。",
+                    "学生は勉強しています。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["〜ている", "住む", "知る", "結婚する", "かける (wear glasses)", "開く", "閉まる"],
+        studyTips: ["Distinguish progressive (eating→食べている) vs resultant state (married→結婚している)", "知っている→知らない is the only irregular negative in this pattern"]
+    },
+
+    // ========================================================================
+    // LESSON 16: 使い方を教えてください
+    // ========================================================================
+    {
+        lesson: 16,
+        title: "使い方を教えてください",
+        theme: "て形の接続 (〜てから), 否定の依頼 (〜ないで), 義務 (〜なければならない)",
+        overview: "Connect sequential actions, make negative requests, and express obligation.",
+        points: [
+            {
+                id: "L16-1",
+                jp: "〜てから",
+                en: "After Doing ~ (Sequential Action)",
+                detail: `SEQUENTIAL ACTIONS:
+[Te-form] + から + [Action B] = After doing A, do B.
+
+Key nuance: A must be COMPLETED before B begins.
+Stronger sequence than simple te-form connection.
+
+Contrast:
+• 食べて寝る = eat and sleep (just sequence)
+• 食べてから寝る = sleep after eating (emphasizes completion of eating first)
+
+Tense: から part doesn't change; main verb carries tense.`,
+                examples: [
+                    { jp: "手を洗ってからごはんを食べます。", en: "After washing hands, I eat." },
+                    { jp: "仕事が終わってから飲みに行きませんか。", en: "Won't you go for a drink after work?" },
+                    { jp: "よく考えてから話してください。", en: "Please speak after thinking carefully." },
+                    { jp: "国へ帰ってから就職するつもりです。", en: "I plan to find a job after returning to my country." }
+                ],
+                exercises: [
+                    {
+                        type: "combine",
+                        question: "Combine: しゅく題をする → テレビを見る (after homework, watch TV)",
+                        answer: "しゅく題をしてからテレビを見ます。",
+                        explanation: "Te-form + から shows the first action must be completed."
+                    },
+                    {
+                        type: "translate",
+                        question: "After eating breakfast, I go to school.",
+                        answer: "朝ごはんを食べてから学校へ行きます。",
+                        explanation: "食べて (te-form) + から + 行きます (go)."
+                    }
+                ]
+            },
+            {
+                id: "L16-2",
+                jp: "〜ないでください",
+                en: "Please Don't ~ (Negative Request)",
+                detail: `POLITE NEGATIVE REQUEST:
+[Nai-form] + でください = Please don't do ~
+
+NAI-FORM (Plain Negative) Conjugation:
+Group 1: Final 'u' → 'a' + ない
+  書く→書かない、読む→読まない、話す→話さない、買う→買わない (note: う→わ)
+  Exception: ある→ない
+Group 2: Drop る + ない
+  食べる→食べない、見る→見ない
+Group 3: する→しない、来る(くる)→来ない(こない)
+
+Then add でください: 書かないでください (Please don't write)`,
+                examples: [
+                    { jp: "ここで写真を撮らないでください。", en: "Please don't take pictures here." },
+                    { jp: "タバコを吸わないでください。", en: "Please don't smoke." },
+                    { jp: "その機械に触らないでください。", en: "Please don't touch that machine." },
+                    { jp: "心配しないでください。", en: "Please don't worry." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "食べる → Nai-form",
+                        answer: "食べない",
+                        explanation: "Group 2: drop る, add ない."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "書く → Nai-form + でください",
+                        answer: "書かないでください",
+                        explanation: "書く→書かない (ku→ka+nai), then add でください."
+                    },
+                    {
+                        type: "translate",
+                        question: "Please don't forget.",
+                        answer: "忘れないでください。",
+                        explanation: "忘れる → 忘れない (nai-form) + でください."
+                    }
+                ]
+            },
+            {
+                id: "L16-3",
+                jp: "〜なければなりません",
+                en: "Must Do ~ (Obligation)",
+                detail: `OBLIGATION EXPRESSION:
+[Nai-form minus い] + ければなりません = Must do / Have to do
+
+FORMATION:
+1. Make nai-form: 食べる→食べない
+2. Remove い: 食べな
+3. Add ければなりません: 食べなければなりません
+
+LITERAL MEANING: "If I don't eat, it won't become" → "I must eat"
+
+CASUAL ALTERNATIVES:
+• 〜なきゃいけない (very common in speech)
+• 〜なくてはいけません (similar, slightly softer)
+
+PAST: 〜なければなりませんでした = had to do`,
+                examples: [
+                    { jp: "明日、早く起きなければなりません。", en: "I must wake up early tomorrow." },
+                    { jp: "レポートを金曜日までに提出しなければなりません。", en: "I must submit the report by Friday." },
+                    { jp: "この薬を飲まなければなりませんか。", en: "Must I take this medicine?" },
+                    { jp: "約束を守らなければなりません。", en: "You must keep your promises." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "行く → Must form",
+                        answer: "行かなければなりません",
+                        explanation: "行く→行かない→行かな+ければなりません."
+                    },
+                    {
+                        type: "translate",
+                        question: "I have to study.",
+                        answer: "勉強しなければなりません。",
+                        explanation: "勉強する→勉強しない→勉強しなければなりません."
+                    }
+                ]
+            },
+            {
+                id: "L16-4",
+                jp: "〜なくてもいいです",
+                en: "Don't Have to ~ (Lack of Obligation)",
+                detail: `NO OBLIGATION:
+[Nai-form minus い] + くてもいいです = Don't have to do / It's okay not to do
+
+FORMATION:
+食べる→食べない→食べなくてもいいです (don't have to eat)
+
+This is the OPPOSITE of 〜なければなりません.
+Grants freedom from obligation.`,
+                examples: [
+                    { jp: "日曜日は学校へ来なくてもいいです。", en: "You don't have to come to school on Sunday." },
+                    { jp: "全部食べなくてもいいですよ。", en: "You don't have to eat it all." },
+                    { jp: "明日は早く起きなくてもいい。", en: "I don't have to wake up early tomorrow." },
+                    { jp: "返事は急がなくてもいいです。", en: "You don't have to rush your reply." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "行く → Don't have to form",
+                        answer: "行かなくてもいいです",
+                        explanation: "行かない→行かなくてもいいです."
+                    },
+                    {
+                        type: "translate",
+                        question: "You don't have to come tomorrow.",
+                        answer: "明日は来なくてもいいです。",
+                        explanation: "来る→来ない→来なくてもいいです."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "obligation-practice",
+                instruction: "Write what you must do and don't have to do this week:",
+                template: "わたしは___なければなりません。でも、___なくてもいいです。",
+                sampleAnswer: "わたしはレポートを書かなければなりません。でも、週末は働かなくてもいいです。"
+            }
+        ],
+        vocabularyFocus: ["〜てから", "〜ないでください", "〜なければなりません", "〜なくてもいい", "提出する", "守る", "約束"],
+        studyTips: ["Master nai-form — it's the base for many patterns", "なければなりません is long; learn なきゃ for casual speech"]
+    },
+
+    // ========================================================================
+    // LESSON 17: どうしましたか
+    // ========================================================================
+    {
+        lesson: 17,
+        title: "どうしましたか",
+        theme: "経験 (〜たことがある), 列挙 (〜たり〜たり), た形, 〜ないと (義務)",
+        overview: "Talk about life experiences, list multiple activities, and express informal obligation.",
+        points: [
+            {
+                id: "L17-1",
+                jp: "〜たことがあります",
+                en: "Have Done ~ Before (Life Experience)",
+                detail: `EXPERIENCE EXPRESSION:
+[Ta-form (plain past)] + ことがあります = Have (ever) done ~
+
+The た-form is the PLAIN PAST (casual past).
+Conjugation RULES are IDENTICAL to te-form but with た/だ instead of て/で.
+
+FORMATION:
+Group 1: Same rules as te-form
+  書く→書いた、読む→読んだ、話す→話した、買う→買った、待つ→待った
+Group 2: Drop る, add た
+  食べる→食べた、見る→見た
+Group 3: する→した、来る→きた
+
+NEGATIVE EXPERIENCE: 〜たことがありません = have never done
+QUESTION: 〜たことがありますか = Have you ever ~?
+
+USAGE: Only for LIFE EXPERIENCES, not recent past events.
+• ✓ 富士山に登ったことがある (I've climbed Mt. Fuji — life experience)
+• ❌ 今朝、ごはんを食べたことがある (wrong — use plain past: 食べた)`,
+                examples: [
+                    { jp: "富士山に登ったことがありますか。", en: "Have you ever climbed Mt. Fuji?" },
+                    { jp: "いいえ、一度も行ったことがありません。", en: "No, I've never been." },
+                    { jp: "すしを食べたことがあります。", en: "I've eaten sushi before." },
+                    { jp: "彼は海外で働いたことがあります。", en: "He has experience working overseas." },
+                    { jp: "こんなに美しい夕日を見たことがない。", en: "I've never seen such a beautiful sunset." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "食べる → Ta-form",
+                        answer: "食べた",
+                        explanation: "Group 2: drop る, add た."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "行く → Ta-form",
+                        answer: "行った",
+                        explanation: "Exception: 行く→行った (like te-form 行って)."
+                    },
+                    {
+                        type: "translate",
+                        question: "Have you ever been to Japan?",
+                        answer: "日本に行ったことがありますか。",
+                        explanation: "行った (ta-form) + ことがありますか."
+                    }
+                ]
+            },
+            {
+                id: "L17-2",
+                jp: "〜たり〜たりする",
+                en: "Do Things Like ~ and ~ (Representative Listing)",
+                detail: `NON-EXHAUSTIVE ACTION LISTING:
+[Ta-form] + り + [Ta-form] + り + する = Do things like A and B (among others)
+
+This lists REPRESENTATIVE activities, implying there are more.
+The tense is carried by する at the end:
+• したりします (present/future habit)
+• したりしました (past)
+• したりしています (ongoing habit)
+
+Can also use with just ONE verb to imply "do things like ~":
+• 休みの日は本を読んだりします (On days off, I do things like reading books)
+
+This is ESSENTIAL for natural Japanese — Japanese speakers rarely say "I do A and B and C" (exhaustive).`,
+                examples: [
+                    { jp: "週末は映画を見たり、買い物をしたりします。", en: "On weekends, I do things like watch movies and go shopping." },
+                    { jp: "昨日、本を読んだり、手紙を書いたりしました。", en: "Yesterday, I did things like reading and writing letters." },
+                    { jp: "休みの日は家でゴロゴロしたり、ゲームをしたりして過ごします。", en: "I spend days off lazing around and playing games." },
+                    { jp: "友だちとカラオケに行ったり、ごはんを食べたりするのが好きです。", en: "I like doing things like going to karaoke and eating with friends." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "週末はテレビを見 (__)、本を読ん (__) します。",
+                        answer: "たり、だり",
+                        explanation: "見る→見た→見たり、読む→読んだ→読んだり (voiced)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I do things like studying Japanese and watching movies.",
+                        answer: "日本語を勉強したり、映画を見たりします。",
+                        explanation: "勉強した→勉強したり、見た→見たり."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "experience-sharing",
+                instruction: "Write about 3 life experiences and your weekend activities:",
+                template: "わたしは___たことがあります。週末は___たり___たりします。",
+                sampleAnswer: "わたしは海外に行ったことがあります。週末は料理をしたり、散歩したりします。"
+            }
+        ],
+        vocabularyFocus: ["〜たことがある", "〜たり〜たりする", "一度も", "経験", "ゴロゴロする", "過ごす"],
+        studyTips: ["Ta-form = te-form with た/だ instead of て/で", "Use たり for natural, non-exhaustive listing"]
+    },
+
+    // ========================================================================
+    // LESSON 18: 趣味は何ですか
+    // ========================================================================
+    {
+        lesson: 18,
+        title: "趣味は何ですか",
+        theme: "可能 (〜ことができる), 名詞化 (こと/の), 前/後 (前に/後で)",
+        overview: "Express ability, nominalize verbs, and describe before/after sequences.",
+        points: [
+            {
+                id: "L18-1",
+                jp: "〜ことができる",
+                en: "Can Do ~ (Potential Expression)",
+                detail: `FORMAL POTENTIAL:
+[Dictionary form] + ことができる = Can do / Is able to do
+
+This is the more FORMAL way to express potential.
+The informal equivalent is the potential verb form (書ける、食べられる etc.) which comes later.
+
+ことができる conjugates:
+• ことができます (polite)
+• ことができません (negative)
+• ことができました (past)
+• ことができませんでした (past negative)
+
+When to use vs potential verb form:
+• ことができる: Formal speech/writing, emphasis on circumstances
+• Potential verb: Casual speech, more natural in conversation`,
+                examples: [
+                    { jp: "日本語を話すことができますか。", en: "Can you speak Japanese?" },
+                    { jp: "わたしは料理をすることができません。", en: "I cannot cook." },
+                    { jp: "ここでインターネットを使うことができます。", en: "You can use the internet here." },
+                    { jp: "この図書館では本を借りることができません。", en: "You cannot borrow books at this library." }
+                ],
+                exercises: [
+                    {
+                        type: "translate",
+                        question: "Can you swim?",
+                        answer: "泳ぐことができますか。",
+                        explanation: "泳ぐ (swim) + ことができる (can do)."
+                    },
+                    {
+                        type: "conversion",
+                        question: "Convert to potential: 日本語を話します。",
+                        answer: "日本語を話すことができます。",
+                        explanation: "Replace ます with dictionary form + ことができる."
+                    }
+                ]
+            },
+            {
+                id: "L18-2",
+                jp: "〜こと (名詞化)",
+                en: "Turning Verbs into Nouns",
+                detail: `NOMINALIZER こと:
+こと turns a verb phrase into a NOUN PHRASE.
+[Plain form verb] + こと = the act of ~ing / the fact that ~
+
+USES:
+1. As sentence topic: 日本語を勉強することは楽しいです (Studying Japanese is fun)
+2. With adjectives: 漢字を覚えることは難しい (Remembering kanji is difficult)
+3. As object of verbs: 映画を見ることが好きです (I like watching movies)
+
+こと vs の as nominalizer:
+• こと: More abstract, general, formal
+• の: More concrete, immediate, sensory
+
+• 泳ぐことが好きです = I like swimming (as a general activity)
+• 泳ぐのが好きです = I like swimming (more personal/immediate feel)
+
+Some expressions REQUIRE こと:
+• ことがある (experience)
+• ことができる (potential)
+• ことにする (decide to)
+• ことになる (it's decided that)`,
+                examples: [
+                    { jp: "わたしの趣味は写真を撮ることです。", en: "My hobby is taking photos." },
+                    { jp: "漢字を覚えることは難しいです。", en: "Remembering kanji is difficult." },
+                    { jp: "お金をためることは大切です。", en: "Saving money is important." },
+                    { jp: "彼が成功したことは素晴らしい。", en: "The fact that he succeeded is wonderful." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "りょうりをする (__) が好きです。",
+                        answer: "こと/の",
+                        explanation: "Both こと and の can nominalize the verb phrase."
+                    },
+                    {
+                        type: "translate",
+                        question: "My hobby is reading books.",
+                        answer: "趣味は本を読むことです。",
+                        explanation: "本を読む (read books) + こと (nominalizer) = the act of reading books."
+                    }
+                ]
+            },
+            {
+                id: "L18-3",
+                jp: "〜前に / 〜後で",
+                en: "Before / After Doing ~",
+                detail: `BEFORE DOING:
+[Dictionary form] + 前に + [Action] = Before doing ~
+NOTE: The verb before 前に is ALWAYS dictionary form, even if the main verb is past tense!
+
+AFTER DOING:
+[Ta-form] + 後で + [Action] = After doing ~
+The verb before 後で is Ta-form because the action must be COMPLETED first.
+
+CONTRAST:
+• 食べる前に手を洗う = Wash hands BEFORE eating (eating not yet done → dictionary form)
+• 食べた後で散歩する = Take a walk AFTER eating (eating completed → ta-form)
+
+For NOUNS: Noun + の前に / Noun + の後で`,
+                examples: [
+                    { jp: "ごはんを食べる前に手を洗います。", en: "I wash hands before eating." },
+                    { jp: "出かける前に鍵を閉めました。", en: "I locked the door before going out." },
+                    { jp: "仕事が終わった後で、飲みに行きませんか。", en: "After work, shall we go for a drink?" },
+                    { jp: "映画を見た後で、レストランに行きました。", en: "After watching the movie, we went to a restaurant." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "ねる (__) 前に、はをみがきます。",
+                        answer: "前",
+                        explanation: "寝る (dictionary form) + 前に = before sleeping."
+                    },
+                    {
+                        type: "translate",
+                        question: "After eating, I will study.",
+                        answer: "食べた後で、勉強します。",
+                        explanation: "食べた (ta-form = completed) + 後で = after eating."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "hobby-description",
+                instruction: "Describe your hobby and abilities:",
+                template: "わたしの趣味は___ことです。___ことができます。",
+                sampleAnswer: "わたしの趣味は料理を作ることです。日本の料理を作ることができます。"
+            }
+        ],
+        vocabularyFocus: ["ことができる", "こと", "の (nominalizer)", "前に", "後で", "趣味", "覚える", "ためる"],
+        studyTips: ["Dictionary form before 前に, Ta-form before 後で", "こと is more formal/general as nominalizer, の is more personal"]
+    },
+
+    // ========================================================================
+    // LESSON 19: ダイエットはあしたからです
+    // ========================================================================
+    {
+        lesson: 19,
+        title: "ダイエットはあしたからです",
+        theme: "ない形, 義務 (〜なければならない), 禁止の依頼, 〜なくてもいい",
+        overview: "Master the nai-form and related obligation/lack-of-obligation patterns.",
+        points: [
+            {
+                id: "L19-1",
+                jp: "ない形",
+                en: "Plain Negative Form (Comprehensive)",
+                detail: `NAI-FORM — The base for negative casual speech and many grammar patterns.
+
+FULL CONJUGATION TABLE:
+Group 1 (U-verbs):
+Change final 'u' to 'a' row + ない
+• 書く→書かない (ku→ka)
+• 読む→読まない (mu→ma)
+• 話す→話さない (su→sa)
+• 待つ→待たない (tsu→ta)
+• 死ぬ→死なない (nu→na)
+• 飛ぶ→飛ばない (bu→ba)
+• 買う→買わない (u→wa — NOTE: わ not あ)
+• ある→ない (COMPLETELY IRREGULAR!)
+
+Group 2 (Ru-verbs): Drop る + ない
+• 食べる→食べない
+• 見る→見ない
+• 起きる→起きない
+
+Group 3 (Irregular):
+• する→しない
+• 来る→こない
+
+USAGE of plain nai-form:
+• Casual negative statements: 食べない (I don't/won't eat)
+• Base for grammar patterns: ないで、なければ、なくて`,
+                examples: [
+                    { jp: "わたしは朝ごはんを食べない。", en: "I don't eat breakfast. (casual)" },
+                    { jp: "彼は野菜をまったく食べない。", en: "He doesn't eat vegetables at all." },
+                    { jp: "まだ何も決まっていない。", en: "Nothing has been decided yet." },
+                    { jp: "その話はだれにも話さないでください。", en: "Please don't tell that story to anyone." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "書く → Nai-form",
+                        answer: "書かない",
+                        explanation: "く→か + ない."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "買う → Nai-form",
+                        answer: "買わない",
+                        explanation: "う→わ + ない (irregular change)."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "来る → Nai-form",
+                        answer: "来ない (こない)",
+                        explanation: "来る is irregular → こない."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "obligation-review",
+                instruction: "Write 5 sentences about what you must do, using 〜なければなりません:",
+                sampleAnswer: "明日、早く起きなければなりません。仕事に行かなければなりません。..."
+            }
+        ],
+        vocabularyFocus: ["ない形", "なければなりません", "なくてもいい", "ないでください", "決まる", "話す"],
+        studyTips: ["Master nai-form — it's used in many N4/N3 patterns", "Remember ある→ない (only verb that completely changes)"]
+    },
+
+    // ========================================================================
+    // LESSON 20: 夏休みはどうするの？
+    // ========================================================================
+    {
+        lesson: 20,
+        title: "夏休みはどうするの？",
+        theme: "普通体, 〜んだ, 引用",
+        overview: "Transition to casual Japanese, learn plain forms, and the explanatory の/んだ.",
+        points: [
+            {
+                id: "L20-1",
+                jp: "普通体 (カジュアル)",
+                en: "Plain Form (Casual Speech)",
+                detail: `CASUAL JAPANESE:
+Plain forms replace です/ます in casual conversation.
+
+VERBS:
+• Present affirmative: Dictionary form (食べる)
+• Present negative: Nai-form (食べない)
+• Past affirmative: Ta-form (食べた)
+• Past negative: 食べなかった
+
+I-ADJECTIVES:
+• Present: 高い (drop です)
+• Negative: 高くない (drop です)
+• Past: 高かった
+• Past negative: 高くなかった
+
+NOUNS/NA-ADJECTIVES:
+• Present: 学生だ/静かだ (add だ — can be dropped by women/children)
+• Negative: 学生じゃない/静かじゃない
+• Past: 学生だった/静かだった
+• Past negative: 学生じゃなかった
+
+CASUAL QUESTIONS:
+Drop か, use rising intonation: 何を食べる？ (What'll you eat?)
+Or add の: 何を食べるの？ (Softer, more feminine)`,
+                examples: [
+                    { jp: "もうその本読んだ？", en: "Did you already read that book?" },
+                    { jp: "うん、きのう読んだ。", en: "Yeah, I read it yesterday." },
+                    { jp: "誰がケーキを食べた？", en: "Who ate the cake?" },
+                    { jp: "きのう、何した？", en: "What did you do yesterday?" }
+                ],
+                exercises: [
+                    {
+                        type: "conversion",
+                        question: "Convert to casual: 何を食べますか。",
+                        answer: "何を食べる？",
+                        explanation: "Drop ます, use dictionary form. Drop か, use rising tone."
+                    },
+                    {
+                        type: "conversion",
+                        question: "Convert to casual past: 学生でした。",
+                        answer: "学生だった。",
+                        explanation: "でした → だった in casual speech."
+                    }
+                ]
+            },
+            {
+                id: "L20-2",
+                jp: "〜んだ / 〜のだ (説明)",
+                en: "The Explanatory の/んだ",
+                detail: `EXPLANATORY の/んだ:
+Adds explanatory, emphatic, or seeking-confirmation tone.
+
+STRUCTURE:
+[Plain form] + んだ (casual male) / のだ (casual written) / んです (polite)
+
+The ん comes from contraction of の.
+
+USAGE:
+1. EXPLAINING: 頭が痛いんです (I have a headache — explaining why you look bad)
+2. SEEKING EXPLANATION: どうしたんですか (What happened? — seeking explanation)
+3. EMPHASIS: そうなんだ！(So that's how it is! — realization)
+4. SOFTENING: ちょっと用事があるんです (I have something to do — softening refusal)
+
+With nouns/na-adjectives: add な before ん/の
+• 学生なんだ = (It's that) I'm a student
+• 静かなんだ = (It's that) it's quiet`,
+                examples: [
+                    { jp: "どうしたんですか。", en: "What's the matter? (seeking explanation)" },
+                    { jp: "お腹が痛いんです。", en: "My stomach hurts. (explaining)" },
+                    { jp: "先週、新しいスマホを買ったんだ。", en: "I bought a new smartphone last week. (explanatory)" },
+                    { jp: "明日は休みなんだ。", en: "Tomorrow's a holiday. (explaining/excited)" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "あした、しけんがある (____) です。",
+                        answer: "ん",
+                        explanation: "んです adds explanatory tone. あるんです = I have an exam (explaining)."
+                    },
+                    {
+                        type: "translate",
+                        question: "I'm busy. (explanatory tone)",
+                        answer: "忙しいんです。",
+                        explanation: "忙しい + んです = I'm busy (as an explanation)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "casual-conversion",
+                instruction: "Convert these polite sentences to casual speech:",
+                sentences: ["何をしていますか。", "もう食べました。", "学生じゃありません。", "明日、行きますか。"],
+                answers: ["何してる？", "もう食べた。", "学生じゃない。", "明日、行く？"]
+            }
+        ],
+        vocabularyFocus: ["普通体", "んだ/んです", "のだ/のです", "カジュアルな話し方"],
+        studyTips: ["Watch anime/drama with Japanese subtitles to hear casual speech", "んです is extremely common — learn it early"]
+    },
+
+    // ========================================================================
+    // LESSON 21: わたしもそう思います
+    // ========================================================================
+    {
+        lesson: 21,
+        title: "わたしもそう思います",
+        theme: "引用と意見 (〜と思う), 伝聞 (〜と言う), 確率 (〜でしょう/かもしれない)",
+        overview: "Express opinions, report speech, and express probability/uncertainty.",
+        points: [
+            {
+                id: "L21-1",
+                jp: "〜と思います",
+                en: "I Think ~ (Opinion Expression)",
+                detail: `EXPRESSING OPINIONS:
+[Plain form clause] + と思います = I think that ~
+
+RULES:
+• The clause before と MUST be in PLAIN form (not です/ます)
+• For nouns/na-adjectives present affirmative, add だ: 静かだと思う (I think it's quiet)
+• For i-adjectives and verbs: 高いと思う、行くと思う
+
+NEGATIVE PATTERNS:
+• Inside: 行かないと思う (I think I won't go — negative inside the thought)
+• Outside: 行くと思わない (I don't think I'll go — denying the thought)
+  Outside negation is STRONGER negation.
+
+QUESTION: 〜と思いますか = Do you think ~?`,
+                examples: [
+                    { jp: "明日は雨が降ると思います。", en: "I think it will rain tomorrow." },
+                    { jp: "この映画は面白いと思いました。", en: "I thought this movie was interesting." },
+                    { jp: "彼は来ないと思います。", en: "I think he won't come." },
+                    { jp: "それはいい考えだと思います。", en: "I think that's a good idea." },
+                    { jp: "この部屋は少し狭いと思いませんか。", en: "Don't you think this room is a little small?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かれは先生だ (__) 思います。",
+                        answer: "と",
+                        explanation: "と marks the quoted thought. だ required for noun before と."
+                    },
+                    {
+                        type: "translate",
+                        question: "I think Japanese is difficult.",
+                        answer: "日本語は難しいと思います。",
+                        explanation: "難しい (i-adj, plain form) + と思います."
+                    }
+                ]
+            },
+            {
+                id: "L21-2",
+                jp: "〜と言います",
+                en: "Say That ~ (Reported Speech)",
+                detail: `REPORTING SPEECH:
+[Quoted clause] + と言います = Says that ~
+
+DIRECT QUOTATION: Exact words + と
+• 彼は「はい」と言いました (He said "Yes")
+
+INDIRECT QUOTATION: Plain form clause + と
+• 彼は来年結婚すると言いました (He said he'll get married next year)
+
+HEARSAY: 〜そうです (different from 〜と言う)
+• 天気予報によると、明日は雨だそうです (According to the forecast, it'll rain tomorrow)
+• そうです indicates hearsay; と言う indicates specific person's words.
+
+SOURCE MARKING: 〜によると = according to ~`,
+                examples: [
+                    { jp: "彼女は来年結婚すると言いました。", en: "She said she'll get married next year." },
+                    { jp: "先生は明日試験をすると言いました。", en: "The teacher said there will be an exam tomorrow." },
+                    { jp: "天気予報によると、明日は雪だそうです。", en: "According to the forecast, it'll snow tomorrow." },
+                    { jp: "彼は何と言いましたか。", en: "What did he say?" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "かのじょは来ると (______)。",
+                        answer: "言いました",
+                        explanation: "言う (say) past tense to report what someone said."
+                    },
+                    {
+                        type: "translate",
+                        question: "He said he's busy.",
+                        answer: "彼は忙しいと言いました。",
+                        explanation: "忙しい (plain form) + と言いました."
+                    }
+                ]
+            },
+            {
+                id: "L21-3",
+                jp: "〜でしょう / 〜かもしれません",
+                en: "Probably / Might (Probability Expressions)",
+                detail: `PROBABILITY SCALE (Low to High):
+かもしれない < でしょう < はずだ < に違いない
+
+でしょう (Polite) / だろう (Casual):
+• "Probably" — fairly high probability
+• Attached to plain form (nouns/na-adj without だ)
+• 明日は晴れるでしょう (It'll probably be sunny tomorrow)
+
+TAG QUESTION: 〜でしょう？(rising tone) = Isn't it? / Right?
+• おいしいでしょう？(It's delicious, isn't it?)
+
+かもしれません (Polite) / かもしれない (Casual):
+• "Might" / "Maybe" — lower probability than でしょう
+• Noun/na-adj: drop だ before かもしれない
+• 彼は来ないかもしれません (He might not come)
+
+USEFUL ADVERBS:
+• たぶん = probably (used with でしょう)
+• もしかしたら = perhaps/maybe (used with かもしれない)`,
+                examples: [
+                    { jp: "明日はたぶん雨でしょう。", en: "It'll probably rain tomorrow." },
+                    { jp: "この問題は簡単でしょう。", en: "This problem is probably easy." },
+                    { jp: "今日は早く帰れるかもしれません。", en: "I might be able to go home early today." },
+                    { jp: "約束の時間に間に合わないかもしれません。", en: "I might not be in time for the appointment." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "あしたはゆきがふる (______)。(probably)",
+                        answer: "でしょう",
+                        explanation: "でしょう expresses probability."
+                    },
+                    {
+                        type: "translate",
+                        question: "He might come.",
+                        answer: "彼は来るかもしれません。",
+                        explanation: "来る (plain) + かもしれません (might)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "opinion-practice",
+                instruction: "Give your opinion using 〜と思う:",
+                topics: ["Japanese food", "studying Japanese", "tomorrow's weather", "your city"],
+                sampleAnswer: "日本の食べ物はおいしいと思います。日本語の勉強は難しいと思います。"
+            }
+        ],
+        vocabularyFocus: ["〜と思う", "〜と言う", "〜でしょう", "〜かもしれない", "たぶん", "もしかしたら"],
+        studyTips: ["と思います is your go-to for opinions", "でしょう for likely things, かもしれない for uncertain"]
+    },
+
+    // ========================================================================
+    // LESSON 22: どんなアパートがいいですか
+    // ========================================================================
+    {
+        lesson: 22,
+        title: "どんなアパートがいいですか",
+        theme: "連体修飾, 〜ているの復習, 〜てある",
+        overview: "Modify nouns with full sentences and express states resulting from intentional actions.",
+        points: [
+            {
+                id: "L22-1",
+                jp: "連体修飾 (文＋名詞)",
+                en: "Noun Modification by Sentences",
+                detail: `RELATIVE CLAUSES:
+In Japanese, entire sentences can modify nouns by placing them DIRECTLY before the noun.
+
+STRUCTURE: [Plain form sentence] + [Noun]
+
+The modifying sentence MUST be in PLAIN FORM (not です/ます).
+There is NO relative pronoun (no "who," "which," "that").
+The modified noun can be the subject, object, or any element of the modifying clause.
+
+EXAMPLES:
+• 私が昨日買った本 = The book that I bought yesterday
+  (買った modifies 本 — object of buying)
+• 東京に住んでいる友だち = A friend who lives in Tokyo
+  (住んでいる modifies 友だち — subject of living)
+• 母が作った料理 = The food that my mother made
+  (作った modifies 料理 — object of making)
+
+SUBJECT MARKING in relative clauses:
+The subject inside the clause is marked by が (not は).
+私が買った本 (The book I bought) — が marks the doer inside the clause`,
+                examples: [
+                    { jp: "きのう買った本はこれです。", en: "This is the book I bought yesterday." },
+                    { jp: "東京に住んでいる友だちに会いました。", en: "I met a friend who lives in Tokyo." },
+                    { jp: "母が作ったケーキを食べました。", en: "I ate the cake my mother made." },
+                    { jp: "先週見た映画はとてもおもしろかったです。", en: "The movie I saw last week was very interesting." }
+                ],
+                exercises: [
+                    {
+                        type: "combine",
+                        question: "Combine: 友だち + 東京に住んでいる → 'friend who lives in Tokyo'",
+                        answer: "東京に住んでいる友だち",
+                        explanation: "Modifying clause comes directly before the noun."
+                    },
+                    {
+                        type: "translate",
+                        question: "The book I read yesterday was interesting.",
+                        answer: "きのう読んだ本はおもしろかったです。",
+                        explanation: "きのう読んだ (read yesterday) modifies 本 (book)."
+                    }
+                ]
+            },
+            {
+                id: "L22-2",
+                jp: "〜てある",
+                en: "State Resulting from Intentional Action",
+                detail: `INTENTIONAL RESULTANT STATE:
+[Transitive Verb te-form] + ある = Has been done (and the state continues)
+
+KEY DISTINCTION:
+• 窓が開いている = The window is open (just stating state — maybe wind opened it)
+• 窓が開けてある = The window has been left open (someone opened it intentionally)
+• 窓を開けてある = (Someone) has opened the window (focus on action)
+
+〜てある emphasizes INTENTIONAL PREPARATION or deliberate action.
+The subject is often the object of the action, marked by が.
+
+Common uses:
+• 冷蔵庫にビールが冷やしてある (Beer has been chilled — prepared for drinking)
+• 壁にカレンダーがかけてある (Calendar is hung on the wall — someone put it there)
+• 予約がしてある (Reservation has been made — deliberate preparation)
+
+CONTRAST with 〜ている for transitive verbs:
+• 〜ている = ongoing action or state
+• 〜てある = state from completed intentional action, preparation`,
+                examples: [
+                    { jp: "テーブルの上に花が飾ってあります。", en: "Flowers have been arranged on the table." },
+                    { jp: "壁にカレンダーがかけてあります。", en: "A calendar is hung on the wall." },
+                    { jp: "冷蔵庫にビールが冷やしてありますよ。", en: "Beer has been chilled in the fridge." },
+                    { jp: "旅館の予約はもうしてあります。", en: "The ryokan reservation has been made." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "まどがあけて (____)。(Window has been opened intentionally)",
+                        answer: "あります",
+                        explanation: "開けて (te-form of transitive 開ける) + ある = intentional resultant state."
+                    },
+                    {
+                        type: "contrast",
+                        question: "Difference: 開いている vs 開けてある?",
+                        answer: "開いている = just open (state). 開けてある = opened intentionally by someone.",
+                        explanation: "〜てある implies human intention behind the state."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "describe-with-relative-clauses",
+                instruction: "Describe things using relative clauses:",
+                prompts: ["a person you met yesterday", "a movie you want to watch", "food your mother makes"],
+                sampleAnswers: [
+                    "きのう会った人",
+                    "見たい映画",
+                    "母が作る料理"
+                ]
+            }
+        ],
+        vocabularyFocus: ["連体修飾", "〜ている", "〜てある", "飾る", "冷やす", "予約する"],
+        studyTips: ["Japanese relative clauses come BEFORE the noun, unlike English", "Inside relative clauses, use が not は for the subject"]
+    },
+
+    // ========================================================================
+    // LESSON 23: どうやって行きますか
+    // ========================================================================
+    {
+        lesson: 23,
+        title: "どうやって行きますか",
+        theme: "〜とき, 〜ながら, 〜やすい/〜にくい",
+        overview: "Express temporal relationships and describe ease/difficulty of actions.",
+        points: [
+            {
+                id: "L23-1",
+                jp: "〜とき",
+                en: "When / At the Time of ~",
+                detail: `WHEN (TEMPORAL CLAUSE):
+[Modifying clause] + とき + [Main clause] = When [modifying], [main]
+
+TENSE RULES for the modifying clause:
+The tense depends on the TIMING RELATIONSHIP:
+
+1. If main action happens DURING or BEFORE the とき action:
+   → Dictionary form (non-past)
+   • 日本に行くとき、カメラを買った (When I went to Japan, I bought a camera — bought BEFORE going)
+   • ごはんを食べるとき、手を洗う (When I eat, I wash hands — wash BEFORE/DURING eating)
+
+2. If the とき action is COMPLETED before the main action:
+   → Ta-form (past)
+   • 日本に行ったとき、写真を撮った (When I went to Japan, I took pictures — took pictures AFTER arriving)
+
+NOUNS/NA-ADJECTIVES before とき:
+• Noun + のとき: 子どものとき (when I was a child)
+• Na-adj + なとき: 暇なとき (when I'm free)`,
+                examples: [
+                    { jp: "時間がないときは、ファストフードを食べます。", en: "When I don't have time, I eat fast food." },
+                    { jp: "寂しいときは友だちに電話します。", en: "When I'm lonely, I call a friend." },
+                    { jp: "日本に来たとき、空港でスーツケースをなくした。", en: "When I came to Japan, I lost my suitcase at the airport." },
+                    { jp: "若いとき、よく旅行をしました。", en: "When I was young, I traveled often." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "日本へ行く (____)、ビザをとります。",
+                        answer: "とき",
+                        explanation: "とき = when. Dictionary form because getting visa happens before going."
+                    },
+                    {
+                        type: "translate",
+                        question: "When I'm free, I watch movies.",
+                        answer: "ひまなとき、映画を見ます。",
+                        explanation: "暇 (na-adj) + な + とき = when free."
+                    }
+                ]
+            },
+            {
+                id: "L23-2",
+                jp: "〜ながら",
+                en: "While Doing ~ (Simultaneous Actions)",
+                detail: `SIMULTANEOUS ACTIONS:
+[Verb stem (masu-form minus ます)] + ながら + [Main action]
+
+Both actions happen at the SAME TIME by the SAME subject.
+The main action is the PRIMARY focus; the ながら action is SECONDARY.
+
+RULES:
+• Same subject for both actions
+• Both actions are volitional (not spontaneous)
+• Not used for very short/instantaneous actions
+• Cannot use if actions are strictly sequential
+
+EXAMPLES:
+• 音楽を聞きながら勉強する (study while listening to music — studying is main)
+• 歩きながら電話する (talk on phone while walking)
+• 泣きながら話す (talk while crying — crying is secondary)
+
+CONTRAST with 〜ている間に:
+• ながら = same subject, simultaneous
+• 間に = can be different subjects, during a time period`,
+                examples: [
+                    { jp: "コーヒーを飲みながら新聞を読みます。", en: "I read the newspaper while drinking coffee." },
+                    { jp: "歩きながら電話してはいけません。", en: "You must not talk on the phone while walking." },
+                    { jp: "彼女は泣きながら自分の経験を話した。", en: "She talked about her experience while crying." },
+                    { jp: "辞書を見ながら日本語の記事を読む。", en: "I read Japanese articles while consulting a dictionary." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "おんがくを聞き (______) べんきょうします。",
+                        answer: "ながら",
+                        explanation: "Verb stem (聞き) + ながら = while listening."
+                    },
+                    {
+                        type: "translate",
+                        question: "I eat while watching TV.",
+                        answer: "テレビを見ながら食べます。",
+                        explanation: "見 (stem of 見る) + ながら = while watching."
+                    }
+                ]
+            },
+            {
+                id: "L23-3",
+                jp: "〜やすい / 〜にくい",
+                en: "Easy to ~ / Hard to ~",
+                detail: `EASE/DIFFICULTY SUFFIXES:
+[Verb stem] + やすい = easy to do / prone to happen
+[Verb stem] + にくい = difficult to do / hard to happen
+
+These become I-ADJECTIVES and conjugate as such.
+
+EASY (やすい):
+• 分かりやすい = easy to understand
+• 書きやすい = easy to write
+• 壊れやすい = fragile (prone to breaking)
+
+HARD (にくい):
+• 分かりにくい = hard to understand
+• 食べにくい = hard to eat
+• 言いにくい = hard to say (awkward to bring up)
+
+SIMILAR FORMS:
+• 〜づらい = emotionally/psychologically hard (言いづらい = hard to say — emotionally)
+• 〜がたい = very difficult, almost impossible (信じがたい = hard to believe)
+
+にがて (苦手) vs にくい:
+• 苦手 = subjective weak point (I'm bad at it)
+• にくい = objective difficulty (the thing itself is hard)`,
+                examples: [
+                    { jp: "このペンはとても書きやすいです。", en: "This pen is very easy to write with." },
+                    { jp: "このガラスのコップは割れやすいから気をつけて。", en: "These glass cups break easily, so be careful." },
+                    { jp: "彼の説明は分かりにくかった。", en: "His explanation was hard to understand." },
+                    { jp: "魚の骨は食べにくいです。", en: "Fish bones are hard to eat." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "この本は読み (______) です。",
+                        answer: "やすい",
+                        explanation: "読み (stem) + やすい = easy to read."
+                    },
+                    {
+                        type: "translate",
+                        question: "This word is hard to pronounce.",
+                        answer: "この言葉は言いにくいです。",
+                        explanation: "言い (stem of 言う) + にくい = hard to say."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "habit-description",
+                instruction: "Describe what you do in various situations:",
+                prompts: ["When you're free", "When you're tired", "While studying", "Something easy to do", "Something hard to do"],
+                sampleAnswers: [
+                    "ひまなとき、本を読みます。",
+                    "つかれたとき、ねます。",
+                    "音楽を聞きながら勉強します。",
+                    "このペンは書きやすいです。",
+                    "かん字はおぼえにくいです。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["〜とき", "〜ながら", "〜やすい", "〜にくい", "〜づらい", "割れる", "骨"],
+        studyTips: ["Tense in とき clause depends on timing, not on main clause tense", "やすい/にくい are very productive — use them often"]
+    },
+
+    // ========================================================================
+    // LESSON 24: 手伝ってくれますか
+    // ========================================================================
+    {
+        lesson: 24,
+        title: "手伝ってくれますか",
+        theme: "授受 (〜てあげる/〜てくれる/〜てもらう)",
+        overview: "Master the giving/receiving system for actions (not just objects), crucial for natural Japanese.",
+        points: [
+            {
+                id: "L24-1",
+                jp: "〜てあげる",
+                en: "Do ~ for Someone (Giving Favor)",
+                detail: `GIVING A FAVOR:
+[Giver] は [Recipient] に [Action te-form] + あげる
+
+This means doing something FOR someone else. The giver is the subject.
+
+WARNING: 〜てあげる can sound CONDESCENDING if used carelessly.
+It implies you're doing a favor from a position of goodwill, which can sound like "I'm doing YOU a favor."
+
+SAFER ALTERNATIVES:
+• With superiors: Use 〜てさしあげる (humble) — but still be careful
+• Offering: Use 〜ましょうか (Shall I ~?) instead
+  ✓ 手伝いましょうか (Shall I help?) 
+  △ 手伝ってあげましょうか (Can sound patronizing)
+
+WHEN IT'S OKAY:
+• Between close friends/family
+• When the recipient clearly wants/needs the action
+• When offering help to someone clearly in need`,
+                examples: [
+                    { jp: "友だちに英語を教えてあげました。", en: "I taught English to my friend." },
+                    { jp: "おばあさんに席をゆずってあげました。", en: "I gave up my seat for an elderly woman." },
+                    { jp: "荷物を持ってあげましょうか。", en: "Shall I carry your luggage?" },
+                    { jp: "子どもに本を読んであげる。", en: "I read books to my child." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "友だちに日本語をおしえて (______)。",
+                        answer: "あげました",
+                        explanation: "教えて (te-form) + あげる = teach as a favor."
+                    },
+                    {
+                        type: "cultural-note",
+                        question: "Why should you be careful with 〜てあげる?",
+                        answer: "It can sound condescending — implying you're bestowing a favor.",
+                        explanation: "With superiors or strangers, use 〜ましょうか instead."
+                    }
+                ]
+            },
+            {
+                id: "L24-2",
+                jp: "〜てくれる",
+                en: "Do ~ for Me (Receiving a Favor)",
+                detail: `RECEIVING A FAVOR (GIVER PERSPECTIVE):
+[Giver] は/が [Receiver] に [Action te-form] + くれる
+
+This is when SOMEONE DOES SOMETHING FOR YOU (or your in-group).
+The giver is the subject. This carries GRATITUDE and APPRECIATION.
+
+くれる shows the action is a FAVOR to the speaker.
+It's the most natural way to say "someone did something for me."
+
+CONTRAST with 〜てもらう:
+• 〜てくれる: Focus on the GIVER doing the action (their initiative)
+  → 母が弁当を作ってくれた (Mom made me lunch — her action, I'm grateful)
+• 〜てもらう: Focus on the RECEIVER (often requested)
+  → 母に弁当を作ってもらった (I had mom make me lunch — my request)
+
+ASKING FOR FAVORS:
+• 〜てくれませんか = Won't you do ~ for me? (polite request)
+• 〜てくれる？ = Can you do ~ for me? (casual)`,
+                examples: [
+                    { jp: "彼が駅まで車で送ってくれた。", en: "He gave me a ride to the station." },
+                    { jp: "おばあちゃんがいつもおいしい料理を作ってくれます。", en: "My grandmother always makes delicious food for me." },
+                    { jp: "ちょっとこの写真を見てくれませんか。", en: "Could you look at this photo for me?" },
+                    { jp: "部長が推薦状を書いてくれました。", en: "The department manager wrote a recommendation letter for me." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "友だちがしゃしんを見せて (______)。",
+                        answer: "くれた/くれました",
+                        explanation: "くれる = someone did something for me (I received the favor)."
+                    },
+                    {
+                        type: "translate",
+                        question: "My friend taught me Japanese.",
+                        answer: "友だちが日本語を教えてくれました。",
+                        explanation: "教えて + くれる (favor to me from friend)."
+                    }
+                ]
+            },
+            {
+                id: "L24-3",
+                jp: "〜てもらう",
+                en: "Have Someone Do ~ for Me (Receiving - Receiver Perspective)",
+                detail: `RECEIVING A FAVOR (RECEIVER PERSPECTIVE):
+[Receiver] は [Giver] に [Action te-form] + もらう
+
+The RECEIVER is the subject. The giver is marked by に.
+This often implies the receiver REQUESTED or INITIATED the action.
+
+USAGES:
+1. Reporting a favor you received: 
+   友だちに手伝ってもらった (I had a friend help me)
+
+2. Polite requests:
+   手伝ってもらえますか (Could I get you to help me?)
+
+3. Giving advice:
+   医者に診てもらったほうがいい (You should have a doctor look at you)
+
+REQUEST FORMS (polite → casual):
+• 〜ていただけますか (most polite)
+• 〜てもらえますか (polite)
+• 〜てもらえない？ (casual)
+
+With SUPERIORS: Use 〜ていただく instead of 〜てもらう`,
+                examples: [
+                    { jp: "田中さんに日本語を教えてもらいました。", en: "I had Mr. Tanaka teach me Japanese." },
+                    { jp: "すみません、ちょっと手伝ってもらえますか。", en: "Excuse me, could you help me a bit?" },
+                    { jp: "この手紙を後で出してもらいたいんですが。", en: "I'd like you to mail this letter for me later." },
+                    { jp: "医者に診てもらったほうがいいですよ。", en: "You should have a doctor look at you." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "先生 (__) すいせんじょうをかいて (______)。(I had the teacher write a recommendation)",
+                        answer: "に、もらいました",
+                        explanation: "Giver + に + te-form + もらう = have someone do for me."
+                    },
+                    {
+                        type: "translate",
+                        question: "I had my friend help me.",
+                        answer: "友だちに手伝ってもらいました。",
+                        explanation: "友だちに (by friend) + 手伝って + もらう (receive help)."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "favor-situations",
+                instruction: "For each situation, choose あげる/くれる/もらう:",
+                situations: [
+                    "You helped a friend",
+                    "A friend helped you",
+                    "You asked a teacher to check your essay"
+                ],
+                answers: [
+                    "〜てあげる (you giving favor)",
+                    "〜てくれる (friend giving favor to you)",
+                    "〜てもらう (you receiving favor, requested)"
+                ]
+            }
+        ],
+        vocabularyFocus: ["〜てあげる", "〜てくれる", "〜てもらう", "〜ていただく", "〜てさしあげる", "手伝う", "送る", "診る"],
+        studyTips: ["The giving/receiving system reflects Japanese social awareness — master it", "くれる implies gratitude to the giver", "Use 〜ていただけませんか for the most polite requests"]
+    },
+
+    // ========================================================================
+    // LESSON 25: いろいろお世話になりました
+    // ========================================================================
+    {
+        lesson: 25,
+        title: "いろいろお世話になりました",
+        theme: "条件 (〜と、〜ば、〜たら、〜なら) — 4種類すべて",
+        overview: "Master all four conditional forms and their distinct uses.",
+        points: [
+            {
+                id: "L25-1",
+                jp: "〜と (自然な結果)",
+                en: "When/If ~ (Inevitable/Natural Result)",
+                detail: `NATURAL CONSEQUENCE CONDITIONAL:
+[Dictionary form] + と + [Result] = Whenever/If ~, inevitably ~
+
+USAGE:
+1. NATURAL/INEVITABLE CONSEQUENCES (like laws of nature):
+   春になると、桜が咲く (When spring comes, cherry blossoms bloom)
+   ボタンを押すと、電気がつく (When you press the button, the light turns on)
+
+2. HABITUAL PAST (whenever I did ~, ~ would happen):
+   子供のとき、夏になると海に行った (As a child, whenever summer came, I'd go to the sea)
+
+3. WARNINGS (informal, with negative 〜ないと):
+   早く起きないと、遅刻するよ (If you don't wake up early, you'll be late!)
+
+RESTRICTIONS:
+• CANNOT be used for commands, requests, suggestions, or volition in the result clause
+  ❌ 家に帰ると、手を洗ってください (❌ request)
+  ✓ 家に帰ったら、手を洗ってください (✓ with たら)
+
+• Result must be automatic/inevitable, NOT an intention or plan
+  ❌ パリに行くと、ケーキを食べたい (❌ personal desire)
+  ✓ パリに行ったら、ケーキを食べたい (✓ with たら)`,
+                examples: [
+                    { jp: "この道をまっすぐ行くと、交差点があります。", en: "If you go straight down this road, there's an intersection." },
+                    { jp: "秋になると、木の葉が赤くなる。", en: "When autumn comes, the leaves turn red." },
+                    { jp: "お金を入れてボタンを押すと、切符が出ます。", en: "When you insert money and press the button, a ticket comes out." },
+                    { jp: "早く家を出ないと、遅刻するよ。", en: "If you don't leave home soon, you'll be late!" }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "はるになる (__)、さくらがさきます。",
+                        answer: "と",
+                        explanation: "と for natural, inevitable consequence."
+                    },
+                    {
+                        type: "error-correction",
+                        question: "国へ帰ると、電話してください。",
+                        answer: "国へ帰ったら、電話してください。",
+                        explanation: "〜と cannot be used with requests. Use 〜たら."
+                    }
+                ]
+            },
+            {
+                id: "L25-2",
+                jp: "〜ば (仮定)",
+                en: "If ~ (Ba-form / Hypothetical)",
+                detail: `HYPOTHETICAL CONDITIONAL:
+[Ba-form] + [Result] = If ~, then ~ (general logical condition)
+
+FORMATION:
+Group 1: Change final 'u' to 'e' row + ば
+  書く→書けば、読む→読めば、話す→話せば、買う→買えば、待つ→待てば
+Group 2: Drop る + れば
+  食べる→食べれば、見る→見れば
+Group 3: する→すれば、来る→来れば (くれば)
+I-adjectives: い→ければ (高い→高ければ)
+Negative: ない→なければ
+
+USAGE:
+1. GENERAL LOGICAL CONDITIONS:
+   雨が降れば、試合は中止です (If it rains, the game is canceled)
+   
+2. ASSUMPTIONS FOR ADVICE:
+   安ければ、買います (If it's cheap, I'll buy it)
+
+RESTRICTIONS:
+• Generally NOT for one-time, specific conditions (use たら)
+• Result CANNOT be command/request/volition UNLESS:
+  - Result is a state (possible): 高ければ、買わなくてもいい
+  - Subject is different from speaker: 彼が来れば、私は帰る`,
+                examples: [
+                    { jp: "春になれば、桜が咲きます。", en: "When spring comes, cherry blossoms bloom." },
+                    { jp: "分からなければ、先生に聞いてください。", en: "If you don't understand, please ask the teacher." },
+                    { jp: "急げば、最終電車に間に合うかもしれない。", en: "If we hurry, we might catch the last train." },
+                    { jp: "天気がよければ、富士山が見えます。", en: "If the weather is good, you can see Mt. Fuji." }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "行く → Ba-form",
+                        answer: "行けば",
+                        explanation: "く→け + ば."
+                    },
+                    {
+                        type: "conjugation",
+                        question: "高い → Ba-form",
+                        answer: "高ければ",
+                        explanation: "い→ければ for i-adjectives."
+                    },
+                    {
+                        type: "translate",
+                        question: "If it's cheap, I'll buy it.",
+                        answer: "安ければ、買います。",
+                        explanation: "安い→安ければ (ba-form) + 買います."
+                    }
+                ]
+            },
+            {
+                id: "L25-3",
+                jp: "〜たら (具体的な条件)",
+                en: "If/When ~ (Tara — Most Versatile)",
+                detail: `THE MOST VERSATILE CONDITIONAL:
+[Ta-form] + ら = If / When / Once / After ~
+
+FORMATION: Simply add ら to the ta-form
+  食べた→食べたら、行った→行ったら、した→したら
+
+USAGES (broadest range!):
+1. SPECIFIC ONE-TIME CONDITION:
+   明日雨が降ったら、試合は中止です (If it rains tomorrow, the game is off)
+
+2. WHEN (after completion):
+   家に帰ったら、すぐ手を洗う (When I get home, I wash hands immediately)
+
+3. SUGGESTIONS/INVITATIONS:
+   時間があったら、映画を見ませんか (If you have time, shall we watch a movie?)
+
+4. HYPOTHETICAL:
+   お金があったら、世界旅行がしたい (If I had money, I'd want to travel the world)
+
+5. DISCOVERY (〜たら、〜た):
+   窓を開けたら、雪が降っていた (When I opened the window, it was snowing)
+
+WHY たら IS SO USEFUL:
+It has the FEWEST restrictions. Can be used with commands, requests, suggestions, and volition.
+When in doubt, use たら!`,
+                examples: [
+                    { jp: "駅に着いたら電話してください。", en: "Please call me when you arrive at the station." },
+                    { jp: "もし宝くじが当たったら、家を買います。", en: "If I win the lottery, I'll buy a house." },
+                    { jp: "時間がなかったら、タクシーで行こう。", en: "If we don't have time, let's go by taxi." },
+                    { jp: "よかったら、一緒に食事しませんか。", en: "If it's alright, won't you have a meal with me?" }
+                ],
+                exercises: [
+                    {
+                        type: "conjugation",
+                        question: "食べる → Tara-form",
+                        answer: "食べたら",
+                        explanation: "Ta-form (食べた) + ら = 食べたら."
+                    },
+                    {
+                        type: "translate",
+                        question: "Please call me when you get home.",
+                        answer: "家に帰ったら、電話してください。",
+                        explanation: "帰ったら (tara) + request. と or ば cannot be used here."
+                    }
+                ]
+            },
+            {
+                id: "L25-4",
+                jp: "〜なら (文脈的条件)",
+                en: "If It's the Case That ~ (Topic Conditional)",
+                detail: `TOPIC CONDITIONAL:
+[Plain form] + なら = If it's the case that ~ / If what you say is true
+
+なら picks up a TOPIC introduced by context and gives advice or information ABOUT that topic.
+
+KEY FEATURE: The speaker is responding to something just mentioned or assumed.
+
+USAGES:
+1. RESPONDING TO INFORMATION:
+   A: 日本に行くんです。
+   B: 日本に行くなら、京都がいいですよ。
+   (A: I'm going to Japan. B: If you're going to Japan, Kyoto is nice.)
+
+2. GIVING ADVICE BASED ON ASSUMED SCENARIO:
+   日本語を勉強するなら、この辞書が便利です。
+   (If you're going to study Japanese, this dictionary is handy.)
+
+3. CONTRASTING with other conditionals:
+   なら is unique — the result can occur BEFORE the condition is realized:
+   旅行に行くなら、旅行保険に入ったほうがいい。
+   (If you're going on a trip, you should get travel insurance — get insurance BEFORE going!)
+
+STRUCTURE:
+Nouns/Na-adj: (だ is optional before なら)
+  学生なら / 学生なら = If (you're) a student
+  〜なら directly attaches for nouns/na-adj`,
+                examples: [
+                    { jp: "日本語を勉強するなら、この辞書が便利ですよ。", en: "If you're going to study Japanese, this dictionary is handy." },
+                    { jp: "安いなら、買います。", en: "If it's cheap (as you say), I'll buy it." },
+                    { jp: "彼が来るなら、私は行かない。", en: "If he's coming (as I hear), I'm not going." },
+                    { jp: "暇なら、ちょっと手伝ってください。", en: "If you're free, please help me a little." }
+                ],
+                exercises: [
+                    {
+                        type: "fill-in",
+                        question: "日本に行く (____)、きょうとがおすすめです。",
+                        answer: "なら",
+                        explanation: "なら picks up the topic (going to Japan) and gives advice."
+                    },
+                    {
+                        type: "translate",
+                        question: "If you're going shopping, I want to go too.",
+                        answer: "買い物に行くなら、わたしも行きたいです。",
+                        explanation: "行くなら (if you're going — based on assumption) + result."
+                    }
+                ]
+            }
+        ],
+        lessonExercises: [
+            {
+                type: "conditional-choice",
+                instruction: "Choose the best conditional for each situation:",
+                situations: [
+                    { scenario: "Natural consequence: Spring → cherry blossoms", answer: "と" },
+                    { scenario: "Hypothetical: If I were rich...", answer: "たら" },
+                    { scenario: "General rule: If you study, you pass", answer: "ば" },
+                    { scenario: "Responding to 'I'm going to Japan'", answer: "なら" }
+                ]
+            },
+            {
+                type: "conditional-practice",
+                instruction: "Complete these conditionals:",
+                prompts: [
+                    "If it rains tomorrow, ___",
+                    "If I had time, ___",
+                    "If you're going to study Japanese, ___",
+                    "When winter comes, ___ (natural)"
+                ],
+                sampleAnswers: [
+                    "明日雨が降ったら、出かけません。",
+                    "時間があったら、旅行したいです。",
+                    "日本語を勉強するなら、この本がいいです。",
+                    "冬になると、雪が降ります。"
+                ]
+            }
+        ],
+        vocabularyFocus: ["〜と (条件)", "〜ば", "〜たら", "〜なら", "もし", "よかったら", "〜ないと (警告)"],
+        studyTips: [
+            "When in doubt, USE たら — it's the most versatile and has fewest restrictions",
+            "と = natural/inevitable (like science)",
+            "ば = logical hypothetical (general rules)",
+            "たら = specific one-time condition (most useful)",
+            "なら = topic-based advice (responding to context)"
+        ]
+    }
+];
